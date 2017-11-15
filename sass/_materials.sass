@@ -1,0 +1,381 @@
+.material-image
+  height: 125px
+  width: 125px
+  transition: all .3s ease
+  position: relative
+  left: calc(50% - 125px / 2)
+.material:hover .material-image
+  transform: scale(1.05)
+.material:hover .material-name
+  text-decoration: underline
+.materials
+  max-width: 1200px
+  margin: auto
+  position: relative
+  .pos
+    margin: 0 auto
+  &::before
+    position: absolute
+    top: 0
+    left: calc(50% - 2px / 2)
+    display: block
+    height: 30px
+    content: ''
+    border-left: 2px dashed #bd1522
+  h2
+    font-family: 'Oswald DemiBold',sans-serif
+    font-size: 48px
+    line-height: 40px
+    position: relative
+    margin-top: 0
+    margin-bottom: 30px
+    padding-top: 64px
+    text-align: center
+    text-transform: uppercase
+    color: #bd1522
+    &::before
+      position: relative
+      top: 0
+      left: -20px
+      display: inline-block
+      width: 38px
+      height: 40px
+      content: ''
+      background-image: url(images/sprite.png)
+      background-position: -6406px -188px
+    &::after
+      position: absolute
+      top: 33px
+      left: calc(50% - 16px / 2)
+      display: block
+      width: 16px
+      height: 16px
+      content: ''
+      transform: rotate(45deg)
+      background: #bd1522
+.material
+  margin: auto
+  padding: 0
+  text-align: center
+.material-desc
+  display: inline-block
+  margin-bottom: 20px
+  position: relative
+  height: 240px
+  max-width: 170px
+  padding: 21px 25px
+  text-align: center
+  text-decoration: none
+  background: #fff
+  box-shadow: 1px 3px 5px rgba(20,20,19,.15)
+.material-name
+  margin: auto
+  margin-top: 30px
+  font-family: 'Oswald DemiBoldItalic',sans-serif
+  font-size: 18px
+  line-height: 22px
+  color: #333
+.material-name:after
+  position: absolute
+  bottom: 70px
+  left: calc(50% - 2px / 2)
+  width: 2px
+  height: 15px
+  content: ''
+  background: #bd1522
+.materials-title
+  position: relative
+  font-family: 'Oswald DemiBold',sans-serif
+  font-size: 48px
+  line-height: 40px
+  text-align: center
+  padding-top: 84px
+  margin: 0 0 50px 0
+  text-transform: uppercase
+  @media screen and (max-width: 720px)
+    font-size: 36px
+  &::before
+    position: absolute
+    top: 0
+    left: calc(50% - 2px / 2)
+    display: block
+    height: 30px
+    content: ''
+    border-left: 2px dashed #bd1522
+  &::after
+    position: absolute
+    top: 33px
+    left: calc(50% - 16px / 2)
+    display: block
+    width: 16px
+    height: 16px
+    content: ''
+    transform: rotate(45deg)
+    background: #bd1522
+.materials-article
+  position: relative
+  margin: auto
+  max-width: 1000px
+  font-family: 'Verdana',sans-serif
+  font-size: 16px
+  line-height: 28px
+  margin-bottom: 35px
+  h2, h3
+    text-align: center
+  p
+    margin-bottom: 35px
+    padding: 5px
+  &::before
+    position: absolute
+    top: -25px
+    left: calc(50% - 109px / 2)
+    display: inline-block
+    width: 109px
+    height: 6px
+    content: ''
+    background-image: url(images/sprite.png)
+    background-position: -5189px -1259px
+.materials-table
+  font-size: 14px
+  max-width: 1000px
+  margin: auto
+  margin-bottom: 35px
+  border-spacing: initial
+  border-collapse: collapse
+  border: 1px solid #3cc47c
+  tr:nth-child(odd)
+    border: none
+    background: #f0f2f5
+  tr:nth-child(even)
+    border: none
+    background: #fff
+  td
+    padding: 15px
+    min-width: 250px
+    vertical-align: middle
+    border-right: 1px solid #3cc47c
+    border-bottom: 1px solid #3cc47c
+  h3
+    font-family: 'Verdana',sans-serif
+    font-size: 24px
+    line-height: 28px
+    margin: 15px 0 20px
+  h4
+    font-family: 'Verdana',sans-serif
+    font-size: 15px
+    line-height: 28px
+    margin: 0
+  p
+    font-family: 'Verdana',sans-serif
+    line-height: 28px
+    margin-top: 15px
+    margin-bottom: 35px
+.material-table-img
+  display: block
+  max-width: 100%
+  max-height: 240px
+  width: auto
+  height: auto
+  margin: auto
+.materials-table-2
+  p
+    margin: 0
+.materials-big-foto
+  .material-table-img
+    max-width: 290px
+.materials-table-door
+  font-size: 14px
+  border-spacing: initial
+  border-collapse: collapse
+  border: 1px solid #3cc47c
+  margin: 0 auto
+  a
+    color: #333
+    text-decoration: underline
+    &:visited, &:active
+      color: #333
+  tr
+    border: 1px solid #3cc47c
+.materials-table-door td, table th
+  padding: 15px 25px
+  vertical-align: middle
+  border-right: 1px solid #3cc47c
+  border-bottom: 1px solid #3cc47c
+  p
+    line-height: 28px
+    margin-top: 15px
+    margin-bottom: 35px
+  h3
+    text-transform: uppercase
+    font-size: 26px
+    line-height: 30px
+  a
+    display: inline-block
+.door-container
+  position: relative
+  a
+    color: #333
+    text-decoration: underline
+    &:visited, &:active
+      color: #333
+.door-container .romb::before
+    position: absolute
+    top: -25px
+    left: 579px
+    display: block
+    width: 15px
+    height: 15px
+    content: ''
+    -webkit-transform: rotate(45deg)
+    transform: rotate(45deg)
+    background: #bd1522
+.door-container h2
+  text-align: center
+  font-family: 'Oswald DemiBold',sans-serif
+  font-size: 48px
+  line-height: 40px
+  text-transform: uppercase
+.door__container-title
+  position: relative
+.door__container-title::after
+  position: absolute
+  top: 60px
+  left: 515px
+  display: inline-block
+  width: 109px
+  height: 6px
+  content: ''
+  background-image: url(/bitrix/templates/vrk/images/sprite.png)
+  background-position: -5189px -1259px
+.door__container-title::before
+  position: absolute
+  left: 570px
+  display: block
+  height: 30px
+  content: ''
+  border-left: 2px dashed #bd1522
+  top: -55px
+.door-container .door-offers, .door-offers__bottom
+  padding: 0
+  margin: 50px 0
+.navigation-door
+  text-align: center
+  margin: 50px 0
+.navigation-door a
+  text-transform: uppercase
+  font-family: 'Verdana',sans-serif
+  font-size: 24px
+  line-height: 28px
+  display: inline-block
+.nav-one, .nav-two
+  margin: 20px 100px
+  display: inline-block
+.nav-one::before
+  content: '<<<<<'
+  font-size: 25px
+.nav-two::after
+  content: '>>>>>'
+  font-size: 24px
+
+/*--- media-query ---*/
+@media screen and (max-width: 1115px)
+  .materials .material-desc
+    margin-bottom: 20px
+    display: inline-block
+  .pos
+    text-align: center
+@media screen and (max-width: 575px)  //phones
+  .materials .material
+    text-align: center
+  .materials .material-desc
+    display: inline-block
+    margin-bottom: 20px
+@media screen and (max-width: 1199px)
+  .materials
+    max-width: 550px
+@media screen and (max-width: 374px)
+  .material
+    max-width: 100%
+  .materials h2::before
+    left: -10px
+
+/*--- media-query for materials-table-door---*/
+@media screen and (max-width: 1115px)
+  .materials-table-door
+    max-width: 850px
+@media screen and (max-width: 991px)
+  .materials-table-door
+    max-width: 650px
+@media screen and (max-width: 767px)
+  .nav-one::before, .nav-two::after
+    content: ''
+  .door-container .navigation-door
+    text-align: center
+    margin: 0 auto
+  .materials-table-door
+    max-width: 500px
+  .materials-table-door tbody tr td h3
+    line-height: 1.1
+    text-align: center
+    margin: 0
+  .link-kupe
+    text-align: center
+  .materials-table-door tbody td
+    border-right: 1px solid transparent
+    border-bottom: 1px solid transparent
+    padding: 15px 0
+  .materials-table-door td, .materials-table td
+    display: block
+  .materials-table td
+    border-right: none
+    border-bottom: none
+    h3
+      text-align: center
+  .materials-table tr
+    border-bottom: 1px solid #3cc47c !important
+  .materials-table-door td p, table th p
+    text-align: center
+  .materials-table-2
+    border-right: none
+    border-bottom: none
+    td
+      border-bottom: 1px solid #3cc47c !important
+      min-width: 50%
+      min-height: 280px
+    tr
+      display: inline-block
+      width: 50%
+      border-right: 1px solid #3cc47c !important
+      text-align: center
+  .materials-table-3
+    border-right: none
+    border-bottom: none
+    td
+      border-bottom: 1px solid #3cc47c !important
+      min-width: 50%
+    tr
+      width: 50%
+      border-right: 1px solid #3cc47c !important
+      text-align: center
+
+.materials-table-3, .materials-big-foto
+  border: none !important
+  text-align: center
+  tr
+    display: inline-block
+    border: 1px solid #3cc47c !important
+    width: auto
+  td
+    display: inline-block
+    border: none !important
+    min-width: 0
+.materials-big-foto
+  td
+    min-height: 275px
+    min-width: 316px
+    padding: 10px
+
+@media screen and (max-width: 480px)
+  .materials-table-door
+    max-width: 360px
+    font-size: 12px

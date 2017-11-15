@@ -1,0 +1,257 @@
+@font-face
+{
+	font-family: 'slick';
+	font-weight: normal;
+	font-style: normal;
+
+	src: url('slick.eot');
+	src: url('slick.eot?#iefix') format('embedded-opentype'), url('slick.woff') format('woff'), url('slick.ttf') format('truetype'), url('slick.svg#slick') format('svg');
+}
+
+.review-item {
+	display: inline-block;
+	margin-top: 85px;
+}
+
+.avatar-wrapper {
+	margin-top: 20px;
+	width: 200px;
+	text-align: center;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.avatar-img {
+	width: auto !important;
+	margin: auto;
+}
+
+.review-txt {
+	display: inline-block;
+	width: 550px;
+	vertical-align: middle;
+	text-align: left;
+	font-size: 16px;
+}
+
+.review-h2 {
+	font-family: 'Oswald DemiBold',sans-serif;
+	font-size: 48px;
+	position: relative;
+	margin-top: 0;
+	margin-bottom: 50px;
+	padding-top: 91px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #000;
+}
+
+.review-h2::before {
+	height: 50px;
+	position: absolute;
+	top: 0;
+	left: -webkit-calc(50% - 2px / 2);
+	left: calc(50% - 2px / 2);
+	display: block;
+	content: '';
+	border-left: 2px dashed #bd1522;
+}
+
+.review-h2::after {
+	position: absolute;
+	top: 50px;
+	left: -webkit-calc(50% - 16px / 2);
+	left: calc(50% - 16px / 2);
+	display: block;
+	width: 16px;
+	height: 16px;
+	content: '';
+	-webkit-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	transform: rotate(45deg);
+	background: #bd1522;
+}
+
+.review-wrapper::after {
+	position: absolute;
+	top: -30px;
+	left: -webkit-calc(50% - 109px / 2);
+	left: calc(50% - 109px / 2);
+	display: inline-block;
+	width: 109px;
+	height: 6px;
+	content: '';
+	background-image: url(../../../../images/sprite.png);
+	background-position: -5189px -1259px;
+}
+
+.review-wrapper {
+	width: 100%;
+	height: 400px;
+	position: relative;
+	background-image: linear-gradient(65deg,#e9fd89 0%,#7ad180 100%);
+}
+
+.review-wrapper::before {
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 400px;
+	opacity: .3;
+	background-color: #e0dfd9;
+	-webkit-box-shadow: 0 3px 5px rgba(0,0,0,.7);
+	box-shadow: 0 3px 5px rgba(0,0,0,.7);
+}
+
+.review {
+	font-family: 'Oswald LightItalic',sans-serif;
+	font-size: 18px;
+	text-align: center;
+}
+
+.ppl{
+	position: absolute;
+	right: 50%;
+	opacity: .3;
+	width: 681px;
+	height: 400px;
+	background-image: url(../../../../images/ppl.png);
+}
+
+.review-wrapper .animated {
+	animation-duration: 0.7s !important;
+}
+
+.owl-carousel .fadeIn {
+	animation-name: fadeIn;
+}
+
+@keyframes fadeIn {
+	0% {
+		opacity: 0
+	}
+
+	100% {
+		opacity: 1
+	}
+}
+
+.review .nav-arrow {
+	border-radius: 50%;
+	font-size: 0;
+	height: 42px;
+	pointer-events: auto;
+	position: absolute;
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+	width: 42px;
+	color: transparent;
+	border: none;
+	outline: none;
+	background: transparent;
+	cursor: pointer;
+	top: -120px;
+}
+
+.review .nav-prev {
+	left: 0;
+}
+
+.review .nav-next {
+	right: 5px;
+}
+
+.review .nav-prev::before {
+	content: "\2190";
+}
+
+.review .nav-next::before {
+	content: "\2192";
+}
+
+.review .nav-arrow::before {
+	color: #ff6d2c;
+	font-family: 'slick' !important;
+	font-size: 36px;
+	opacity: .75;
+	transition-duration: .3s;
+}
+
+.review .nav-arrow:hover::before {
+	color: #37465b;
+}
+
+.review .owl-nav {
+	position: relative;
+	margin: auto;
+	max-width: 1000px;
+}
+
+@media screen and (max-width: 1023px){
+	.review-txt {
+		width: 420px;
+	}
+	.review .nav-arrow {
+		top: -150px;
+	}
+}
+
+@media screen and (max-width: 992px){
+	.review-h2 {
+		font-size: 40px;
+		line-height: 40px;
+	}
+}
+
+@media screen and (max-width: 767px){
+	.review-txt {
+		width: 100%;
+		padding: 10px;
+	}
+	.review-wrapper .avatar-txt p {
+		margin: 5px;
+	}
+	.review .owl-nav {
+		display: none;
+	}
+	.review-item {
+		margin-top: 0;
+	}
+	.review-wrapper {
+		height: 500px;
+	}
+	.review-wrapper::before {
+		height: 500px;
+	}
+	.ppl {
+		background-image: url(../../../../images/pplb.png);
+		background-size: contain;
+		width: 850px;
+		height: 500px;
+		right: calc(50% - 425px);
+	}
+	.avatar-wrapper {
+		margin-top: 10px;
+	}
+}
+
+@media screen and (max-width: 424px){
+	.avatar-img {
+		max-height: 100px;
+		display: inline-block !important;
+		vertical-align: middle;
+	}
+	.avatar-txt {
+		display: inline-block;
+		vertical-align: middle;
+	}
+	.avatar-wrapper {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 374px){
+	.review-txt {
+		padding: 3px 10px 10px 10px;
+	}
+}

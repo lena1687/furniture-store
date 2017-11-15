@@ -1,0 +1,152 @@
+.block-blokskrytyiplatez
+  padding: 15px 0 25px 0
+  text-align: center
+  background: #37ac6e
+  display: block
+  font-family: 'Oswald LightItalic', sans-serif
+  font-size: 36px
+  color: #fff
+  .row-text
+    display: block
+    .sprite
+      display: inline-block
+      background-image: url("images/sprite.png")
+      background-position: -5814px -770px
+      width: 65px
+      height: 65px
+      margin-bottom: -18px
+    .text
+      display: inline-block
+      @media screen and (min-device-width: 800px)
+        margin-top: 15px
+  @media screen and (max-width: 767px)
+    .row-text
+      .sprite
+        display: block
+        margin: 0 auto
+.link-system
+  margin-top: 35px
+.between-rooms
+  .top-between-rooms
+    .red-line
+      height: 50px
+      width: 1px
+      margin: 0 auto
+      border-left: 2px dashed #bd1522
+      span
+        display: inline-block
+        background: #bd1522
+        width: 15px
+        height: 15px
+        transform: rotate(45deg)
+        margin-left: -9px
+        margin-bottom: -50px
+    h2
+      font-family: 'Oswald DemiBold', sans-serif
+      font-size: 48px
+      line-height: 40px
+      padding-top: 15px
+      margin-bottom: 20px
+      text-align: center
+      text-transform: uppercase
+    .two-line
+      margin: 0 auto
+      border-top: 1px solid #bd1522
+      border-bottom: 1px solid #bd1522
+      width: 109px
+      height: 6px
+  .slider-peregorodki.owl-carousel
+    height: 200px
+    min-width: auto
+    margin-top: 20px
+    .owl-stage-outer
+      width: 93%
+      margin: 0 auto
+      .owl-item
+        max-width: 280px
+        padding-right: 7px
+        &:hover .litebox
+          opacity: 1
+      .owl-item:last-child
+        padding-right: 0
+    .owl-nav
+      color: transparent
+      font-size: 1px
+      .owl-prev
+        &:before
+          margin-top: -135px
+          display: block
+          width: 22px
+          height: 41px
+          content: ''
+          background-image: url("images/sprite.png")
+          background-position: -6501px -73px
+      .owl-next
+        &:before
+          margin-top: -40px
+          float: right
+          display: block
+          width: 22px
+          height: 41px
+          content: ''
+          background-image: url("images/sprite.png")
+          background-position: -6479px -114px
+    .litebox
+      position: absolute
+      cursor: pointer
+      opacity: 0
+      height: 80px
+      margin: 60px 102px
+      width: 80px
+      &:hover.litebox:after
+        background: #bd1522
+      &:hover.litebox:before
+        background: #bd1522
+      &:before
+        display: block
+        content: ''
+        background: #ffffff
+        border-radius: 4px
+        height: 2px
+        margin-top: 40px
+        width: 80px
+        transform: rotate(0deg)
+      &:after
+        content: ''
+        display: block
+        background: #ffffff
+        border-radius: 4px
+        height: 2px
+        width: 80px
+        transform: rotate(90deg)
+  .gallary-peregorodki
+    width: 92%
+    margin: 0 auto 90px
+    h2
+      font-family: 'Verdana',sans-serif
+      font-size: 24px
+      margin: 25px 0 20px
+      line-height: 45px
+      text-align: center
+      @media screen and (max-width: 992px)
+        font-size: 20px
+      @media screen and (max-width: 768px)
+        line-height: 24px
+      span
+        @media screen and (max-width: 992px)
+          font-size: 24px
+    .row
+      border-left: 1px solid #3cc47c
+      border-top: 1px solid #3cc47c
+    .col-12
+      border-right: 1px solid #3cc47c
+      border-bottom: 1px solid #3cc47c
+      padding: 0
+    .peregorodki-gallery-item
+      img
+        margin: 0 auto
+        display: block
+        padding: 20px 0
+        @media screen and (max-width: 350px)
+          max-width: 260px
+

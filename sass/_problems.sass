@@ -1,0 +1,90 @@
+.problems
+  font-family: 'Oswald DemiBoldItalic',sans-serif
+  .red-line
+    height: 50px
+    width: 1px
+    margin: 5px auto 10px
+    border-left: 2px dashed #bd1522
+    span
+      display: inline-block
+      background: #bd1522
+      width: 15px
+      height: 15px
+      transform: rotate(45deg)
+      margin-left: -9px
+      margin-bottom: -50px      
+  h2
+    font-family: 'Oswald DemiBold', sans-serif
+    font-size: 48px
+    line-height: 40px
+    padding-top: 15px
+    margin-bottom: 20px
+    text-align: center
+    text-transform: uppercase
+    @media screen and (max-width: 991px)
+      font-size: 40px
+  .two-line
+    margin: 0 auto
+    border-top: 1px solid #bd1522
+    border-bottom: 1px solid #bd1522
+    width: 109px
+    height: 6px
+    margin-bottom: 30px
+.problem-bk-list
+  display: block
+  text-align: center
+  .problems-list
+    display: inline-block
+    text-align: center
+    top: 10px
+    @media screen and (max-width: 1023px)
+      max-width: 600px
+    .problem-bk   
+      position: relative
+      text-align: center   
+      background-image: url("images/sprite2.png")
+      background-size: 900px 200px
+      background-repeat: no-repeat
+      width: 180px
+      height: 200px
+      margin: 10px 5px 80px 5px
+      display: inline-block
+      font-size: 18px           
+      font-family: 'Oswald DemiBoldItalic',sans-serif
+      .problems-text
+        width: 90%
+        margin: auto
+        line-height: 20px
+        h6
+          top: 80px
+          position: absolute
+          width: inherit
+          font-family: 'Oswald DemiBoldItalic',sans-serif
+          font-size: 18px
+        h5
+          color: #bd1522
+          position: absolute
+          top: 185px
+          left: 0
+          width: 100%
+          font-family: 'Oswald DemiBoldItalic',sans-serif
+          font-size: 18px
+        &::before
+          position: absolute
+          top: 185px
+          left: calc(50% - (2px / 2))
+          display: block
+          width: 2px
+          height: 30px
+          content: ''
+          background: #3cc47c
+    .problem-1-bk
+      background-position: 0 0
+    .problem-2-bk
+      background-position: -180px 0
+    .problem-3-bk
+      background-position: -360px 0
+    .problem-4-bk
+      background-position: -540px 0
+    .problem-5-bk
+      background-position: -720px 0

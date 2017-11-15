@@ -1,0 +1,118 @@
+.garderobnye
+  a
+    color: #333
+    text-decoration: underline
+    &:visited, &:active
+      color: #333
+  .top-garderobnye
+    .red-line
+      height: 50px
+      width: 1px
+      margin: 0 auto
+      border-left: 2px dashed #bd1522
+      span
+        display: inline-block
+        background: #bd1522
+        width: 15px
+        height: 15px
+        transform: rotate(45deg)
+        margin-left: -9px
+        margin-bottom: -50px
+    h2
+      font-family: 'Oswald DemiBold', sans-serif
+      font-size: 48px
+      line-height: 40px
+      padding-top: 15px
+      margin-bottom: 20px
+      text-align: center
+      text-transform: uppercase
+    .two-line
+      margin: 0 auto
+      border-top: 1px solid #bd1522
+      border-bottom: 1px solid #bd1522
+      width: 109px
+      height: 6px
+  .slider-peregorodki.owl-carousel
+    height: 200px
+    min-width: auto
+    margin: 20px 0 30px
+    .owl-stage-outer
+      width: 93%
+      margin: 0 auto
+      .owl-item
+        max-width: 280px
+        padding-right: 7px
+        &:hover .litebox
+          opacity: 1
+      .owl-item:last-child
+        padding-right: 0
+    .owl-nav
+      color: transparent
+      font-size: 1px
+      .owl-prev
+        &:before
+          margin-top: -135px
+          display: block
+          width: 22px
+          height: 41px
+          content: ''
+          background-image: url("images/sprite.png")
+          background-position: -6501px -73px
+      .owl-next
+        &:before
+          margin-top: -40px
+          float: right
+          display: block
+          width: 22px
+          height: 41px
+          content: ''
+          background-image: url("images/sprite.png")
+          background-position: -6479px -114px
+    .litebox
+      position: absolute
+      cursor: pointer
+      opacity: 0
+      height: 80px
+      margin: 60px 102px
+      width: 80px
+      &:hover.litebox:after
+        background: #bd1522
+      &:hover.litebox:before
+        background: #bd1522
+      &:before
+        display: block
+        content: ''
+        background: #ffffff
+        border-radius: 4px
+        height: 2px
+        margin-top: 40px
+        width: 80px
+        transform: rotate(0deg)
+      &:after
+        content: ''
+        display: block
+        background: #ffffff
+        border-radius: 4px
+        height: 2px
+        width: 80px
+        transform: rotate(90deg)
+    .owl-nav.disabled
+      display: block
+  .garderobnye-text
+    width: 95%
+    margin: 0 auto
+    p
+      line-height: 28px
+      margin-top: 15px
+      margin-bottom: 35px
+.navigation-door
+  text-align: left
+  margin: 35px 0 0
+  .nav-one
+    margin-left: 0
+  .nav-one,
+  .nav-two
+    margin-top: 10px
+    margin-left: 60px
+
+

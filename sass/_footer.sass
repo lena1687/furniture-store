@@ -1,0 +1,254 @@
+footer
+  background: url(/bitrix/templates/vrk/images/VRK_stripes.png)
+  max-width: 100%
+  position: relative
+  color: #fff
+  font-family: 'Oswald LightItalic',sans-serif
+  font-size: 14px
+
+  .footer-left, .footer-right
+    font-size: 16px
+
+.footer-left, .footer-right
+  margin-bottom: 80px
+  display: inline-block
+  margin-top: 50px
+
+.footer-left
+  width: 69%
+  vertical-align: top
+
+.footer-right
+  width: 30%
+
+.wrapp__footer-one, .wrapp__footer-two
+  display: inline-block
+  width: 49%
+
+.left__menu-company,
+.middle__menu-company,
+.right__menu-company,
+.last__menu-company
+  display: inline-block
+  vertical-align: top
+
+.left__company-list, .middle__menu-company, .right__company-list, .last__company-list
+  padding: 0
+
+.left__menu-company
+  width: 49%
+.middle__menu-company
+  width: 49%
+
+.right__menu-company
+  width: 49%
+.last__menu-company
+  width: 49%
+.middle__company-list
+  padding: 0
+
+.company-title
+  font-family: 'Oswald DemiBoldItalic',sans-serif
+  font-size: 20px
+  margin-bottom: 10px
+  color: #fff
+
+
+footer ul li
+  list-style: none
+
+
+.left__company-item, .middle__menu-item, .right__company-item, .last__company-item
+  margin-bottom: 10px
+
+
+.left__company-link, .middle__menu-link, .right__company-link, .last__company-link
+  text-decoration: none
+  color: #fff
+
+
+.left__company-link:hover
+  text-decoration: underline
+
+.middle__menu-link:hover
+  text-decoration: underline
+
+.right__company-link:hover
+  text-decoration: underline
+
+
+.last__company-link:hover
+  text-decoration: underline
+
+
+.footer__right-form
+  line-height: 20px
+  overflow: hidden
+  min-height: 279px
+  max-height: 279px
+  padding: 25px 30px 30px
+  text-transform: uppercase
+  color: #fff
+  border: 1px solid #fff
+
+
+.title__right-form
+  margin-bottom: 40px
+
+
+.footer__right-form .wrapper-input
+  margin-bottom: 20px
+
+
+.footer .container
+  margin-top: 50px
+
+
+.footer-bottom
+  color: #fff
+  font-family: 'Oswald ExtraLight',sans-serif
+  font-size: 14px
+
+
+.footer__bottom-desc
+  border-top: 1px solid #fff
+  padding-top: 50px
+  font-family: 'Oswald ExtraLight',sans-serif
+  font-size: 14px
+
+
+.footer__bottom-copy
+  margin-top: 30px
+  font-family: 'Oswald ExtraLight',sans-serif
+  font-size: 14px
+  padding-bottom: 30px
+
+.footer-right .form-footer
+  border: 1px solid #fff
+  padding: 20px
+  font-family: 'Oswald Medium',sans-serif
+.form-title
+  text-transform: uppercase
+.form-footer input[type="text"]
+  font-family: 'Oswald LightItalic',sans-serif
+  font-size: 16px
+.form-footer input[type="submit"]
+  font-family: 'Oswald RegularItalic',sans-serif
+  font-size: 16px
+  outline: none
+.accordion_toggle, .accordion_toggle-2, .accordion_toggle-3, .accordion_toggle-4
+  border: 0
+  clip: rect(0 0 0 0)
+  height: 1px
+  margin: -1px
+  overflow: hidden
+  padding: 0
+  position: absolute
+  width: 1px
+
+  /*--- media-query ---*/
+
+@media screen and (max-width: 1115px)  //hd
+  .footer .container
+    max-width: 1100px
+
+@media screen and (max-width: 991px)  //laptop
+  .footer .container
+    max-width: 46.25rem
+    text-align: center
+    font-size: 16px
+
+@media screen and (max-width: 768px)  //tablets
+
+  .accordion_toggle, .accordion_toggle-2, .accordion_toggle-3, .accordion_toggle-4
+    border: 0
+    clip: rect(0 0 0 0)
+    height: 1px
+    margin: -1px
+    overflow: hidden
+    padding: 0
+    position: absolute
+    width: 1px
+
+  .footer .left__company-list, .footer .middle__company-list, .footer .right__company-list, .footer .last__company-list
+    display: none
+
+  .accordion_toggle:checked + .accordion_target
+    position: static
+    display: block
+    width: auto
+    height: auto
+    margin: auto
+    clip: auto
+    padding: 0
+    //-webkit-animation: fadeIn ease-in 0.7s
+    //-moz-animation: fadeIn ease-in 0.7s
+    //animation: fadeIn ease-in 0.7s
+
+  .accordion_toggle-2:checked + .accordion_target-2
+    position: static
+    display: block
+    width: auto
+    height: auto
+    margin: auto
+    clip: auto
+    padding: 0
+    //-webkit-animation: fadeIn ease-in 0.7s
+    //-moz-animation: fadeIn ease-in 0.7s
+    //animation: fadeIn ease-in 0.7s
+
+  .accordion_toggle-3:checked + .accordion_target-3
+    position: static
+    display: block
+    width: auto
+    height: auto
+    margin: auto
+    clip: auto
+    padding: 0
+    //-webkit-animation: fadeIn ease-in 0.7s
+    //-moz-animation: fadeIn ease-in 0.7s
+    //animation: fadeIn ease-in 0.7s
+
+  .accordion_toggle-4:checked + .accordion_target-4
+    position: static
+    display: block
+    width: auto
+    height: auto
+    margin: auto
+    clip: auto
+    padding: 0
+    //-webkit-animation: fadeIn ease-in 0.7s
+    //-moz-animation: fadeIn ease-in 0.7s
+    //animation: fadeIn ease-in 0.7s
+
+  .footer .container
+    max-width: 470px
+    text-align: center
+    font-size: 14px
+  .footer .footer-left, .footer-right
+    width: 100%
+  .footer  .wrapp__footer-one, .wrapp__footer-two
+    width: 100%
+  .footer  .left__menu-company, .middle__menu-company, .right__menu-company, .last__menu-company
+    width: 100%
+  .footer .footer-right
+    margin-top: 0
+  .footer .footer-bottom
+    margin: 0 auto
+  .act
+    display: block
+  .menus-button
+    margin: 20px 0
+  .company-title
+    cursor: pointer
+  .company-title
+    display: block
+    font-weight: bold
+    cursor: pointer
+    background: rgba(0, 68, 135, 0.16)
+    border-radius: 50px
+
+@media screen and (max-width: 480px)  //phones
+  .footer .container
+    max-width: 320px
+    font-size: 12px

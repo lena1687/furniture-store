@@ -1,0 +1,668 @@
+2017-09-05 07:02:45 -  - exec CUpdateClientPartner::SearchModulesEx
+2017-09-05 07:02:45 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-09-05 07:02:45 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bitrix&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.0.22-0ubuntu0.17.04.1&NGINX=Y&dbv=5.7.19&instm=main%2C17.0.9%2CY%3Bsocialservices%2C17.1.4%2CN%3Bstoreassist%2C16.0.1%2CN%3Bvote%2C17.5.0%2CN%3Bfileman%2C17.5.0%2CN%3Bperfmon%2C17.0.0%2CN%3Bbitrix.siteinfoportal%2C15.5.0%2CN%3Bsupport%2C16.0.0%2CN%3Bbitrix.eshop%2C17.0.0%2CN%3Badvertising%2C17.0.0%2CN%3Bhighloadblock%2C17.0.2%2CN%3Bwebservice%2C17.0.0%2CN%3Bsale%2C17.0.24%2CN%3Bldap%2C17.0.0%2CN%3Bbitrixcloud%2C17.0.0%2CN%3Bmail%2C17.0.5%2CN%3Bcompression%2C16.0.0%2CN%3Bphotogallery%2C17.0.2%2CN%3Bsender%2C17.1.2%2CN%3Bcatalog%2C17.0.9%2CN%3Bforum%2C17.5.1%2CN%3Bbizprocdesigner%2C17.0.2%2CN%3Bidea%2C17.5.0%2CN%3Bstatistic%2C17.0.0%2CN%3Bcluster%2C17.0.0%2CN%3Bform%2C17.0.1%2CN%3Bseo%2C17.0.6%2CN%3Bcalendar%2C17.5.1%2CN%3Bim%2C17.1.4%2CN%3Babtest%2C17.0.0%2CN%3Btranslate%2C15.0.0%2CN%3Bb24connector%2C17.0.1%2CN%3Bsecurity%2C17.0.1%2CN%3Bpull%2C17.1.0%2CN%3Bworkflow%2C17.0.0%2CN%3Bconversion%2C17.0.2%2CN%3Blists%2C17.0.6%2CN%3Bbitrix.sitepersonal%2C15.5.0%2CN%3Bmobileapp%2C17.0.1%2CN%3Bsearch%2C17.0.1%2CN%3Breport%2C16.5.1%2CN%3Bblog%2C17.5.2%2CN%3Bclouds%2C17.0.0%2CN%3Bbitrix.sitecommunity%2C15.5.0%2CN%3Biblock%2C17.0.9%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Blearning%2C17.5.0%2CN%3Bwiki%2C16.0.3%2CN%3Bsocialnetwork%2C17.5.5%2CN%3Bsubscribe%2C17.0.0%2CN%3Bcurrency%2C17.0.3%2CN%3Bscale%2C17.0.0%2CN%3Bbizproc%2C17.5.1%2CN%3Beshopapp%2C16.5.0%2CN&search_module_id=&search_module=&search_category=7%2C14&search_type=&search_order=DESC&search_order_by=SORT&search_page=1&SUPD_SRS=0&SUPD_CMP=N
+2017-09-05 07:02:45 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-09-05 07:02:47 -  - TIME SearchModulesEx(request) 1.421 sec
+2017-09-05 07:02:47 -  - exec CUpdateClientPartner::ParseServerData
+2017-09-05 07:02:47 - GUL02 - [LICENSE_NOT_FOUND] Лицензия не найдена
+2017-09-05 07:03:07 -  - exec CUpdateClientPartner::SearchModulesEx
+2017-09-05 07:03:07 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-09-05 07:03:07 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bitrix&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.0.22-0ubuntu0.17.04.1&NGINX=Y&dbv=5.7.19&instm=main%2C17.0.9%2CY%3Bsocialservices%2C17.1.4%2CN%3Bstoreassist%2C16.0.1%2CN%3Bvote%2C17.5.0%2CN%3Bfileman%2C17.5.0%2CN%3Bperfmon%2C17.0.0%2CN%3Bbitrix.siteinfoportal%2C15.5.0%2CN%3Bsupport%2C16.0.0%2CN%3Bbitrix.eshop%2C17.0.0%2CN%3Badvertising%2C17.0.0%2CN%3Bhighloadblock%2C17.0.2%2CN%3Bwebservice%2C17.0.0%2CN%3Bsale%2C17.0.24%2CN%3Bldap%2C17.0.0%2CN%3Bbitrixcloud%2C17.0.0%2CN%3Bmail%2C17.0.5%2CN%3Bcompression%2C16.0.0%2CN%3Bphotogallery%2C17.0.2%2CN%3Bsender%2C17.1.2%2CN%3Bcatalog%2C17.0.9%2CN%3Bforum%2C17.5.1%2CN%3Bbizprocdesigner%2C17.0.2%2CN%3Bidea%2C17.5.0%2CN%3Bstatistic%2C17.0.0%2CN%3Bcluster%2C17.0.0%2CN%3Bform%2C17.0.1%2CN%3Bseo%2C17.0.6%2CN%3Bcalendar%2C17.5.1%2CN%3Bim%2C17.1.4%2CN%3Babtest%2C17.0.0%2CN%3Btranslate%2C15.0.0%2CN%3Bb24connector%2C17.0.1%2CN%3Bsecurity%2C17.0.1%2CN%3Bpull%2C17.1.0%2CN%3Bworkflow%2C17.0.0%2CN%3Bconversion%2C17.0.2%2CN%3Blists%2C17.0.6%2CN%3Bbitrix.sitepersonal%2C15.5.0%2CN%3Bmobileapp%2C17.0.1%2CN%3Bsearch%2C17.0.1%2CN%3Breport%2C16.5.1%2CN%3Bblog%2C17.5.2%2CN%3Bclouds%2C17.0.0%2CN%3Bbitrix.sitecommunity%2C15.5.0%2CN%3Biblock%2C17.0.9%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Blearning%2C17.5.0%2CN%3Bwiki%2C16.0.3%2CN%3Bsocialnetwork%2C17.5.5%2CN%3Bsubscribe%2C17.0.0%2CN%3Bcurrency%2C17.0.3%2CN%3Bscale%2C17.0.0%2CN%3Bbizproc%2C17.5.1%2CN%3Beshopapp%2C16.5.0%2CN&search_module_id=&search_module=&search_category=7%2C14&search_type=&search_order=DESC&search_order_by=SORT&search_page=1&SUPD_SRS=0&SUPD_CMP=N
+2017-09-05 07:03:07 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-09-05 07:03:08 -  - TIME SearchModulesEx(request) 0.816 sec
+2017-09-05 07:03:08 -  - exec CUpdateClientPartner::ParseServerData
+2017-09-05 07:03:08 - GUL02 - [LICENSE_NOT_FOUND] Лицензия не найдена
+2017-09-13 13:36:36 -  - exec CUpdateClientPartner::GetUpdatesList
+2017-09-13 13:36:36 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-09-13 13:36:36 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=_&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.0.22-0ubuntu0.16.04.1&NGINX=Y&dbv=5.7.19&instm=main%2C17.0.9%2CY%3Bstatistic%2C17.0.0%2CN%3Bseo%2C17.0.6%2CN%3Bcalendar%2C17.5.1%2CN%3Bstoreassist%2C16.0.1%2CN%3Bsearch%2C17.0.1%2CN%3Bidea%2C17.5.0%2CN%3Bhighloadblock%2C17.0.2%2CN%3Bmail%2C17.0.5%2CN%3Bperfmon%2C17.0.0%2CN%3Bsocialservices%2C17.1.4%2CN%3Bldap%2C17.0.0%2CN%3Bconversion%2C17.0.2%2CN%3Bsubscribe%2C17.0.0%2CN%3Bbitrix.sitepersonal%2C15.5.0%2CN%3Bcompression%2C16.0.0%2CN%3Bscale%2C17.0.0%2CN%3Bbitrix.sitecommunity%2C15.5.0%2CN%3Breport%2C16.5.1%2CN%3Blearning%2C17.5.0%2CN%3Biblock%2C17.0.9%2CN%3Bbizprocdesigner%2C17.0.2%2CN%3Bblog%2C17.5.2%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bsupport%2C16.0.0%2CN%3Blists%2C17.0.6%2CN%3Bforum%2C17.5.1%2CN%3Bform%2C17.0.1%2CN%3Bbitrix.siteinfoportal%2C15.5.0%2CN%3Bmobileapp%2C17.0.1%2CN%3Bbitrixcloud%2C17.0.0%2CN%3Bcatalog%2C17.0.9%2CN%3Bbizproc%2C17.5.1%2CN%3Bcurrency%2C17.0.3%2CN%3Bfileman%2C17.5.0%2CN%3Beshopapp%2C16.5.0%2CN%3Bsocialnetwork%2C17.5.5%2CN%3Bim%2C17.1.4%2CN%3Btranslate%2C15.0.0%2CN%3Bsale%2C17.0.24%2CN%3Bcluster%2C17.0.0%2CN%3Bpull%2C17.1.0%2CN%3Bwebservice%2C17.0.0%2CN%3Bclouds%2C17.0.0%2CN%3Bsender%2C17.1.2%2CN%3Babtest%2C17.0.0%2CN%3Bsecurity%2C17.0.1%2CN%3Bbitrix.eshop%2C17.0.0%2CN%3Bworkflow%2C17.0.0%2CN%3Bphotogallery%2C17.0.2%2CN%3Bvote%2C17.5.0%2CN%3Bwiki%2C16.0.3%2CN%3Bb24connector%2C17.0.1%2CN%3Badvertising%2C17.0.0%2CN&reqm=bitrix.sitepersonal%2Cbitrix.sitecommunity%2Cbitrix.sitecorporate%2Cbitrix.siteinfoportal%2Cbitrix.eshop%2Caltasib.feedback&SUPD_SRS=0&SUPD_CMP=N
+2017-09-13 13:36:36 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-09-13 13:36:39 -  - TIME GetUpdatesList(request) 3.098 sec
+2017-09-13 13:36:40 -  - exec CUpdateClientPartner::ParseServerData
+2017-09-13 13:36:52 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-09-13 13:36:52 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-09-13 13:36:52 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=_&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.0.22-0ubuntu0.16.04.1&NGINX=Y&dbv=5.7.19&instm=main%2C17.0.9%2CY%3Bstatistic%2C17.0.0%2CN%3Bseo%2C17.0.6%2CN%3Bcalendar%2C17.5.1%2CN%3Bstoreassist%2C16.0.1%2CN%3Bsearch%2C17.0.1%2CN%3Bidea%2C17.5.0%2CN%3Bhighloadblock%2C17.0.2%2CN%3Bmail%2C17.0.5%2CN%3Bperfmon%2C17.0.0%2CN%3Bsocialservices%2C17.1.4%2CN%3Bldap%2C17.0.0%2CN%3Bconversion%2C17.0.2%2CN%3Bsubscribe%2C17.0.0%2CN%3Bbitrix.sitepersonal%2C15.5.0%2CN%3Bcompression%2C16.0.0%2CN%3Bscale%2C17.0.0%2CN%3Bbitrix.sitecommunity%2C15.5.0%2CN%3Breport%2C16.5.1%2CN%3Blearning%2C17.5.0%2CN%3Biblock%2C17.0.9%2CN%3Bbizprocdesigner%2C17.0.2%2CN%3Bblog%2C17.5.2%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bsupport%2C16.0.0%2CN%3Blists%2C17.0.6%2CN%3Bforum%2C17.5.1%2CN%3Bform%2C17.0.1%2CN%3Bbitrix.siteinfoportal%2C15.5.0%2CN%3Bmobileapp%2C17.0.1%2CN%3Bbitrixcloud%2C17.0.0%2CN%3Bcatalog%2C17.0.9%2CN%3Bbizproc%2C17.5.1%2CN%3Bcurrency%2C17.0.3%2CN%3Bfileman%2C17.5.0%2CN%3Beshopapp%2C16.5.0%2CN%3Bsocialnetwork%2C17.5.5%2CN%3Bim%2C17.1.4%2CN%3Btranslate%2C15.0.0%2CN%3Bsale%2C17.0.24%2CN%3Bcluster%2C17.0.0%2CN%3Bpull%2C17.1.0%2CN%3Bwebservice%2C17.0.0%2CN%3Bclouds%2C17.0.0%2CN%3Bsender%2C17.1.2%2CN%3Babtest%2C17.0.0%2CN%3Bsecurity%2C17.0.1%2CN%3Bbitrix.eshop%2C17.0.0%2CN%3Bworkflow%2C17.0.0%2CN%3Bphotogallery%2C17.0.2%2CN%3Bvote%2C17.5.0%2CN%3Bwiki%2C16.0.3%2CN%3Bb24connector%2C17.0.1%2CN%3Badvertising%2C17.0.0%2CN&reqm=altasib.feedback&lim=Y&SUPD_SRS=0&SUPD_CMP=N
+2017-09-13 13:36:52 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-09-13 13:36:55 -  - TIME LoadModulesUpdates(request) 2.673 sec
+2017-09-13 13:36:55 -  - exec CUpdateClientPartner::ParseServerData
+2017-09-13 13:36:55 - S - STEP
+2017-09-13 13:36:55 - LMU01 - LoadModulesUpdates-Step
+2017-09-13 13:36:55 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-09-13 13:36:55 -  - exec CUpdateClientPartner::ParseServerData
+2017-09-13 13:36:55 -  - loadFile
+2017-09-13 13:36:57 - U - RETURN
+2017-09-13 13:36:57 -  - exec CUpdateClientPartner::UnGzipArchive
+2017-09-13 13:36:57 -  - TIME UnGzipArchive 0.013 sec
+2017-09-13 13:36:57 -  - TIME UpdateStepModules 0.014 sec
+2017-09-13 13:36:57 - UPD_SUCCESS - Updated: altasib.feedback
+2017-09-13 13:36:57 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-09-13 13:36:57 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-09-13 13:36:57 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=_&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.0.22-0ubuntu0.16.04.1&NGINX=Y&dbv=5.7.19&instm=main%2C17.0.9%2CY%3Bstatistic%2C17.0.0%2CN%3Bseo%2C17.0.6%2CN%3Bcalendar%2C17.5.1%2CN%3Bstoreassist%2C16.0.1%2CN%3Bsearch%2C17.0.1%2CN%3Bidea%2C17.5.0%2CN%3Bhighloadblock%2C17.0.2%2CN%3Bmail%2C17.0.5%2CN%3Bperfmon%2C17.0.0%2CN%3Bsocialservices%2C17.1.4%2CN%3Bldap%2C17.0.0%2CN%3Bconversion%2C17.0.2%2CN%3Bsubscribe%2C17.0.0%2CN%3Bbitrix.sitepersonal%2C15.5.0%2CN%3Bcompression%2C16.0.0%2CN%3Bscale%2C17.0.0%2CN%3Bbitrix.sitecommunity%2C15.5.0%2CN%3Breport%2C16.5.1%2CN%3Blearning%2C17.5.0%2CN%3Baltasib.feedback%2C2.5.0%2CN%3Biblock%2C17.0.9%2CN%3Bbizprocdesigner%2C17.0.2%2CN%3Bblog%2C17.5.2%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bsupport%2C16.0.0%2CN%3Blists%2C17.0.6%2CN%3Bforum%2C17.5.1%2CN%3Bform%2C17.0.1%2CN%3Bbitrix.siteinfoportal%2C15.5.0%2CN%3Bmobileapp%2C17.0.1%2CN%3Bbitrixcloud%2C17.0.0%2CN%3Bcatalog%2C17.0.9%2CN%3Bbizproc%2C17.5.1%2CN%3Bcurrency%2C17.0.3%2CN%3Bfileman%2C17.5.0%2CN%3Beshopapp%2C16.5.0%2CN%3Bsocialnetwork%2C17.5.5%2CN%3Bim%2C17.1.4%2CN%3Btranslate%2C15.0.0%2CN%3Bsale%2C17.0.24%2CN%3Bcluster%2C17.0.0%2CN%3Bpull%2C17.1.0%2CN%3Bwebservice%2C17.0.0%2CN%3Bclouds%2C17.0.0%2CN%3Bsender%2C17.1.2%2CN%3Babtest%2C17.0.0%2CN%3Bsecurity%2C17.0.1%2CN%3Bbitrix.eshop%2C17.0.0%2CN%3Bworkflow%2C17.0.0%2CN%3Bphotogallery%2C17.0.2%2CN%3Bvote%2C17.5.0%2CN%3Bwiki%2C16.0.3%2CN%3Bb24connector%2C17.0.1%2CN%3Badvertising%2C17.0.0%2CN&reqm=altasib.feedback&lim=Y&SUPD_SRS=0&SUPD_CMP=N
+2017-09-13 13:36:57 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-09-13 13:36:59 -  - TIME LoadModulesUpdates(request) 2.377 sec
+2017-09-13 13:36:59 -  - exec CUpdateClientPartner::ParseServerData
+2017-09-13 13:36:59 - S - STEP
+2017-09-13 13:36:59 - LMU01 - LoadModulesUpdates-Step
+2017-09-13 13:37:00 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-09-13 13:37:00 -  - exec CUpdateClientPartner::ParseServerData
+2017-09-13 13:37:00 -  - loadFile
+2017-09-13 13:37:01 - U - RETURN
+2017-09-13 13:37:01 -  - exec CUpdateClientPartner::UnGzipArchive
+2017-09-13 13:37:01 -  - TIME UnGzipArchive 0.003 sec
+2017-09-13 13:37:01 - CSURUS1 - Run updater '/bitrix/updates/update_m1505299021/altasib.feedback/updater2.5.1.php'
+2017-09-13 13:37:01 -  - TIME UpdateStepModules 0.003 sec
+2017-09-13 13:37:01 - UPD_SUCCESS - Updated: altasib.feedback (2.5.1)<br>- Исправлена ошибка при подключении нескольких форм с ReCAPTCHA. - Удалены неиспользуемые css стили в шаблоне.
+2017-09-13 13:37:01 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-09-13 13:37:01 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-09-13 13:37:01 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=_&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.0.22-0ubuntu0.16.04.1&NGINX=Y&dbv=5.7.19&instm=main%2C17.0.9%2CY%3Bstatistic%2C17.0.0%2CN%3Bseo%2C17.0.6%2CN%3Bcalendar%2C17.5.1%2CN%3Bstoreassist%2C16.0.1%2CN%3Bsearch%2C17.0.1%2CN%3Bidea%2C17.5.0%2CN%3Bhighloadblock%2C17.0.2%2CN%3Bmail%2C17.0.5%2CN%3Bperfmon%2C17.0.0%2CN%3Bsocialservices%2C17.1.4%2CN%3Bldap%2C17.0.0%2CN%3Bconversion%2C17.0.2%2CN%3Bsubscribe%2C17.0.0%2CN%3Bbitrix.sitepersonal%2C15.5.0%2CN%3Bcompression%2C16.0.0%2CN%3Bscale%2C17.0.0%2CN%3Bbitrix.sitecommunity%2C15.5.0%2CN%3Breport%2C16.5.1%2CN%3Blearning%2C17.5.0%2CN%3Baltasib.feedback%2C2.5.1%2CN%3Biblock%2C17.0.9%2CN%3Bbizprocdesigner%2C17.0.2%2CN%3Bblog%2C17.5.2%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bsupport%2C16.0.0%2CN%3Blists%2C17.0.6%2CN%3Bforum%2C17.5.1%2CN%3Bform%2C17.0.1%2CN%3Bbitrix.siteinfoportal%2C15.5.0%2CN%3Bmobileapp%2C17.0.1%2CN%3Bbitrixcloud%2C17.0.0%2CN%3Bcatalog%2C17.0.9%2CN%3Bbizproc%2C17.5.1%2CN%3Bcurrency%2C17.0.3%2CN%3Bfileman%2C17.5.0%2CN%3Beshopapp%2C16.5.0%2CN%3Bsocialnetwork%2C17.5.5%2CN%3Bim%2C17.1.4%2CN%3Btranslate%2C15.0.0%2CN%3Bsale%2C17.0.24%2CN%3Bcluster%2C17.0.0%2CN%3Bpull%2C17.1.0%2CN%3Bwebservice%2C17.0.0%2CN%3Bclouds%2C17.0.0%2CN%3Bsender%2C17.1.2%2CN%3Babtest%2C17.0.0%2CN%3Bsecurity%2C17.0.1%2CN%3Bbitrix.eshop%2C17.0.0%2CN%3Bworkflow%2C17.0.0%2CN%3Bphotogallery%2C17.0.2%2CN%3Bvote%2C17.5.0%2CN%3Bwiki%2C16.0.3%2CN%3Bb24connector%2C17.0.1%2CN%3Badvertising%2C17.0.0%2CN&reqm=altasib.feedback&lim=Y&SUPD_SRS=0&SUPD_CMP=N
+2017-09-13 13:37:01 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-09-13 13:37:03 -  - TIME LoadModulesUpdates(request) 2.524 sec
+2017-09-13 13:37:03 -  - exec CUpdateClientPartner::ParseServerData
+2017-09-13 13:37:03 - S - STEP
+2017-09-13 13:37:03 - LMU01 - LoadModulesUpdates-Step
+2017-09-13 13:37:04 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-09-13 13:37:04 -  - exec CUpdateClientPartner::ParseServerData
+2017-09-13 13:37:04 -  - loadFile
+2017-09-13 13:37:05 - U - RETURN
+2017-09-13 13:37:05 -  - exec CUpdateClientPartner::UnGzipArchive
+2017-09-13 13:37:05 -  - TIME UnGzipArchive 0.007 sec
+2017-09-13 13:37:05 - CSURUS1 - Run updater '/bitrix/updates/update_m1505299025/altasib.feedback/updater2.6.0.php'
+2017-09-13 13:37:05 -  - TIME UpdateStepModules 0.009 sec
+2017-09-13 13:37:05 - UPD_SUCCESS - Updated: altasib.feedback (2.6.0)<br>- Добавлен функционал подтверждения согласия на обработку персональных данных. 
+2017-09-13 13:37:05 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-09-13 13:37:05 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-09-13 13:37:05 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=_&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.0.22-0ubuntu0.16.04.1&NGINX=Y&dbv=5.7.19&instm=main%2C17.0.9%2CY%3Bstatistic%2C17.0.0%2CN%3Bseo%2C17.0.6%2CN%3Bcalendar%2C17.5.1%2CN%3Bstoreassist%2C16.0.1%2CN%3Bsearch%2C17.0.1%2CN%3Bidea%2C17.5.0%2CN%3Bhighloadblock%2C17.0.2%2CN%3Bmail%2C17.0.5%2CN%3Bperfmon%2C17.0.0%2CN%3Bsocialservices%2C17.1.4%2CN%3Bldap%2C17.0.0%2CN%3Bconversion%2C17.0.2%2CN%3Bsubscribe%2C17.0.0%2CN%3Bbitrix.sitepersonal%2C15.5.0%2CN%3Bcompression%2C16.0.0%2CN%3Bscale%2C17.0.0%2CN%3Bbitrix.sitecommunity%2C15.5.0%2CN%3Breport%2C16.5.1%2CN%3Blearning%2C17.5.0%2CN%3Baltasib.feedback%2C2.6.0%2CN%3Biblock%2C17.0.9%2CN%3Bbizprocdesigner%2C17.0.2%2CN%3Bblog%2C17.5.2%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bsupport%2C16.0.0%2CN%3Blists%2C17.0.6%2CN%3Bforum%2C17.5.1%2CN%3Bform%2C17.0.1%2CN%3Bbitrix.siteinfoportal%2C15.5.0%2CN%3Bmobileapp%2C17.0.1%2CN%3Bbitrixcloud%2C17.0.0%2CN%3Bcatalog%2C17.0.9%2CN%3Bbizproc%2C17.5.1%2CN%3Bcurrency%2C17.0.3%2CN%3Bfileman%2C17.5.0%2CN%3Beshopapp%2C16.5.0%2CN%3Bsocialnetwork%2C17.5.5%2CN%3Bim%2C17.1.4%2CN%3Btranslate%2C15.0.0%2CN%3Bsale%2C17.0.24%2CN%3Bcluster%2C17.0.0%2CN%3Bpull%2C17.1.0%2CN%3Bwebservice%2C17.0.0%2CN%3Bclouds%2C17.0.0%2CN%3Bsender%2C17.1.2%2CN%3Babtest%2C17.0.0%2CN%3Bsecurity%2C17.0.1%2CN%3Bbitrix.eshop%2C17.0.0%2CN%3Bworkflow%2C17.0.0%2CN%3Bphotogallery%2C17.0.2%2CN%3Bvote%2C17.5.0%2CN%3Bwiki%2C16.0.3%2CN%3Bb24connector%2C17.0.1%2CN%3Badvertising%2C17.0.0%2CN&reqm=altasib.feedback&lim=Y&SUPD_SRS=0&SUPD_CMP=N
+2017-09-13 13:37:05 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-09-13 13:37:08 -  - TIME LoadModulesUpdates(request) 2.523 sec
+2017-09-13 13:37:08 -  - exec CUpdateClientPartner::ParseServerData
+2017-09-13 13:37:08 - S - STEP
+2017-09-13 13:37:08 - LMU01 - LoadModulesUpdates-Step
+2017-09-13 13:37:08 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-09-13 13:37:08 -  - exec CUpdateClientPartner::ParseServerData
+2017-09-13 13:37:08 -  - loadFile
+2017-09-13 13:37:09 - U - RETURN
+2017-09-13 13:37:09 -  - exec CUpdateClientPartner::UnGzipArchive
+2017-09-13 13:37:09 -  - TIME UnGzipArchive 0.003 sec
+2017-09-13 13:37:09 - CSURUS1 - Run updater '/bitrix/updates/update_m1505299029/altasib.feedback/updater2.6.1.php'
+2017-09-13 13:37:09 -  - TIME UpdateStepModules 0.003 sec
+2017-09-13 13:37:10 - UPD_SUCCESS - Updated: altasib.feedback (2.6.1)<br>- Исправлен баг и отображением всылывающего окна в браузерах IE. 
+2017-09-13 13:37:10 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-09-13 13:37:10 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-09-13 13:37:10 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=_&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.0.22-0ubuntu0.16.04.1&NGINX=Y&dbv=5.7.19&instm=main%2C17.0.9%2CY%3Bstatistic%2C17.0.0%2CN%3Bseo%2C17.0.6%2CN%3Bcalendar%2C17.5.1%2CN%3Bstoreassist%2C16.0.1%2CN%3Bsearch%2C17.0.1%2CN%3Bidea%2C17.5.0%2CN%3Bhighloadblock%2C17.0.2%2CN%3Bmail%2C17.0.5%2CN%3Bperfmon%2C17.0.0%2CN%3Bsocialservices%2C17.1.4%2CN%3Bldap%2C17.0.0%2CN%3Bconversion%2C17.0.2%2CN%3Bsubscribe%2C17.0.0%2CN%3Bbitrix.sitepersonal%2C15.5.0%2CN%3Bcompression%2C16.0.0%2CN%3Bscale%2C17.0.0%2CN%3Bbitrix.sitecommunity%2C15.5.0%2CN%3Breport%2C16.5.1%2CN%3Blearning%2C17.5.0%2CN%3Baltasib.feedback%2C2.6.1%2CN%3Biblock%2C17.0.9%2CN%3Bbizprocdesigner%2C17.0.2%2CN%3Bblog%2C17.5.2%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bsupport%2C16.0.0%2CN%3Blists%2C17.0.6%2CN%3Bforum%2C17.5.1%2CN%3Bform%2C17.0.1%2CN%3Bbitrix.siteinfoportal%2C15.5.0%2CN%3Bmobileapp%2C17.0.1%2CN%3Bbitrixcloud%2C17.0.0%2CN%3Bcatalog%2C17.0.9%2CN%3Bbizproc%2C17.5.1%2CN%3Bcurrency%2C17.0.3%2CN%3Bfileman%2C17.5.0%2CN%3Beshopapp%2C16.5.0%2CN%3Bsocialnetwork%2C17.5.5%2CN%3Bim%2C17.1.4%2CN%3Btranslate%2C15.0.0%2CN%3Bsale%2C17.0.24%2CN%3Bcluster%2C17.0.0%2CN%3Bpull%2C17.1.0%2CN%3Bwebservice%2C17.0.0%2CN%3Bclouds%2C17.0.0%2CN%3Bsender%2C17.1.2%2CN%3Babtest%2C17.0.0%2CN%3Bsecurity%2C17.0.1%2CN%3Bbitrix.eshop%2C17.0.0%2CN%3Bworkflow%2C17.0.0%2CN%3Bphotogallery%2C17.0.2%2CN%3Bvote%2C17.5.0%2CN%3Bwiki%2C16.0.3%2CN%3Bb24connector%2C17.0.1%2CN%3Badvertising%2C17.0.0%2CN&reqm=altasib.feedback&lim=Y&SUPD_SRS=0&SUPD_CMP=N
+2017-09-13 13:37:10 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-09-13 13:37:12 -  - TIME LoadModulesUpdates(request) 2.215 sec
+2017-09-13 13:37:12 -  - exec CUpdateClientPartner::ParseServerData
+2017-09-13 13:37:12 - S - STEP
+2017-09-13 13:37:12 - LMU01 - LoadModulesUpdates-Step
+2017-09-13 13:37:12 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-09-13 13:37:12 -  - exec CUpdateClientPartner::ParseServerData
+2017-09-13 13:37:12 -  - loadFile
+2017-09-13 13:37:14 - U - RETURN
+2017-09-13 13:37:14 -  - exec CUpdateClientPartner::UnGzipArchive
+2017-09-13 13:37:14 -  - TIME UnGzipArchive 0.013 sec
+2017-09-13 13:37:14 - CSURUS1 - Run updater '/bitrix/updates/update_m1505299034/altasib.feedback/updater2.7.0.php'
+2017-09-13 13:37:14 -  - TIME UpdateStepModules 0.016 sec
+2017-09-13 13:37:14 - UPD_SUCCESS - Updated: altasib.feedback (2.7.0)<br>- Добавлена поддержка закона о персональных данных ФЗ-152 (интегрирован штатный компонент с централизованным использованием текста согласия). - Исправлены некоторые проблемы с ReCaptcha от Google. 
+2017-09-13 13:37:14 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-09-13 13:37:14 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-09-13 13:37:14 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=_&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.0.22-0ubuntu0.16.04.1&NGINX=Y&dbv=5.7.19&instm=main%2C17.0.9%2CY%3Bstatistic%2C17.0.0%2CN%3Bseo%2C17.0.6%2CN%3Bcalendar%2C17.5.1%2CN%3Bstoreassist%2C16.0.1%2CN%3Bsearch%2C17.0.1%2CN%3Bidea%2C17.5.0%2CN%3Bhighloadblock%2C17.0.2%2CN%3Bmail%2C17.0.5%2CN%3Bperfmon%2C17.0.0%2CN%3Bsocialservices%2C17.1.4%2CN%3Bldap%2C17.0.0%2CN%3Bconversion%2C17.0.2%2CN%3Bsubscribe%2C17.0.0%2CN%3Bbitrix.sitepersonal%2C15.5.0%2CN%3Bcompression%2C16.0.0%2CN%3Bscale%2C17.0.0%2CN%3Bbitrix.sitecommunity%2C15.5.0%2CN%3Breport%2C16.5.1%2CN%3Blearning%2C17.5.0%2CN%3Baltasib.feedback%2C2.7.0%2CN%3Biblock%2C17.0.9%2CN%3Bbizprocdesigner%2C17.0.2%2CN%3Bblog%2C17.5.2%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bsupport%2C16.0.0%2CN%3Blists%2C17.0.6%2CN%3Bforum%2C17.5.1%2CN%3Bform%2C17.0.1%2CN%3Bbitrix.siteinfoportal%2C15.5.0%2CN%3Bmobileapp%2C17.0.1%2CN%3Bbitrixcloud%2C17.0.0%2CN%3Bcatalog%2C17.0.9%2CN%3Bbizproc%2C17.5.1%2CN%3Bcurrency%2C17.0.3%2CN%3Bfileman%2C17.5.0%2CN%3Beshopapp%2C16.5.0%2CN%3Bsocialnetwork%2C17.5.5%2CN%3Bim%2C17.1.4%2CN%3Btranslate%2C15.0.0%2CN%3Bsale%2C17.0.24%2CN%3Bcluster%2C17.0.0%2CN%3Bpull%2C17.1.0%2CN%3Bwebservice%2C17.0.0%2CN%3Bclouds%2C17.0.0%2CN%3Bsender%2C17.1.2%2CN%3Babtest%2C17.0.0%2CN%3Bsecurity%2C17.0.1%2CN%3Bbitrix.eshop%2C17.0.0%2CN%3Bworkflow%2C17.0.0%2CN%3Bphotogallery%2C17.0.2%2CN%3Bvote%2C17.5.0%2CN%3Bwiki%2C16.0.3%2CN%3Bb24connector%2C17.0.1%2CN%3Badvertising%2C17.0.0%2CN&reqm=altasib.feedback&lim=Y&SUPD_SRS=0&SUPD_CMP=N
+2017-09-13 13:37:14 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-09-13 13:37:16 -  - TIME LoadModulesUpdates(request) 2.263 sec
+2017-09-13 13:37:16 -  - exec CUpdateClientPartner::ParseServerData
+2017-09-13 13:37:16 - STEP - Finish - NOUPDATES
+2017-09-13 13:37:16 - STEP - Finish - NOUPDATES
+2017-09-13 13:37:23 -  - exec CUpdateClientPartner::GetUpdatesList
+2017-09-13 13:37:23 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-09-13 13:37:23 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=_&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.0.22-0ubuntu0.16.04.1&NGINX=Y&dbv=5.7.19&instm=main%2C17.0.9%2CY%3Bstatistic%2C17.0.0%2CN%3Bseo%2C17.0.6%2CN%3Bcalendar%2C17.5.1%2CN%3Bstoreassist%2C16.0.1%2CN%3Bsearch%2C17.0.1%2CN%3Bidea%2C17.5.0%2CN%3Bhighloadblock%2C17.0.2%2CN%3Bmail%2C17.0.5%2CN%3Bperfmon%2C17.0.0%2CN%3Bsocialservices%2C17.1.4%2CN%3Bldap%2C17.0.0%2CN%3Bconversion%2C17.0.2%2CN%3Bsubscribe%2C17.0.0%2CN%3Bbitrix.sitepersonal%2C15.5.0%2CN%3Bcompression%2C16.0.0%2CN%3Bscale%2C17.0.0%2CN%3Bbitrix.sitecommunity%2C15.5.0%2CN%3Breport%2C16.5.1%2CN%3Blearning%2C17.5.0%2CN%3Baltasib.feedback%2C2.7.0%2CN%3Biblock%2C17.0.9%2CN%3Bbizprocdesigner%2C17.0.2%2CN%3Bblog%2C17.5.2%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bsupport%2C16.0.0%2CN%3Blists%2C17.0.6%2CN%3Bforum%2C17.5.1%2CN%3Bform%2C17.0.1%2CN%3Bbitrix.siteinfoportal%2C15.5.0%2CN%3Bmobileapp%2C17.0.1%2CN%3Bbitrixcloud%2C17.0.0%2CN%3Bcatalog%2C17.0.9%2CN%3Bbizproc%2C17.5.1%2CN%3Bcurrency%2C17.0.3%2CN%3Bfileman%2C17.5.0%2CN%3Beshopapp%2C16.5.0%2CN%3Bsocialnetwork%2C17.5.5%2CN%3Bim%2C17.1.4%2CN%3Btranslate%2C15.0.0%2CN%3Bsale%2C17.0.24%2CN%3Bcluster%2C17.0.0%2CN%3Bpull%2C17.1.0%2CN%3Bwebservice%2C17.0.0%2CN%3Bclouds%2C17.0.0%2CN%3Bsender%2C17.1.2%2CN%3Babtest%2C17.0.0%2CN%3Bsecurity%2C17.0.1%2CN%3Bbitrix.eshop%2C17.0.0%2CN%3Bworkflow%2C17.0.0%2CN%3Bphotogallery%2C17.0.2%2CN%3Bvote%2C17.5.0%2CN%3Bwiki%2C16.0.3%2CN%3Bb24connector%2C17.0.1%2CN%3Badvertising%2C17.0.0%2CN&reqm=bitrix.sitepersonal%2Cbitrix.sitecommunity%2Caltasib.feedback%2Cbitrix.sitecorporate%2Cbitrix.siteinfoportal%2Cbitrix.eshop&fullmoduleinfo=Y&SUPD_SRS=0&SUPD_CMP=N
+2017-09-13 13:37:23 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-09-13 13:37:27 -  - TIME GetUpdatesList(request) 3.358 sec
+2017-09-13 13:37:27 -  - exec CUpdateClientPartner::ParseServerData
+2017-09-13 13:37:35 -  - exec CUpdateClientPartner::GetUpdatesList
+2017-09-13 13:37:35 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-09-13 13:37:35 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=_&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.0.22-0ubuntu0.16.04.1&NGINX=Y&dbv=5.7.19&instm=main%2C17.0.9%2CY%3Bstatistic%2C17.0.0%2CN%3Bseo%2C17.0.6%2CN%3Bcalendar%2C17.5.1%2CN%3Bstoreassist%2C16.0.1%2CN%3Bsearch%2C17.0.1%2CN%3Bidea%2C17.5.0%2CN%3Bhighloadblock%2C17.0.2%2CN%3Bmail%2C17.0.5%2CN%3Bperfmon%2C17.0.0%2CN%3Bsocialservices%2C17.1.4%2CN%3Bldap%2C17.0.0%2CN%3Bconversion%2C17.0.2%2CN%3Bsubscribe%2C17.0.0%2CN%3Bbitrix.sitepersonal%2C15.5.0%2CN%3Bcompression%2C16.0.0%2CN%3Bscale%2C17.0.0%2CN%3Bbitrix.sitecommunity%2C15.5.0%2CN%3Breport%2C16.5.1%2CN%3Blearning%2C17.5.0%2CN%3Baltasib.feedback%2C2.7.0%2CN%3Biblock%2C17.0.9%2CN%3Bbizprocdesigner%2C17.0.2%2CN%3Bblog%2C17.5.2%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bsupport%2C16.0.0%2CN%3Blists%2C17.0.6%2CN%3Bforum%2C17.5.1%2CN%3Bform%2C17.0.1%2CN%3Bbitrix.siteinfoportal%2C15.5.0%2CN%3Bmobileapp%2C17.0.1%2CN%3Bbitrixcloud%2C17.0.0%2CN%3Bcatalog%2C17.0.9%2CN%3Bbizproc%2C17.5.1%2CN%3Bcurrency%2C17.0.3%2CN%3Bfileman%2C17.5.0%2CN%3Beshopapp%2C16.5.0%2CN%3Bsocialnetwork%2C17.5.5%2CN%3Bim%2C17.1.4%2CN%3Btranslate%2C15.0.0%2CN%3Bsale%2C17.0.24%2CN%3Bcluster%2C17.0.0%2CN%3Bpull%2C17.1.0%2CN%3Bwebservice%2C17.0.0%2CN%3Bclouds%2C17.0.0%2CN%3Bsender%2C17.1.2%2CN%3Babtest%2C17.0.0%2CN%3Bsecurity%2C17.0.1%2CN%3Bbitrix.eshop%2C17.0.0%2CN%3Bworkflow%2C17.0.0%2CN%3Bphotogallery%2C17.0.2%2CN%3Bvote%2C17.5.0%2CN%3Bwiki%2C16.0.3%2CN%3Bb24connector%2C17.0.1%2CN%3Badvertising%2C17.0.0%2CN&reqm=bitrix.sitepersonal%2Cbitrix.sitecommunity%2Caltasib.feedback%2Cbitrix.sitecorporate%2Cbitrix.siteinfoportal%2Cbitrix.eshop&fullmoduleinfo=Y&SUPD_SRS=0&SUPD_CMP=N
+2017-09-13 13:37:35 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-09-13 13:37:38 -  - TIME GetUpdatesList(request) 3.215 sec
+2017-09-13 13:37:38 -  - exec CUpdateClientPartner::ParseServerData
+2017-09-13 13:47:08 -  - exec CUpdateClientPartner::GetUpdatesList
+2017-09-13 13:47:08 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-09-13 13:47:08 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=_&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.0.22-0ubuntu0.16.04.1&NGINX=Y&dbv=5.7.19&instm=main%2C17.0.9%2CY%3Bstatistic%2C17.0.0%2CN%3Bseo%2C17.0.6%2CN%3Bcalendar%2C17.5.1%2CN%3Bstoreassist%2C16.0.1%2CN%3Bsearch%2C17.0.1%2CN%3Bidea%2C17.5.0%2CN%3Bhighloadblock%2C17.0.2%2CN%3Bmail%2C17.0.5%2CN%3Bperfmon%2C17.0.0%2CN%3Bsocialservices%2C17.1.4%2CN%3Bldap%2C17.0.0%2CN%3Bconversion%2C17.0.2%2CN%3Bsubscribe%2C17.0.0%2CN%3Bbitrix.sitepersonal%2C15.5.0%2CN%3Bcompression%2C16.0.0%2CN%3Bscale%2C17.0.0%2CN%3Bbitrix.sitecommunity%2C15.5.0%2CN%3Breport%2C16.5.1%2CN%3Blearning%2C17.5.0%2CN%3Baltasib.feedback%2C2.7.0%2CN%3Biblock%2C17.0.9%2CN%3Bbizprocdesigner%2C17.0.2%2CN%3Bblog%2C17.5.2%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bsupport%2C16.0.0%2CN%3Blists%2C17.0.6%2CN%3Bforum%2C17.5.1%2CN%3Bform%2C17.0.1%2CN%3Bbitrix.siteinfoportal%2C15.5.0%2CN%3Bmobileapp%2C17.0.1%2CN%3Bbitrixcloud%2C17.0.0%2CN%3Bcatalog%2C17.0.9%2CN%3Bbizproc%2C17.5.1%2CN%3Bcurrency%2C17.0.3%2CN%3Bfileman%2C17.5.0%2CN%3Beshopapp%2C16.5.0%2CN%3Bsocialnetwork%2C17.5.5%2CN%3Bim%2C17.1.4%2CN%3Btranslate%2C15.0.0%2CN%3Bsale%2C17.0.24%2CN%3Bcluster%2C17.0.0%2CN%3Bpull%2C17.1.0%2CN%3Bwebservice%2C17.0.0%2CN%3Bclouds%2C17.0.0%2CN%3Bsender%2C17.1.2%2CN%3Babtest%2C17.0.0%2CN%3Bsecurity%2C17.0.1%2CN%3Bbitrix.eshop%2C17.0.0%2CN%3Bworkflow%2C17.0.0%2CN%3Bphotogallery%2C17.0.2%2CN%3Bvote%2C17.5.0%2CN%3Bwiki%2C16.0.3%2CN%3Bb24connector%2C17.0.1%2CN%3Badvertising%2C17.0.0%2CN&reqm=bitrix.sitepersonal%2Cbitrix.sitecommunity%2Caltasib.feedback%2Cbitrix.sitecorporate%2Cbitrix.siteinfoportal%2Cbitrix.eshop%2Caltasib.feedback&SUPD_SRS=0&SUPD_CMP=N
+2017-09-13 13:47:08 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-09-13 13:47:16 -  - TIME GetUpdatesList(request) 7.201 sec
+2017-09-13 13:47:16 -  - exec CUpdateClientPartner::ParseServerData
+2017-09-13 13:54:06 -  - exec CUpdateClientPartner::GetUpdatesList
+2017-09-13 13:54:06 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-09-13 13:54:06 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=_&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.0.22-0ubuntu0.16.04.1&NGINX=Y&dbv=5.7.19&instm=main%2C17.0.9%2CY%3Bstatistic%2C17.0.0%2CN%3Bseo%2C17.0.6%2CN%3Bcalendar%2C17.5.1%2CN%3Bstoreassist%2C16.0.1%2CN%3Bsearch%2C17.0.1%2CN%3Bidea%2C17.5.0%2CN%3Bhighloadblock%2C17.0.2%2CN%3Bmail%2C17.0.5%2CN%3Bperfmon%2C17.0.0%2CN%3Bsocialservices%2C17.1.4%2CN%3Bldap%2C17.0.0%2CN%3Bconversion%2C17.0.2%2CN%3Bsubscribe%2C17.0.0%2CN%3Bbitrix.sitepersonal%2C15.5.0%2CN%3Bcompression%2C16.0.0%2CN%3Bscale%2C17.0.0%2CN%3Bbitrix.sitecommunity%2C15.5.0%2CN%3Breport%2C16.5.1%2CN%3Blearning%2C17.5.0%2CN%3Baltasib.feedback%2C2.7.0%2CN%3Biblock%2C17.0.9%2CN%3Bbizprocdesigner%2C17.0.2%2CN%3Bblog%2C17.5.2%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bsupport%2C16.0.0%2CN%3Blists%2C17.0.6%2CN%3Bforum%2C17.5.1%2CN%3Bform%2C17.0.1%2CN%3Bbitrix.siteinfoportal%2C15.5.0%2CN%3Bmobileapp%2C17.0.1%2CN%3Bbitrixcloud%2C17.0.0%2CN%3Bcatalog%2C17.0.9%2CN%3Bbizproc%2C17.5.1%2CN%3Bcurrency%2C17.0.3%2CN%3Bfileman%2C17.5.0%2CN%3Beshopapp%2C16.5.0%2CN%3Bsocialnetwork%2C17.5.5%2CN%3Bim%2C17.1.4%2CN%3Btranslate%2C15.0.0%2CN%3Bsale%2C17.0.24%2CN%3Bcluster%2C17.0.0%2CN%3Bpull%2C17.1.0%2CN%3Bwebservice%2C17.0.0%2CN%3Bclouds%2C17.0.0%2CN%3Bsender%2C17.1.2%2CN%3Babtest%2C17.0.0%2CN%3Bsecurity%2C17.0.1%2CN%3Bbitrix.eshop%2C17.0.0%2CN%3Bworkflow%2C17.0.0%2CN%3Bphotogallery%2C17.0.2%2CN%3Bvote%2C17.5.0%2CN%3Bwiki%2C16.0.3%2CN%3Bb24connector%2C17.0.1%2CN%3Badvertising%2C17.0.0%2CN&reqm=bitrix.sitepersonal%2Cbitrix.sitecommunity%2Caltasib.feedback%2Cbitrix.sitecorporate%2Cbitrix.siteinfoportal%2Cbitrix.eshop&SUPD_SRS=0&SUPD_CMP=N
+2017-09-13 13:54:06 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-09-13 13:54:15 -  - TIME GetUpdatesList(request) 8.405 sec
+2017-09-13 13:54:15 -  - exec CUpdateClientPartner::ParseServerData
+2017-09-13 13:54:15 -  - exec CUpdateClientPartner::GetUpdatesList
+2017-09-13 13:54:15 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-09-13 13:54:15 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=_&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.0.22-0ubuntu0.16.04.1&NGINX=Y&dbv=5.7.19&instm=main%2C17.0.9%2CY%3Bstatistic%2C17.0.0%2CN%3Bseo%2C17.0.6%2CN%3Bcalendar%2C17.5.1%2CN%3Bstoreassist%2C16.0.1%2CN%3Bsearch%2C17.0.1%2CN%3Bidea%2C17.5.0%2CN%3Bhighloadblock%2C17.0.2%2CN%3Bmail%2C17.0.5%2CN%3Bperfmon%2C17.0.0%2CN%3Bsocialservices%2C17.1.4%2CN%3Bldap%2C17.0.0%2CN%3Bconversion%2C17.0.2%2CN%3Bsubscribe%2C17.0.0%2CN%3Bbitrix.sitepersonal%2C15.5.0%2CN%3Bcompression%2C16.0.0%2CN%3Bscale%2C17.0.0%2CN%3Bbitrix.sitecommunity%2C15.5.0%2CN%3Breport%2C16.5.1%2CN%3Blearning%2C17.5.0%2CN%3Baltasib.feedback%2C2.7.0%2CN%3Biblock%2C17.0.9%2CN%3Bbizprocdesigner%2C17.0.2%2CN%3Bblog%2C17.5.2%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bsupport%2C16.0.0%2CN%3Blists%2C17.0.6%2CN%3Bforum%2C17.5.1%2CN%3Bform%2C17.0.1%2CN%3Bbitrix.siteinfoportal%2C15.5.0%2CN%3Bmobileapp%2C17.0.1%2CN%3Bbitrixcloud%2C17.0.0%2CN%3Bcatalog%2C17.0.9%2CN%3Bbizproc%2C17.5.1%2CN%3Bcurrency%2C17.0.3%2CN%3Bfileman%2C17.5.0%2CN%3Beshopapp%2C16.5.0%2CN%3Bsocialnetwork%2C17.5.5%2CN%3Bim%2C17.1.4%2CN%3Btranslate%2C15.0.0%2CN%3Bsale%2C17.0.24%2CN%3Bcluster%2C17.0.0%2CN%3Bpull%2C17.1.0%2CN%3Bwebservice%2C17.0.0%2CN%3Bclouds%2C17.0.0%2CN%3Bsender%2C17.1.2%2CN%3Babtest%2C17.0.0%2CN%3Bsecurity%2C17.0.1%2CN%3Bbitrix.eshop%2C17.0.0%2CN%3Bworkflow%2C17.0.0%2CN%3Bphotogallery%2C17.0.2%2CN%3Bvote%2C17.5.0%2CN%3Bwiki%2C16.0.3%2CN%3Bb24connector%2C17.0.1%2CN%3Badvertising%2C17.0.0%2CN&reqm=bitrix.sitepersonal%2Cbitrix.sitecommunity%2Caltasib.feedback%2Cbitrix.sitecorporate%2Cbitrix.siteinfoportal%2Cbitrix.eshop&fullmoduleinfo=Y&SUPD_SRS=0&SUPD_CMP=N
+2017-09-13 13:54:15 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-09-13 13:54:23 -  - TIME GetUpdatesList(request) 7.519 sec
+2017-09-13 13:54:23 -  - exec CUpdateClientPartner::ParseServerData
+2017-09-13 13:54:28 -  - exec CUpdateClientPartner::GetUpdatesList
+2017-09-13 13:54:28 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-09-13 13:54:28 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=_&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.0.22-0ubuntu0.16.04.1&NGINX=Y&dbv=5.7.19&instm=main%2C17.0.9%2CY%3Bstatistic%2C17.0.0%2CN%3Bseo%2C17.0.6%2CN%3Bcalendar%2C17.5.1%2CN%3Bstoreassist%2C16.0.1%2CN%3Bsearch%2C17.0.1%2CN%3Bidea%2C17.5.0%2CN%3Bhighloadblock%2C17.0.2%2CN%3Bmail%2C17.0.5%2CN%3Bperfmon%2C17.0.0%2CN%3Bsocialservices%2C17.1.4%2CN%3Bldap%2C17.0.0%2CN%3Bconversion%2C17.0.2%2CN%3Bsubscribe%2C17.0.0%2CN%3Bbitrix.sitepersonal%2C15.5.0%2CN%3Bcompression%2C16.0.0%2CN%3Bscale%2C17.0.0%2CN%3Bbitrix.sitecommunity%2C15.5.0%2CN%3Breport%2C16.5.1%2CN%3Blearning%2C17.5.0%2CN%3Baltasib.feedback%2C2.7.0%2CN%3Biblock%2C17.0.9%2CN%3Bbizprocdesigner%2C17.0.2%2CN%3Bblog%2C17.5.2%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bsupport%2C16.0.0%2CN%3Blists%2C17.0.6%2CN%3Bforum%2C17.5.1%2CN%3Bform%2C17.0.1%2CN%3Bbitrix.siteinfoportal%2C15.5.0%2CN%3Bmobileapp%2C17.0.1%2CN%3Bbitrixcloud%2C17.0.0%2CN%3Bcatalog%2C17.0.9%2CN%3Bbizproc%2C17.5.1%2CN%3Bcurrency%2C17.0.3%2CN%3Bfileman%2C17.5.0%2CN%3Beshopapp%2C16.5.0%2CN%3Bsocialnetwork%2C17.5.5%2CN%3Bim%2C17.1.4%2CN%3Btranslate%2C15.0.0%2CN%3Bsale%2C17.0.24%2CN%3Bcluster%2C17.0.0%2CN%3Bpull%2C17.1.0%2CN%3Bwebservice%2C17.0.0%2CN%3Bclouds%2C17.0.0%2CN%3Bsender%2C17.1.2%2CN%3Babtest%2C17.0.0%2CN%3Bsecurity%2C17.0.1%2CN%3Bbitrix.eshop%2C17.0.0%2CN%3Bworkflow%2C17.0.0%2CN%3Bphotogallery%2C17.0.2%2CN%3Bvote%2C17.5.0%2CN%3Bwiki%2C16.0.3%2CN%3Bb24connector%2C17.0.1%2CN%3Badvertising%2C17.0.0%2CN&reqm=bitrix.sitepersonal%2Cbitrix.sitecommunity%2Caltasib.feedback%2Cbitrix.sitecorporate%2Cbitrix.siteinfoportal%2Cbitrix.eshop&fullmoduleinfo=Y&SUPD_SRS=0&SUPD_CMP=N
+2017-09-13 13:54:28 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-09-13 13:54:35 -  - TIME GetUpdatesList(request) 7.191 sec
+2017-09-13 13:54:35 -  - exec CUpdateClientPartner::ParseServerData
+2017-09-13 13:54:37 -  - exec CUpdateClientPartner::GetUpdatesList
+2017-09-13 13:54:37 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-09-13 13:54:37 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=_&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.0.22-0ubuntu0.16.04.1&NGINX=Y&dbv=5.7.19&instm=main%2C17.0.9%2CY%3Bstatistic%2C17.0.0%2CN%3Bseo%2C17.0.6%2CN%3Bcalendar%2C17.5.1%2CN%3Bstoreassist%2C16.0.1%2CN%3Bsearch%2C17.0.1%2CN%3Bidea%2C17.5.0%2CN%3Bhighloadblock%2C17.0.2%2CN%3Bmail%2C17.0.5%2CN%3Bperfmon%2C17.0.0%2CN%3Bsocialservices%2C17.1.4%2CN%3Bldap%2C17.0.0%2CN%3Bconversion%2C17.0.2%2CN%3Bsubscribe%2C17.0.0%2CN%3Bbitrix.sitepersonal%2C15.5.0%2CN%3Bcompression%2C16.0.0%2CN%3Bscale%2C17.0.0%2CN%3Bbitrix.sitecommunity%2C15.5.0%2CN%3Breport%2C16.5.1%2CN%3Blearning%2C17.5.0%2CN%3Baltasib.feedback%2C2.7.0%2CN%3Biblock%2C17.0.9%2CN%3Bbizprocdesigner%2C17.0.2%2CN%3Bblog%2C17.5.2%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bsupport%2C16.0.0%2CN%3Blists%2C17.0.6%2CN%3Bforum%2C17.5.1%2CN%3Bform%2C17.0.1%2CN%3Bbitrix.siteinfoportal%2C15.5.0%2CN%3Bmobileapp%2C17.0.1%2CN%3Bbitrixcloud%2C17.0.0%2CN%3Bcatalog%2C17.0.9%2CN%3Bbizproc%2C17.5.1%2CN%3Bcurrency%2C17.0.3%2CN%3Bfileman%2C17.5.0%2CN%3Beshopapp%2C16.5.0%2CN%3Bsocialnetwork%2C17.5.5%2CN%3Bim%2C17.1.4%2CN%3Btranslate%2C15.0.0%2CN%3Bsale%2C17.0.24%2CN%3Bcluster%2C17.0.0%2CN%3Bpull%2C17.1.0%2CN%3Bwebservice%2C17.0.0%2CN%3Bclouds%2C17.0.0%2CN%3Bsender%2C17.1.2%2CN%3Babtest%2C17.0.0%2CN%3Bsecurity%2C17.0.1%2CN%3Bbitrix.eshop%2C17.0.0%2CN%3Bworkflow%2C17.0.0%2CN%3Bphotogallery%2C17.0.2%2CN%3Bvote%2C17.5.0%2CN%3Bwiki%2C16.0.3%2CN%3Bb24connector%2C17.0.1%2CN%3Badvertising%2C17.0.0%2CN&reqm=bitrix.sitepersonal%2Cbitrix.sitecommunity%2Caltasib.feedback%2Cbitrix.sitecorporate%2Cbitrix.siteinfoportal%2Cbitrix.eshop&fullmoduleinfo=Y&SUPD_SRS=0&SUPD_CMP=N
+2017-09-13 13:54:37 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-09-13 13:54:43 -  - TIME GetUpdatesList(request) 5.697 sec
+2017-09-13 13:54:43 -  - exec CUpdateClientPartner::ParseServerData
+2017-09-13 13:56:14 -  - exec CUpdateClientPartner::GetUpdatesList
+2017-09-13 13:56:14 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-09-13 13:56:14 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=_&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.0.22-0ubuntu0.16.04.1&NGINX=Y&dbv=5.7.19&instm=main%2C17.0.9%2CY%3Bstatistic%2C17.0.0%2CN%3Bseo%2C17.0.6%2CN%3Bcalendar%2C17.5.1%2CN%3Bstoreassist%2C16.0.1%2CN%3Bsearch%2C17.0.1%2CN%3Bidea%2C17.5.0%2CN%3Bhighloadblock%2C17.0.2%2CN%3Bmail%2C17.0.5%2CN%3Bperfmon%2C17.0.0%2CN%3Bsocialservices%2C17.1.4%2CN%3Bldap%2C17.0.0%2CN%3Bconversion%2C17.0.2%2CN%3Bsubscribe%2C17.0.0%2CN%3Bbitrix.sitepersonal%2C15.5.0%2CN%3Bcompression%2C16.0.0%2CN%3Bscale%2C17.0.0%2CN%3Bbitrix.sitecommunity%2C15.5.0%2CN%3Breport%2C16.5.1%2CN%3Blearning%2C17.5.0%2CN%3Baltasib.feedback%2C2.7.0%2CN%3Biblock%2C17.0.9%2CN%3Bbizprocdesigner%2C17.0.2%2CN%3Bblog%2C17.5.2%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bsupport%2C16.0.0%2CN%3Blists%2C17.0.6%2CN%3Bforum%2C17.5.1%2CN%3Bform%2C17.0.1%2CN%3Bbitrix.siteinfoportal%2C15.5.0%2CN%3Bmobileapp%2C17.0.1%2CN%3Bbitrixcloud%2C17.0.0%2CN%3Bcatalog%2C17.0.9%2CN%3Bbizproc%2C17.5.1%2CN%3Bcurrency%2C17.0.3%2CN%3Bfileman%2C17.5.0%2CN%3Beshopapp%2C16.5.0%2CN%3Bsocialnetwork%2C17.5.5%2CN%3Bim%2C17.1.4%2CN%3Btranslate%2C15.0.0%2CN%3Bsale%2C17.0.24%2CN%3Bcluster%2C17.0.0%2CN%3Bpull%2C17.1.0%2CN%3Bwebservice%2C17.0.0%2CN%3Bclouds%2C17.0.0%2CN%3Bsender%2C17.1.2%2CN%3Babtest%2C17.0.0%2CN%3Bsecurity%2C17.0.1%2CN%3Bbitrix.eshop%2C17.0.0%2CN%3Bworkflow%2C17.0.0%2CN%3Bphotogallery%2C17.0.2%2CN%3Bvote%2C17.5.0%2CN%3Bwiki%2C16.0.3%2CN%3Bb24connector%2C17.0.1%2CN%3Badvertising%2C17.0.0%2CN&reqm=bitrix.sitepersonal%2Cbitrix.sitecommunity%2Caltasib.feedback%2Cbitrix.sitecorporate%2Cbitrix.siteinfoportal%2Cbitrix.eshop&fullmoduleinfo=Y&SUPD_SRS=0&SUPD_CMP=N
+2017-09-13 13:56:14 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-09-13 13:56:19 -  - TIME GetUpdatesList(request) 4.808 sec
+2017-09-13 13:56:19 -  - exec CUpdateClientPartner::ParseServerData
+2017-09-13 13:56:32 -  - exec CUpdateClientPartner::GetUpdatesList
+2017-09-13 13:56:32 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-09-13 13:56:32 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=_&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.0.22-0ubuntu0.16.04.1&NGINX=Y&dbv=5.7.19&instm=main%2C17.0.9%2CY%3Bstatistic%2C17.0.0%2CN%3Bseo%2C17.0.6%2CN%3Bcalendar%2C17.5.1%2CN%3Bstoreassist%2C16.0.1%2CN%3Bsearch%2C17.0.1%2CN%3Bidea%2C17.5.0%2CN%3Bhighloadblock%2C17.0.2%2CN%3Bmail%2C17.0.5%2CN%3Bperfmon%2C17.0.0%2CN%3Bsocialservices%2C17.1.4%2CN%3Bldap%2C17.0.0%2CN%3Bconversion%2C17.0.2%2CN%3Bsubscribe%2C17.0.0%2CN%3Bbitrix.sitepersonal%2C15.5.0%2CN%3Bcompression%2C16.0.0%2CN%3Bscale%2C17.0.0%2CN%3Bbitrix.sitecommunity%2C15.5.0%2CN%3Breport%2C16.5.1%2CN%3Blearning%2C17.5.0%2CN%3Baltasib.feedback%2C2.7.0%2CN%3Biblock%2C17.0.9%2CN%3Bbizprocdesigner%2C17.0.2%2CN%3Bblog%2C17.5.2%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bsupport%2C16.0.0%2CN%3Blists%2C17.0.6%2CN%3Bforum%2C17.5.1%2CN%3Bform%2C17.0.1%2CN%3Bbitrix.siteinfoportal%2C15.5.0%2CN%3Bmobileapp%2C17.0.1%2CN%3Bbitrixcloud%2C17.0.0%2CN%3Bcatalog%2C17.0.9%2CN%3Bbizproc%2C17.5.1%2CN%3Bcurrency%2C17.0.3%2CN%3Bfileman%2C17.5.0%2CN%3Beshopapp%2C16.5.0%2CN%3Bsocialnetwork%2C17.5.5%2CN%3Bim%2C17.1.4%2CN%3Btranslate%2C15.0.0%2CN%3Bsale%2C17.0.24%2CN%3Bcluster%2C17.0.0%2CN%3Bpull%2C17.1.0%2CN%3Bwebservice%2C17.0.0%2CN%3Bclouds%2C17.0.0%2CN%3Bsender%2C17.1.2%2CN%3Babtest%2C17.0.0%2CN%3Bsecurity%2C17.0.1%2CN%3Bbitrix.eshop%2C17.0.0%2CN%3Bworkflow%2C17.0.0%2CN%3Bphotogallery%2C17.0.2%2CN%3Bvote%2C17.5.0%2CN%3Bwiki%2C16.0.3%2CN%3Bb24connector%2C17.0.1%2CN%3Badvertising%2C17.0.0%2CN&reqm=bitrix.sitepersonal%2Cbitrix.sitecommunity%2Caltasib.feedback%2Cbitrix.sitecorporate%2Cbitrix.siteinfoportal%2Cbitrix.eshop&fullmoduleinfo=Y&SUPD_SRS=0&SUPD_CMP=N
+2017-09-13 13:56:32 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-09-13 13:56:37 -  - TIME GetUpdatesList(request) 4.202 sec
+2017-09-13 13:56:37 -  - exec CUpdateClientPartner::ParseServerData
+2017-09-13 14:01:02 -  - exec CUpdateClientPartner::GetUpdatesList
+2017-09-13 14:01:02 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-09-13 14:01:02 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=_&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.0.22-0ubuntu0.16.04.1&NGINX=Y&dbv=5.7.19&instm=main%2C17.0.9%2CY%3Bstatistic%2C17.0.0%2CN%3Bseo%2C17.0.6%2CN%3Bcalendar%2C17.5.1%2CN%3Bstoreassist%2C16.0.1%2CN%3Bsearch%2C17.0.1%2CN%3Bidea%2C17.5.0%2CN%3Bhighloadblock%2C17.0.2%2CN%3Bmail%2C17.0.5%2CN%3Bperfmon%2C17.0.0%2CN%3Bsocialservices%2C17.1.4%2CN%3Bldap%2C17.0.0%2CN%3Bconversion%2C17.0.2%2CN%3Bsubscribe%2C17.0.0%2CN%3Bbitrix.sitepersonal%2C15.5.0%2CN%3Bcompression%2C16.0.0%2CN%3Bscale%2C17.0.0%2CN%3Bbitrix.sitecommunity%2C15.5.0%2CN%3Breport%2C16.5.1%2CN%3Blearning%2C17.5.0%2CN%3Baltasib.feedback%2C2.7.0%2CN%3Biblock%2C17.0.9%2CN%3Bbizprocdesigner%2C17.0.2%2CN%3Bblog%2C17.5.2%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bsupport%2C16.0.0%2CN%3Blists%2C17.0.6%2CN%3Bforum%2C17.5.1%2CN%3Bform%2C17.0.1%2CN%3Bbitrix.siteinfoportal%2C15.5.0%2CN%3Bmobileapp%2C17.0.1%2CN%3Bbitrixcloud%2C17.0.0%2CN%3Bcatalog%2C17.0.9%2CN%3Bbizproc%2C17.5.1%2CN%3Bcurrency%2C17.0.3%2CN%3Bfileman%2C17.5.0%2CN%3Beshopapp%2C16.5.0%2CN%3Bsocialnetwork%2C17.5.5%2CN%3Bim%2C17.1.4%2CN%3Btranslate%2C15.0.0%2CN%3Bsale%2C17.0.24%2CN%3Bcluster%2C17.0.0%2CN%3Bpull%2C17.1.0%2CN%3Bwebservice%2C17.0.0%2CN%3Bclouds%2C17.0.0%2CN%3Bsender%2C17.1.2%2CN%3Babtest%2C17.0.0%2CN%3Bsecurity%2C17.0.1%2CN%3Bbitrix.eshop%2C17.0.0%2CN%3Bworkflow%2C17.0.0%2CN%3Bphotogallery%2C17.0.2%2CN%3Bvote%2C17.5.0%2CN%3Bwiki%2C16.0.3%2CN%3Bb24connector%2C17.0.1%2CN%3Badvertising%2C17.0.0%2CN&reqm=bitrix.sitepersonal%2Cbitrix.sitecommunity%2Caltasib.feedback%2Cbitrix.sitecorporate%2Cbitrix.siteinfoportal%2Cbitrix.eshop%2Capi.feedbackex&SUPD_SRS=0&SUPD_CMP=N
+2017-09-13 14:01:02 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-09-13 14:01:05 -  - TIME GetUpdatesList(request) 3.5 sec
+2017-09-13 14:01:05 -  - exec CUpdateClientPartner::ParseServerData
+2017-09-13 14:01:18 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-09-13 14:01:18 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-09-13 14:01:18 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=_&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.0.22-0ubuntu0.16.04.1&NGINX=Y&dbv=5.7.19&instm=main%2C17.0.9%2CY%3Bstatistic%2C17.0.0%2CN%3Bseo%2C17.0.6%2CN%3Bcalendar%2C17.5.1%2CN%3Bstoreassist%2C16.0.1%2CN%3Bsearch%2C17.0.1%2CN%3Bidea%2C17.5.0%2CN%3Bhighloadblock%2C17.0.2%2CN%3Bmail%2C17.0.5%2CN%3Bperfmon%2C17.0.0%2CN%3Bsocialservices%2C17.1.4%2CN%3Bldap%2C17.0.0%2CN%3Bconversion%2C17.0.2%2CN%3Bsubscribe%2C17.0.0%2CN%3Bbitrix.sitepersonal%2C15.5.0%2CN%3Bcompression%2C16.0.0%2CN%3Bscale%2C17.0.0%2CN%3Bbitrix.sitecommunity%2C15.5.0%2CN%3Breport%2C16.5.1%2CN%3Blearning%2C17.5.0%2CN%3Baltasib.feedback%2C2.7.0%2CN%3Biblock%2C17.0.9%2CN%3Bbizprocdesigner%2C17.0.2%2CN%3Bblog%2C17.5.2%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bsupport%2C16.0.0%2CN%3Blists%2C17.0.6%2CN%3Bforum%2C17.5.1%2CN%3Bform%2C17.0.1%2CN%3Bbitrix.siteinfoportal%2C15.5.0%2CN%3Bmobileapp%2C17.0.1%2CN%3Bbitrixcloud%2C17.0.0%2CN%3Bcatalog%2C17.0.9%2CN%3Bbizproc%2C17.5.1%2CN%3Bcurrency%2C17.0.3%2CN%3Bfileman%2C17.5.0%2CN%3Beshopapp%2C16.5.0%2CN%3Bsocialnetwork%2C17.5.5%2CN%3Bim%2C17.1.4%2CN%3Btranslate%2C15.0.0%2CN%3Bsale%2C17.0.24%2CN%3Bcluster%2C17.0.0%2CN%3Bpull%2C17.1.0%2CN%3Bwebservice%2C17.0.0%2CN%3Bclouds%2C17.0.0%2CN%3Bsender%2C17.1.2%2CN%3Babtest%2C17.0.0%2CN%3Bsecurity%2C17.0.1%2CN%3Bbitrix.eshop%2C17.0.0%2CN%3Bworkflow%2C17.0.0%2CN%3Bphotogallery%2C17.0.2%2CN%3Bvote%2C17.5.0%2CN%3Bwiki%2C16.0.3%2CN%3Bb24connector%2C17.0.1%2CN%3Badvertising%2C17.0.0%2CN&reqm=api.feedbackex&lim=Y&SUPD_SRS=0&SUPD_CMP=N
+2017-09-13 14:01:18 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-09-13 14:01:21 -  - TIME LoadModulesUpdates(request) 3.456 sec
+2017-09-13 14:01:21 -  - exec CUpdateClientPartner::ParseServerData
+2017-09-13 14:01:21 - S - STEP
+2017-09-13 14:01:21 - LMU01 - LoadModulesUpdates-Step
+2017-09-13 14:01:21 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-09-13 14:01:21 -  - exec CUpdateClientPartner::ParseServerData
+2017-09-13 14:01:21 -  - loadFile
+2017-09-13 14:01:23 - U - RETURN
+2017-09-13 14:01:23 -  - exec CUpdateClientPartner::UnGzipArchive
+2017-09-13 14:01:23 -  - TIME UnGzipArchive 0.007 sec
+2017-09-13 14:01:23 -  - TIME UpdateStepModules 0.009 sec
+2017-09-13 14:01:23 - UPD_SUCCESS - Updated: api.feedbackex
+2017-09-13 14:01:23 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-09-13 14:01:23 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-09-13 14:01:23 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=_&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.0.22-0ubuntu0.16.04.1&NGINX=Y&dbv=5.7.19&instm=main%2C17.0.9%2CY%3Bstatistic%2C17.0.0%2CN%3Bseo%2C17.0.6%2CN%3Bcalendar%2C17.5.1%2CN%3Bstoreassist%2C16.0.1%2CN%3Bsearch%2C17.0.1%2CN%3Bidea%2C17.5.0%2CN%3Bhighloadblock%2C17.0.2%2CN%3Bmail%2C17.0.5%2CN%3Bapi.feedbackex%2C1.0.0%2CN%3Bperfmon%2C17.0.0%2CN%3Bsocialservices%2C17.1.4%2CN%3Bldap%2C17.0.0%2CN%3Bconversion%2C17.0.2%2CN%3Bsubscribe%2C17.0.0%2CN%3Bbitrix.sitepersonal%2C15.5.0%2CN%3Bcompression%2C16.0.0%2CN%3Bscale%2C17.0.0%2CN%3Bbitrix.sitecommunity%2C15.5.0%2CN%3Breport%2C16.5.1%2CN%3Blearning%2C17.5.0%2CN%3Baltasib.feedback%2C2.7.0%2CN%3Biblock%2C17.0.9%2CN%3Bbizprocdesigner%2C17.0.2%2CN%3Bblog%2C17.5.2%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bsupport%2C16.0.0%2CN%3Blists%2C17.0.6%2CN%3Bforum%2C17.5.1%2CN%3Bform%2C17.0.1%2CN%3Bbitrix.siteinfoportal%2C15.5.0%2CN%3Bmobileapp%2C17.0.1%2CN%3Bbitrixcloud%2C17.0.0%2CN%3Bcatalog%2C17.0.9%2CN%3Bbizproc%2C17.5.1%2CN%3Bcurrency%2C17.0.3%2CN%3Bfileman%2C17.5.0%2CN%3Beshopapp%2C16.5.0%2CN%3Bsocialnetwork%2C17.5.5%2CN%3Bim%2C17.1.4%2CN%3Btranslate%2C15.0.0%2CN%3Bsale%2C17.0.24%2CN%3Bcluster%2C17.0.0%2CN%3Bpull%2C17.1.0%2CN%3Bwebservice%2C17.0.0%2CN%3Bclouds%2C17.0.0%2CN%3Bsender%2C17.1.2%2CN%3Babtest%2C17.0.0%2CN%3Bsecurity%2C17.0.1%2CN%3Bbitrix.eshop%2C17.0.0%2CN%3Bworkflow%2C17.0.0%2CN%3Bphotogallery%2C17.0.2%2CN%3Bvote%2C17.5.0%2CN%3Bwiki%2C16.0.3%2CN%3Bb24connector%2C17.0.1%2CN%3Badvertising%2C17.0.0%2CN&reqm=api.feedbackex&lim=Y&SUPD_SRS=0&SUPD_CMP=N
+2017-09-13 14:01:23 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-09-13 14:01:27 -  - TIME LoadModulesUpdates(request) 4.037 sec
+2017-09-13 14:01:27 -  - exec CUpdateClientPartner::ParseServerData
+2017-09-13 14:01:27 - S - STEP
+2017-09-13 14:01:27 - LMU01 - LoadModulesUpdates-Step
+2017-09-13 14:01:27 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-09-13 14:01:27 -  - exec CUpdateClientPartner::ParseServerData
+2017-09-13 14:01:27 -  - loadFile
+2017-09-13 14:01:29 - U - RETURN
+2017-09-13 14:01:29 -  - exec CUpdateClientPartner::UnGzipArchive
+2017-09-13 14:01:29 -  - TIME UnGzipArchive 0.004 sec
+2017-09-13 14:01:29 - CSURUS1 - Run updater '/bitrix/updates/update_m1505300489/api.feedbackex/updater1.0.1.php'
+2017-09-13 14:01:29 -  - TIME UpdateStepModules 0.006 sec
+2017-09-13 14:01:29 - UPD_SUCCESS - Updated: api.feedbackex (1.0.1)<br>[x] Фиксы
+2017-09-13 14:01:29 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-09-13 14:01:29 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-09-13 14:01:29 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=_&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.0.22-0ubuntu0.16.04.1&NGINX=Y&dbv=5.7.19&instm=main%2C17.0.9%2CY%3Bstatistic%2C17.0.0%2CN%3Bseo%2C17.0.6%2CN%3Bcalendar%2C17.5.1%2CN%3Bstoreassist%2C16.0.1%2CN%3Bsearch%2C17.0.1%2CN%3Bidea%2C17.5.0%2CN%3Bhighloadblock%2C17.0.2%2CN%3Bmail%2C17.0.5%2CN%3Bapi.feedbackex%2C1.0.1%2CN%3Bperfmon%2C17.0.0%2CN%3Bsocialservices%2C17.1.4%2CN%3Bldap%2C17.0.0%2CN%3Bconversion%2C17.0.2%2CN%3Bsubscribe%2C17.0.0%2CN%3Bbitrix.sitepersonal%2C15.5.0%2CN%3Bcompression%2C16.0.0%2CN%3Bscale%2C17.0.0%2CN%3Bbitrix.sitecommunity%2C15.5.0%2CN%3Breport%2C16.5.1%2CN%3Blearning%2C17.5.0%2CN%3Baltasib.feedback%2C2.7.0%2CN%3Biblock%2C17.0.9%2CN%3Bbizprocdesigner%2C17.0.2%2CN%3Bblog%2C17.5.2%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bsupport%2C16.0.0%2CN%3Blists%2C17.0.6%2CN%3Bforum%2C17.5.1%2CN%3Bform%2C17.0.1%2CN%3Bbitrix.siteinfoportal%2C15.5.0%2CN%3Bmobileapp%2C17.0.1%2CN%3Bbitrixcloud%2C17.0.0%2CN%3Bcatalog%2C17.0.9%2CN%3Bbizproc%2C17.5.1%2CN%3Bcurrency%2C17.0.3%2CN%3Bfileman%2C17.5.0%2CN%3Beshopapp%2C16.5.0%2CN%3Bsocialnetwork%2C17.5.5%2CN%3Bim%2C17.1.4%2CN%3Btranslate%2C15.0.0%2CN%3Bsale%2C17.0.24%2CN%3Bcluster%2C17.0.0%2CN%3Bpull%2C17.1.0%2CN%3Bwebservice%2C17.0.0%2CN%3Bclouds%2C17.0.0%2CN%3Bsender%2C17.1.2%2CN%3Babtest%2C17.0.0%2CN%3Bsecurity%2C17.0.1%2CN%3Bbitrix.eshop%2C17.0.0%2CN%3Bworkflow%2C17.0.0%2CN%3Bphotogallery%2C17.0.2%2CN%3Bvote%2C17.5.0%2CN%3Bwiki%2C16.0.3%2CN%3Bb24connector%2C17.0.1%2CN%3Badvertising%2C17.0.0%2CN&reqm=api.feedbackex&lim=Y&SUPD_SRS=0&SUPD_CMP=N
+2017-09-13 14:01:29 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-09-13 14:01:32 -  - TIME LoadModulesUpdates(request) 2.996 sec
+2017-09-13 14:01:32 -  - exec CUpdateClientPartner::ParseServerData
+2017-09-13 14:01:32 - S - STEP
+2017-09-13 14:01:32 - LMU01 - LoadModulesUpdates-Step
+2017-09-13 14:01:32 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-09-13 14:01:32 -  - exec CUpdateClientPartner::ParseServerData
+2017-09-13 14:01:32 -  - loadFile
+2017-09-13 14:01:34 - U - RETURN
+2017-09-13 14:01:34 -  - exec CUpdateClientPartner::UnGzipArchive
+2017-09-13 14:01:34 -  - TIME UnGzipArchive 0.006 sec
+2017-09-13 14:01:34 - CSURUS1 - Run updater '/bitrix/updates/update_m1505300494/api.feedbackex/updater1.1.0.php'
+2017-09-13 14:01:34 -  - TIME UpdateStepModules 0.009 sec
+2017-09-13 14:01:34 - UPD_SUCCESS - Updated: api.feedbackex (1.1.0)<br>[+] Добавлен jQuery.ajax вместо встроенного BX.ajax<br> После установки обновлений необходимо в исходном коде страницы удалить два параметра, иначе будет конфликт<br> \"AJAX_MODE\" =&gt; \"Y\", \"AJAX_OPTION_STYLE\" =&gt; \"Y\",<br> [+] Добавлена настройка \"Цвет темы\"<br> Пока эффектов нет, позже&nbsp; будет.<br> [+] Сообщение об успешной отправке полностью переработано и форма прячется всегда<br> [+] В обертку поля добавлен атрибут ID<br> [+] Всем полям добавлен атрибут ID<br> Шаблон и компонент сильно переделаны, не копируйте пока шаблоны, еще многое поменяю в следующих релизах.<br> Видео: https://youtu.be/MX3n4GL2nfc
+2017-09-13 14:01:34 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-09-13 14:01:34 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-09-13 14:01:34 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=_&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.0.22-0ubuntu0.16.04.1&NGINX=Y&dbv=5.7.19&instm=main%2C17.0.9%2CY%3Bstatistic%2C17.0.0%2CN%3Bseo%2C17.0.6%2CN%3Bcalendar%2C17.5.1%2CN%3Bstoreassist%2C16.0.1%2CN%3Bsearch%2C17.0.1%2CN%3Bidea%2C17.5.0%2CN%3Bhighloadblock%2C17.0.2%2CN%3Bmail%2C17.0.5%2CN%3Bapi.feedbackex%2C1.1.0%2CN%3Bperfmon%2C17.0.0%2CN%3Bsocialservices%2C17.1.4%2CN%3Bldap%2C17.0.0%2CN%3Bconversion%2C17.0.2%2CN%3Bsubscribe%2C17.0.0%2CN%3Bbitrix.sitepersonal%2C15.5.0%2CN%3Bcompression%2C16.0.0%2CN%3Bscale%2C17.0.0%2CN%3Bbitrix.sitecommunity%2C15.5.0%2CN%3Breport%2C16.5.1%2CN%3Blearning%2C17.5.0%2CN%3Baltasib.feedback%2C2.7.0%2CN%3Biblock%2C17.0.9%2CN%3Bbizprocdesigner%2C17.0.2%2CN%3Bblog%2C17.5.2%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bsupport%2C16.0.0%2CN%3Blists%2C17.0.6%2CN%3Bforum%2C17.5.1%2CN%3Bform%2C17.0.1%2CN%3Bbitrix.siteinfoportal%2C15.5.0%2CN%3Bmobileapp%2C17.0.1%2CN%3Bbitrixcloud%2C17.0.0%2CN%3Bcatalog%2C17.0.9%2CN%3Bbizproc%2C17.5.1%2CN%3Bcurrency%2C17.0.3%2CN%3Bfileman%2C17.5.0%2CN%3Beshopapp%2C16.5.0%2CN%3Bsocialnetwork%2C17.5.5%2CN%3Bim%2C17.1.4%2CN%3Btranslate%2C15.0.0%2CN%3Bsale%2C17.0.24%2CN%3Bcluster%2C17.0.0%2CN%3Bpull%2C17.1.0%2CN%3Bwebservice%2C17.0.0%2CN%3Bclouds%2C17.0.0%2CN%3Bsender%2C17.1.2%2CN%3Babtest%2C17.0.0%2CN%3Bsecurity%2C17.0.1%2CN%3Bbitrix.eshop%2C17.0.0%2CN%3Bworkflow%2C17.0.0%2CN%3Bphotogallery%2C17.0.2%2CN%3Bvote%2C17.5.0%2CN%3Bwiki%2C16.0.3%2CN%3Bb24connector%2C17.0.1%2CN%3Badvertising%2C17.0.0%2CN&reqm=api.feedbackex&lim=Y&SUPD_SRS=0&SUPD_CMP=N
+2017-09-13 14:01:34 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-09-13 14:01:37 -  - TIME LoadModulesUpdates(request) 2.893 sec
+2017-09-13 14:01:37 -  - exec CUpdateClientPartner::ParseServerData
+2017-09-13 14:01:37 - S - STEP
+2017-09-13 14:01:37 - LMU01 - LoadModulesUpdates-Step
+2017-09-13 14:01:37 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-09-13 14:01:37 -  - exec CUpdateClientPartner::ParseServerData
+2017-09-13 14:01:37 -  - loadFile
+2017-09-13 14:01:38 - U - RETURN
+2017-09-13 14:01:38 -  - exec CUpdateClientPartner::UnGzipArchive
+2017-09-13 14:01:38 -  - TIME UnGzipArchive 0.005 sec
+2017-09-13 14:01:38 - CSURUS1 - Run updater '/bitrix/updates/update_m1505300498/api.feedbackex/updater1.2.0.php'
+2017-09-13 14:01:38 -  - TIME UpdateStepModules 0.007 sec
+2017-09-13 14:01:38 - UPD_SUCCESS - Updated: api.feedbackex (1.2.0)<br>[+] <b>Фирменная новинка Тюнинг-Софт</b><br> Добавлена генерация стилей и скриптов для каждой формы отдельно по ее уникальному ID.<br> Все стили и скрипты шаблона формы сохраняются в файлы и выводятся в хедер сайта.<br> Больше стили и скрипты нескольких форм на одной странице не будут пересекаться друг с другом, еще больше удобства в оформлении форм под дизайн сайта.<br> <br> [+] Добавлены параметры<br> 1) Ширина обертки формы, %/px (если оставить пустым, то форма будет во всю ширину страницы)<br> 2) Высота текстовой области (textarea) (по умолчанию 5)<br> <br> [x] Изменен параметр \"Ширина названия поля, %/px:\"<br> В процентах и пикселях можно регулировать ширину названия поля и самого поля<br> <br> [x] В разделе \"Почта\" изменены следующие параметры:<br> 1) Стили для &lt;div&gt; поля: <b>padding:10px;border-bottom:1px dashed #dadada;</b><br> 2) Стили для &lt;div&gt; названия поля: <b>font-weight:bold;</b><br> 3) Стили для &lt;div&gt; значения поля:<br> <br> [x] Вся логика шаблона вынесена в result_modifier.php<br> [x] Заголовок формы переделан на обычный div<br> <br> [-] Удалена тема flat<br> [-] Удалено еще все лишнее<br> <br> p.s. Очень много изменений, необходимо хотя бы пересохранить настройки, а лучше удалить форму со страницы и заново&nbsp; настроить, чтобы применились новые значения параметров.<br>
+2017-09-13 14:01:39 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-09-13 14:01:39 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-09-13 14:01:39 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=_&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.0.22-0ubuntu0.16.04.1&NGINX=Y&dbv=5.7.19&instm=main%2C17.0.9%2CY%3Bstatistic%2C17.0.0%2CN%3Bseo%2C17.0.6%2CN%3Bcalendar%2C17.5.1%2CN%3Bstoreassist%2C16.0.1%2CN%3Bsearch%2C17.0.1%2CN%3Bidea%2C17.5.0%2CN%3Bhighloadblock%2C17.0.2%2CN%3Bmail%2C17.0.5%2CN%3Bapi.feedbackex%2C1.2.0%2CN%3Bperfmon%2C17.0.0%2CN%3Bsocialservices%2C17.1.4%2CN%3Bldap%2C17.0.0%2CN%3Bconversion%2C17.0.2%2CN%3Bsubscribe%2C17.0.0%2CN%3Bbitrix.sitepersonal%2C15.5.0%2CN%3Bcompression%2C16.0.0%2CN%3Bscale%2C17.0.0%2CN%3Bbitrix.sitecommunity%2C15.5.0%2CN%3Breport%2C16.5.1%2CN%3Blearning%2C17.5.0%2CN%3Baltasib.feedback%2C2.7.0%2CN%3Biblock%2C17.0.9%2CN%3Bbizprocdesigner%2C17.0.2%2CN%3Bblog%2C17.5.2%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bsupport%2C16.0.0%2CN%3Blists%2C17.0.6%2CN%3Bforum%2C17.5.1%2CN%3Bform%2C17.0.1%2CN%3Bbitrix.siteinfoportal%2C15.5.0%2CN%3Bmobileapp%2C17.0.1%2CN%3Bbitrixcloud%2C17.0.0%2CN%3Bcatalog%2C17.0.9%2CN%3Bbizproc%2C17.5.1%2CN%3Bcurrency%2C17.0.3%2CN%3Bfileman%2C17.5.0%2CN%3Beshopapp%2C16.5.0%2CN%3Bsocialnetwork%2C17.5.5%2CN%3Bim%2C17.1.4%2CN%3Btranslate%2C15.0.0%2CN%3Bsale%2C17.0.24%2CN%3Bcluster%2C17.0.0%2CN%3Bpull%2C17.1.0%2CN%3Bwebservice%2C17.0.0%2CN%3Bclouds%2C17.0.0%2CN%3Bsender%2C17.1.2%2CN%3Babtest%2C17.0.0%2CN%3Bsecurity%2C17.0.1%2CN%3Bbitrix.eshop%2C17.0.0%2CN%3Bworkflow%2C17.0.0%2CN%3Bphotogallery%2C17.0.2%2CN%3Bvote%2C17.5.0%2CN%3Bwiki%2C16.0.3%2CN%3Bb24connector%2C17.0.1%2CN%3Badvertising%2C17.0.0%2CN&reqm=api.feedbackex&lim=Y&SUPD_SRS=0&SUPD_CMP=N
+2017-09-13 14:01:39 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-09-13 14:01:42 -  - TIME LoadModulesUpdates(request) 3.162 sec
+2017-09-13 14:01:42 -  - exec CUpdateClientPartner::ParseServerData
+2017-09-13 14:01:42 - S - STEP
+2017-09-13 14:01:42 - LMU01 - LoadModulesUpdates-Step
+2017-09-13 14:01:42 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-09-13 14:01:42 -  - exec CUpdateClientPartner::ParseServerData
+2017-09-13 14:01:42 -  - loadFile
+2017-09-13 14:01:43 - U - RETURN
+2017-09-13 14:01:43 -  - exec CUpdateClientPartner::UnGzipArchive
+2017-09-13 14:01:43 -  - TIME UnGzipArchive 0.002 sec
+2017-09-13 14:01:43 - CSURUS1 - Run updater '/bitrix/updates/update_m1505300503/api.feedbackex/updater1.2.1.php'
+2017-09-13 14:01:43 -  - TIME UpdateStepModules 0.003 sec
+2017-09-13 14:01:43 - UPD_SUCCESS - Updated: api.feedbackex (1.2.1)<br>[х] Фикс кодировки
+2017-09-13 14:01:43 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-09-13 14:01:43 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-09-13 14:01:43 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=_&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.0.22-0ubuntu0.16.04.1&NGINX=Y&dbv=5.7.19&instm=main%2C17.0.9%2CY%3Bstatistic%2C17.0.0%2CN%3Bseo%2C17.0.6%2CN%3Bcalendar%2C17.5.1%2CN%3Bstoreassist%2C16.0.1%2CN%3Bsearch%2C17.0.1%2CN%3Bidea%2C17.5.0%2CN%3Bhighloadblock%2C17.0.2%2CN%3Bmail%2C17.0.5%2CN%3Bapi.feedbackex%2C1.2.1%2CN%3Bperfmon%2C17.0.0%2CN%3Bsocialservices%2C17.1.4%2CN%3Bldap%2C17.0.0%2CN%3Bconversion%2C17.0.2%2CN%3Bsubscribe%2C17.0.0%2CN%3Bbitrix.sitepersonal%2C15.5.0%2CN%3Bcompression%2C16.0.0%2CN%3Bscale%2C17.0.0%2CN%3Bbitrix.sitecommunity%2C15.5.0%2CN%3Breport%2C16.5.1%2CN%3Blearning%2C17.5.0%2CN%3Baltasib.feedback%2C2.7.0%2CN%3Biblock%2C17.0.9%2CN%3Bbizprocdesigner%2C17.0.2%2CN%3Bblog%2C17.5.2%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bsupport%2C16.0.0%2CN%3Blists%2C17.0.6%2CN%3Bforum%2C17.5.1%2CN%3Bform%2C17.0.1%2CN%3Bbitrix.siteinfoportal%2C15.5.0%2CN%3Bmobileapp%2C17.0.1%2CN%3Bbitrixcloud%2C17.0.0%2CN%3Bcatalog%2C17.0.9%2CN%3Bbizproc%2C17.5.1%2CN%3Bcurrency%2C17.0.3%2CN%3Bfileman%2C17.5.0%2CN%3Beshopapp%2C16.5.0%2CN%3Bsocialnetwork%2C17.5.5%2CN%3Bim%2C17.1.4%2CN%3Btranslate%2C15.0.0%2CN%3Bsale%2C17.0.24%2CN%3Bcluster%2C17.0.0%2CN%3Bpull%2C17.1.0%2CN%3Bwebservice%2C17.0.0%2CN%3Bclouds%2C17.0.0%2CN%3Bsender%2C17.1.2%2CN%3Babtest%2C17.0.0%2CN%3Bsecurity%2C17.0.1%2CN%3Bbitrix.eshop%2C17.0.0%2CN%3Bworkflow%2C17.0.0%2CN%3Bphotogallery%2C17.0.2%2CN%3Bvote%2C17.5.0%2CN%3Bwiki%2C16.0.3%2CN%3Bb24connector%2C17.0.1%2CN%3Badvertising%2C17.0.0%2CN&reqm=api.feedbackex&lim=Y&SUPD_SRS=0&SUPD_CMP=N
+2017-09-13 14:01:43 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-09-13 14:01:47 -  - TIME LoadModulesUpdates(request) 3.486 sec
+2017-09-13 14:01:47 -  - exec CUpdateClientPartner::ParseServerData
+2017-09-13 14:01:47 - S - STEP
+2017-09-13 14:01:47 - LMU01 - LoadModulesUpdates-Step
+2017-09-13 14:01:47 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-09-13 14:01:47 -  - exec CUpdateClientPartner::ParseServerData
+2017-09-13 14:01:47 -  - loadFile
+2017-09-13 14:01:48 - U - RETURN
+2017-09-13 14:01:48 -  - exec CUpdateClientPartner::UnGzipArchive
+2017-09-13 14:01:48 -  - TIME UnGzipArchive 0.001 sec
+2017-09-13 14:01:48 - CSURUS1 - Run updater '/bitrix/updates/update_m1505300508/api.feedbackex/updater1.2.2.php'
+2017-09-13 14:01:48 -  - TIME UpdateStepModules 0.002 sec
+2017-09-13 14:01:48 - UPD_SUCCESS - Updated: api.feedbackex (1.2.2)<br>[x] Фикс прошлых обновлений, обязательно установите это обновление<br>
+2017-09-13 14:01:48 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-09-13 14:01:48 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-09-13 14:01:48 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=_&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.0.22-0ubuntu0.16.04.1&NGINX=Y&dbv=5.7.19&instm=main%2C17.0.9%2CY%3Bstatistic%2C17.0.0%2CN%3Bseo%2C17.0.6%2CN%3Bcalendar%2C17.5.1%2CN%3Bstoreassist%2C16.0.1%2CN%3Bsearch%2C17.0.1%2CN%3Bidea%2C17.5.0%2CN%3Bhighloadblock%2C17.0.2%2CN%3Bmail%2C17.0.5%2CN%3Bapi.feedbackex%2C1.2.2%2CN%3Bperfmon%2C17.0.0%2CN%3Bsocialservices%2C17.1.4%2CN%3Bldap%2C17.0.0%2CN%3Bconversion%2C17.0.2%2CN%3Bsubscribe%2C17.0.0%2CN%3Bbitrix.sitepersonal%2C15.5.0%2CN%3Bcompression%2C16.0.0%2CN%3Bscale%2C17.0.0%2CN%3Bbitrix.sitecommunity%2C15.5.0%2CN%3Breport%2C16.5.1%2CN%3Blearning%2C17.5.0%2CN%3Baltasib.feedback%2C2.7.0%2CN%3Biblock%2C17.0.9%2CN%3Bbizprocdesigner%2C17.0.2%2CN%3Bblog%2C17.5.2%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bsupport%2C16.0.0%2CN%3Blists%2C17.0.6%2CN%3Bforum%2C17.5.1%2CN%3Bform%2C17.0.1%2CN%3Bbitrix.siteinfoportal%2C15.5.0%2CN%3Bmobileapp%2C17.0.1%2CN%3Bbitrixcloud%2C17.0.0%2CN%3Bcatalog%2C17.0.9%2CN%3Bbizproc%2C17.5.1%2CN%3Bcurrency%2C17.0.3%2CN%3Bfileman%2C17.5.0%2CN%3Beshopapp%2C16.5.0%2CN%3Bsocialnetwork%2C17.5.5%2CN%3Bim%2C17.1.4%2CN%3Btranslate%2C15.0.0%2CN%3Bsale%2C17.0.24%2CN%3Bcluster%2C17.0.0%2CN%3Bpull%2C17.1.0%2CN%3Bwebservice%2C17.0.0%2CN%3Bclouds%2C17.0.0%2CN%3Bsender%2C17.1.2%2CN%3Babtest%2C17.0.0%2CN%3Bsecurity%2C17.0.1%2CN%3Bbitrix.eshop%2C17.0.0%2CN%3Bworkflow%2C17.0.0%2CN%3Bphotogallery%2C17.0.2%2CN%3Bvote%2C17.5.0%2CN%3Bwiki%2C16.0.3%2CN%3Bb24connector%2C17.0.1%2CN%3Badvertising%2C17.0.0%2CN&reqm=api.feedbackex&lim=Y&SUPD_SRS=0&SUPD_CMP=N
+2017-09-13 14:01:48 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-09-13 14:01:52 -  - TIME LoadModulesUpdates(request) 3.902 sec
+2017-09-13 14:01:52 -  - exec CUpdateClientPartner::ParseServerData
+2017-09-13 14:01:52 - S - STEP
+2017-09-13 14:01:52 - LMU01 - LoadModulesUpdates-Step
+2017-09-13 14:01:52 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-09-13 14:01:52 -  - exec CUpdateClientPartner::ParseServerData
+2017-09-13 14:01:52 -  - loadFile
+2017-09-13 14:01:53 - U - RETURN
+2017-09-13 14:01:53 -  - exec CUpdateClientPartner::UnGzipArchive
+2017-09-13 14:01:53 -  - TIME UnGzipArchive 0.002 sec
+2017-09-13 14:01:53 - CSURUS1 - Run updater '/bitrix/updates/update_m1505300513/api.feedbackex/updater1.2.3.php'
+2017-09-13 14:01:53 -  - TIME UpdateStepModules 0.004 sec
+2017-09-13 14:01:53 - UPD_SUCCESS - Updated: api.feedbackex (1.2.3)<br>[x] Изменено название модуля
+2017-09-13 14:01:55 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-09-13 14:01:55 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-09-13 14:01:55 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=_&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.0.22-0ubuntu0.16.04.1&NGINX=Y&dbv=5.7.19&instm=main%2C17.0.9%2CY%3Bstatistic%2C17.0.0%2CN%3Bseo%2C17.0.6%2CN%3Bcalendar%2C17.5.1%2CN%3Bstoreassist%2C16.0.1%2CN%3Bsearch%2C17.0.1%2CN%3Bidea%2C17.5.0%2CN%3Bhighloadblock%2C17.0.2%2CN%3Bmail%2C17.0.5%2CN%3Bapi.feedbackex%2C1.2.3%2CN%3Bperfmon%2C17.0.0%2CN%3Bsocialservices%2C17.1.4%2CN%3Bldap%2C17.0.0%2CN%3Bconversion%2C17.0.2%2CN%3Bsubscribe%2C17.0.0%2CN%3Bbitrix.sitepersonal%2C15.5.0%2CN%3Bcompression%2C16.0.0%2CN%3Bscale%2C17.0.0%2CN%3Bbitrix.sitecommunity%2C15.5.0%2CN%3Breport%2C16.5.1%2CN%3Blearning%2C17.5.0%2CN%3Baltasib.feedback%2C2.7.0%2CN%3Biblock%2C17.0.9%2CN%3Bbizprocdesigner%2C17.0.2%2CN%3Bblog%2C17.5.2%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bsupport%2C16.0.0%2CN%3Blists%2C17.0.6%2CN%3Bforum%2C17.5.1%2CN%3Bform%2C17.0.1%2CN%3Bbitrix.siteinfoportal%2C15.5.0%2CN%3Bmobileapp%2C17.0.1%2CN%3Bbitrixcloud%2C17.0.0%2CN%3Bcatalog%2C17.0.9%2CN%3Bbizproc%2C17.5.1%2CN%3Bcurrency%2C17.0.3%2CN%3Bfileman%2C17.5.0%2CN%3Beshopapp%2C16.5.0%2CN%3Bsocialnetwork%2C17.5.5%2CN%3Bim%2C17.1.4%2CN%3Btranslate%2C15.0.0%2CN%3Bsale%2C17.0.24%2CN%3Bcluster%2C17.0.0%2CN%3Bpull%2C17.1.0%2CN%3Bwebservice%2C17.0.0%2CN%3Bclouds%2C17.0.0%2CN%3Bsender%2C17.1.2%2CN%3Babtest%2C17.0.0%2CN%3Bsecurity%2C17.0.1%2CN%3Bbitrix.eshop%2C17.0.0%2CN%3Bworkflow%2C17.0.0%2CN%3Bphotogallery%2C17.0.2%2CN%3Bvote%2C17.5.0%2CN%3Bwiki%2C16.0.3%2CN%3Bb24connector%2C17.0.1%2CN%3Badvertising%2C17.0.0%2CN&reqm=api.feedbackex&lim=Y&SUPD_SRS=0&SUPD_CMP=N
+2017-09-13 14:01:55 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-09-13 14:02:00 -  - TIME LoadModulesUpdates(request) 4.82 sec
+2017-09-13 14:02:00 -  - exec CUpdateClientPartner::ParseServerData
+2017-09-13 14:02:00 - S - STEP
+2017-09-13 14:02:00 - LMU01 - LoadModulesUpdates-Step
+2017-09-13 14:02:00 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-09-13 14:02:00 -  - exec CUpdateClientPartner::ParseServerData
+2017-09-13 14:02:00 -  - loadFile
+2017-09-13 14:02:02 - U - RETURN
+2017-09-13 14:02:02 -  - exec CUpdateClientPartner::UnGzipArchive
+2017-09-13 14:02:02 -  - TIME UnGzipArchive 0.003 sec
+2017-09-13 14:02:02 - CSURUS1 - Run updater '/bitrix/updates/update_m1505300522/api.feedbackex/updater1.3.0.php'
+2017-09-13 14:02:02 -  - TIME UpdateStepModules 0.004 sec
+2017-09-13 14:02:02 - UPD_SUCCESS - Updated: api.feedbackex (1.3.0)<br>[+] Добавлен раздел настроек модального окна.<br> Будет работать только при наличии установленного модуля \"TS Front-end framework (api.core)\"<br> Этот модуль должен установиться автоматически на ваш сайт, иначе установите врчную.<br> http://marketplace.1c-bitrix.ru/solutions/api.core/<br> Если модуль просит обновиться, обязательно обновите!<br>
+2017-09-13 14:02:02 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-09-13 14:02:02 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-09-13 14:02:02 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=_&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.0.22-0ubuntu0.16.04.1&NGINX=Y&dbv=5.7.19&instm=main%2C17.0.9%2CY%3Bstatistic%2C17.0.0%2CN%3Bseo%2C17.0.6%2CN%3Bcalendar%2C17.5.1%2CN%3Bstoreassist%2C16.0.1%2CN%3Bsearch%2C17.0.1%2CN%3Bidea%2C17.5.0%2CN%3Bhighloadblock%2C17.0.2%2CN%3Bmail%2C17.0.5%2CN%3Bapi.feedbackex%2C1.3.0%2CN%3Bperfmon%2C17.0.0%2CN%3Bsocialservices%2C17.1.4%2CN%3Bldap%2C17.0.0%2CN%3Bconversion%2C17.0.2%2CN%3Bsubscribe%2C17.0.0%2CN%3Bbitrix.sitepersonal%2C15.5.0%2CN%3Bcompression%2C16.0.0%2CN%3Bscale%2C17.0.0%2CN%3Bbitrix.sitecommunity%2C15.5.0%2CN%3Breport%2C16.5.1%2CN%3Blearning%2C17.5.0%2CN%3Baltasib.feedback%2C2.7.0%2CN%3Biblock%2C17.0.9%2CN%3Bbizprocdesigner%2C17.0.2%2CN%3Bblog%2C17.5.2%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bsupport%2C16.0.0%2CN%3Blists%2C17.0.6%2CN%3Bforum%2C17.5.1%2CN%3Bform%2C17.0.1%2CN%3Bbitrix.siteinfoportal%2C15.5.0%2CN%3Bmobileapp%2C17.0.1%2CN%3Bbitrixcloud%2C17.0.0%2CN%3Bcatalog%2C17.0.9%2CN%3Bbizproc%2C17.5.1%2CN%3Bcurrency%2C17.0.3%2CN%3Bfileman%2C17.5.0%2CN%3Beshopapp%2C16.5.0%2CN%3Bsocialnetwork%2C17.5.5%2CN%3Bim%2C17.1.4%2CN%3Btranslate%2C15.0.0%2CN%3Bsale%2C17.0.24%2CN%3Bcluster%2C17.0.0%2CN%3Bpull%2C17.1.0%2CN%3Bwebservice%2C17.0.0%2CN%3Bclouds%2C17.0.0%2CN%3Bsender%2C17.1.2%2CN%3Babtest%2C17.0.0%2CN%3Bsecurity%2C17.0.1%2CN%3Bbitrix.eshop%2C17.0.0%2CN%3Bworkflow%2C17.0.0%2CN%3Bphotogallery%2C17.0.2%2CN%3Bvote%2C17.5.0%2CN%3Bwiki%2C16.0.3%2CN%3Bb24connector%2C17.0.1%2CN%3Badvertising%2C17.0.0%2CN&reqm=api.feedbackex&lim=Y&SUPD_SRS=0&SUPD_CMP=N
+2017-09-13 14:02:02 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-09-13 14:02:07 -  - TIME LoadModulesUpdates(request) 5.137 sec
+2017-09-13 14:02:07 -  - exec CUpdateClientPartner::ParseServerData
+2017-09-13 14:02:07 - S - STEP
+2017-09-13 14:02:07 - LMU01 - LoadModulesUpdates-Step
+2017-09-13 14:02:07 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-09-13 14:02:07 -  - exec CUpdateClientPartner::ParseServerData
+2017-09-13 14:02:07 -  - loadFile
+2017-09-13 14:02:08 - U - RETURN
+2017-09-13 14:02:08 -  - exec CUpdateClientPartner::UnGzipArchive
+2017-09-13 14:02:08 -  - TIME UnGzipArchive 0.003 sec
+2017-09-13 14:02:08 - CSURUS1 - Run updater '/bitrix/updates/update_m1505300528/api.feedbackex/updater1.4.0.php'
+2017-09-13 14:02:08 -  - TIME UpdateStepModules 0.004 sec
+2017-09-13 14:02:08 - UPD_SUCCESS - Updated: api.feedbackex (1.4.0)<br>Добавлена поддержка 152-ФЗ о персональных данных<br> Добавлены настройки:<br> <b>1) Выводить условия Пользовательского соглашения</b><br> В этом случае можно вывести флажок и рядом много всякого html-текста <br> <b>2) Выводить соглашение на обработку персональных данных</b><br> В этом случае можно вывести либо строку, либо ссылку на соглашение, подойдет для тех, кто не знаком с html-версткой, если указать там ссылку, то весь текст станет кликабельный.<br> Чтобы все это проверить, достаточно открыть настройки компонента, поставить галки и сохранить настройки, все включится по умолчанию с примерами текстов.
+2017-09-13 14:02:09 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-09-13 14:02:09 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-09-13 14:02:09 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=_&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.0.22-0ubuntu0.16.04.1&NGINX=Y&dbv=5.7.19&instm=main%2C17.0.9%2CY%3Bstatistic%2C17.0.0%2CN%3Bseo%2C17.0.6%2CN%3Bcalendar%2C17.5.1%2CN%3Bstoreassist%2C16.0.1%2CN%3Bsearch%2C17.0.1%2CN%3Bidea%2C17.5.0%2CN%3Bhighloadblock%2C17.0.2%2CN%3Bmail%2C17.0.5%2CN%3Bapi.feedbackex%2C1.4.0%2CN%3Bperfmon%2C17.0.0%2CN%3Bsocialservices%2C17.1.4%2CN%3Bldap%2C17.0.0%2CN%3Bconversion%2C17.0.2%2CN%3Bsubscribe%2C17.0.0%2CN%3Bbitrix.sitepersonal%2C15.5.0%2CN%3Bcompression%2C16.0.0%2CN%3Bscale%2C17.0.0%2CN%3Bbitrix.sitecommunity%2C15.5.0%2CN%3Breport%2C16.5.1%2CN%3Blearning%2C17.5.0%2CN%3Baltasib.feedback%2C2.7.0%2CN%3Biblock%2C17.0.9%2CN%3Bbizprocdesigner%2C17.0.2%2CN%3Bblog%2C17.5.2%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bsupport%2C16.0.0%2CN%3Blists%2C17.0.6%2CN%3Bforum%2C17.5.1%2CN%3Bform%2C17.0.1%2CN%3Bbitrix.siteinfoportal%2C15.5.0%2CN%3Bmobileapp%2C17.0.1%2CN%3Bbitrixcloud%2C17.0.0%2CN%3Bcatalog%2C17.0.9%2CN%3Bbizproc%2C17.5.1%2CN%3Bcurrency%2C17.0.3%2CN%3Bfileman%2C17.5.0%2CN%3Beshopapp%2C16.5.0%2CN%3Bsocialnetwork%2C17.5.5%2CN%3Bim%2C17.1.4%2CN%3Btranslate%2C15.0.0%2CN%3Bsale%2C17.0.24%2CN%3Bcluster%2C17.0.0%2CN%3Bpull%2C17.1.0%2CN%3Bwebservice%2C17.0.0%2CN%3Bclouds%2C17.0.0%2CN%3Bsender%2C17.1.2%2CN%3Babtest%2C17.0.0%2CN%3Bsecurity%2C17.0.1%2CN%3Bbitrix.eshop%2C17.0.0%2CN%3Bworkflow%2C17.0.0%2CN%3Bphotogallery%2C17.0.2%2CN%3Bvote%2C17.5.0%2CN%3Bwiki%2C16.0.3%2CN%3Bb24connector%2C17.0.1%2CN%3Badvertising%2C17.0.0%2CN&reqm=api.feedbackex&lim=Y&SUPD_SRS=0&SUPD_CMP=N
+2017-09-13 14:02:09 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-09-13 14:02:14 -  - TIME LoadModulesUpdates(request) 5.202 sec
+2017-09-13 14:02:14 -  - exec CUpdateClientPartner::ParseServerData
+2017-09-13 14:02:14 - S - STEP
+2017-09-13 14:02:14 - LMU01 - LoadModulesUpdates-Step
+2017-09-13 14:02:14 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-09-13 14:02:14 -  - exec CUpdateClientPartner::ParseServerData
+2017-09-13 14:02:14 -  - loadFile
+2017-09-13 14:02:15 - U - RETURN
+2017-09-13 14:02:15 -  - exec CUpdateClientPartner::UnGzipArchive
+2017-09-13 14:02:15 -  - TIME UnGzipArchive 0.001 sec
+2017-09-13 14:02:15 - CSURUS1 - Run updater '/bitrix/updates/update_m1505300535/api.feedbackex/updater1.4.1.php'
+2017-09-13 14:02:15 -  - TIME UpdateStepModules 0.001 sec
+2017-09-13 14:02:15 - UPD_SUCCESS - Updated: api.feedbackex (1.4.1)<br>[х] Установка модуля TS Front-end framework<br> http://marketplace.1c-bitrix.ru/solutions/api.core/
+2017-09-13 14:02:15 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-09-13 14:02:15 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-09-13 14:02:15 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=_&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.0.22-0ubuntu0.16.04.1&NGINX=Y&dbv=5.7.19&instm=main%2C17.0.9%2CY%3Bstatistic%2C17.0.0%2CN%3Bseo%2C17.0.6%2CN%3Bcalendar%2C17.5.1%2CN%3Bstoreassist%2C16.0.1%2CN%3Bsearch%2C17.0.1%2CN%3Bidea%2C17.5.0%2CN%3Bhighloadblock%2C17.0.2%2CN%3Bmail%2C17.0.5%2CN%3Bapi.feedbackex%2C1.4.1%2CN%3Bperfmon%2C17.0.0%2CN%3Bsocialservices%2C17.1.4%2CN%3Bldap%2C17.0.0%2CN%3Bconversion%2C17.0.2%2CN%3Bsubscribe%2C17.0.0%2CN%3Bbitrix.sitepersonal%2C15.5.0%2CN%3Bcompression%2C16.0.0%2CN%3Bscale%2C17.0.0%2CN%3Bbitrix.sitecommunity%2C15.5.0%2CN%3Breport%2C16.5.1%2CN%3Blearning%2C17.5.0%2CN%3Baltasib.feedback%2C2.7.0%2CN%3Biblock%2C17.0.9%2CN%3Bbizprocdesigner%2C17.0.2%2CN%3Bblog%2C17.5.2%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bsupport%2C16.0.0%2CN%3Blists%2C17.0.6%2CN%3Bforum%2C17.5.1%2CN%3Bform%2C17.0.1%2CN%3Bbitrix.siteinfoportal%2C15.5.0%2CN%3Bmobileapp%2C17.0.1%2CN%3Bbitrixcloud%2C17.0.0%2CN%3Bcatalog%2C17.0.9%2CN%3Bbizproc%2C17.5.1%2CN%3Bcurrency%2C17.0.3%2CN%3Bfileman%2C17.5.0%2CN%3Beshopapp%2C16.5.0%2CN%3Bsocialnetwork%2C17.5.5%2CN%3Bim%2C17.1.4%2CN%3Btranslate%2C15.0.0%2CN%3Bsale%2C17.0.24%2CN%3Bcluster%2C17.0.0%2CN%3Bpull%2C17.1.0%2CN%3Bwebservice%2C17.0.0%2CN%3Bclouds%2C17.0.0%2CN%3Bsender%2C17.1.2%2CN%3Babtest%2C17.0.0%2CN%3Bsecurity%2C17.0.1%2CN%3Bbitrix.eshop%2C17.0.0%2CN%3Bworkflow%2C17.0.0%2CN%3Bphotogallery%2C17.0.2%2CN%3Bvote%2C17.5.0%2CN%3Bwiki%2C16.0.3%2CN%3Bb24connector%2C17.0.1%2CN%3Badvertising%2C17.0.0%2CN&reqm=api.feedbackex&lim=Y&SUPD_SRS=0&SUPD_CMP=N
+2017-09-13 14:02:15 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-09-13 14:02:20 -  - TIME LoadModulesUpdates(request) 4.346 sec
+2017-09-13 14:02:20 -  - exec CUpdateClientPartner::ParseServerData
+2017-09-13 14:02:20 - S - STEP
+2017-09-13 14:02:20 - LMU01 - LoadModulesUpdates-Step
+2017-09-13 14:02:20 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-09-13 14:02:20 -  - exec CUpdateClientPartner::ParseServerData
+2017-09-13 14:02:20 -  - loadFile
+2017-09-13 14:02:21 - U - RETURN
+2017-09-13 14:02:21 -  - exec CUpdateClientPartner::UnGzipArchive
+2017-09-13 14:02:21 -  - TIME UnGzipArchive 0.005 sec
+2017-09-13 14:02:21 - CSURUS1 - Run updater '/bitrix/updates/update_m1505300541/api.feedbackex/updater1.5.0.php'
+2017-09-13 14:02:21 -  - TIME UpdateStepModules 0.007 sec
+2017-09-13 14:02:21 - UPD_SUCCESS - Updated: api.feedbackex (1.5.0)<br><p><b>ДОБАВЛЕНО</b></p> <ul><li><b>Поддержка 5 типов полей:</b> Дата, Дата и время, Список, Флажки, Радиокнопки<b><br></b></li><li><b>Основные параметры - Отключить проверку сессий</b><br>Проверка сессий отключится в самом компоненте, подойдет у кого есть проблемы с сессиями</li><li><b>Поля формы - Путь до своего конфига полей</b><br>Появилась возможность использовать свои собственные конфигураторы полей формы.<br>При установке модуля или обновлении на сайт загрузятся два примера:<br>/bitrix/php_interface/include/api.feedbackex/example.php<br>/bitrix/php_interface/include/api.feedbackex/demo1.php<br>Названия файлов <b>example.php</b> и <b>demoX.php</b> зарезервированы, они будут добавляться и перезаписываться, используйте любые другие имена, при удалении модуля папка не удаляется, все ваши конфиги сохранятся.<br>Но, вы можете хранить конфиги в любом другом месте структуры сайта, достаточно указать путь до конфига в настройках компонента.<br>Рекомендую именовать свои конфиги в соответствии с идентификатором формы в настройках компонента, например:<br>form1.php, from2.php, ... feedback.php, callback.php, ...<br>Если пользовательский конфиг не задан, то компонент возьмет конфиг по умолчанию из модуля.<br>example.php - в этом файле будут все возможные примеры полей, просто образец.<br>demo1.php - в этом файле пример обычной формы обратной связи.</li><li><b>jQuery плагины - Включить flatpickr</b><br>Полям типа Дата и Дата и время подключит современный и красивый календарь</li></ul> <p><b>ИЗМЕНЕНО</b></p> <ul><li>Изменен вывод&nbsp;<b>Пользовательское соглашение</b> и <b>Персональные данные</b>, а также сообщения об ошибках</li><li>В шаблоне компонента улучшил вывод полей</li></ul> <p><b>РЕКОМЕНДАЦИИ</b></p> <ul><li>После установки обновлений сбросьте кэш страницы, на которой размещены компоненты, это нужно чтобы обновились временные скрипты и стили.</li></ul>
+2017-09-13 14:02:21 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-09-13 14:02:21 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-09-13 14:02:21 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=_&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.0.22-0ubuntu0.16.04.1&NGINX=Y&dbv=5.7.19&instm=main%2C17.0.9%2CY%3Bstatistic%2C17.0.0%2CN%3Bseo%2C17.0.6%2CN%3Bcalendar%2C17.5.1%2CN%3Bstoreassist%2C16.0.1%2CN%3Bsearch%2C17.0.1%2CN%3Bidea%2C17.5.0%2CN%3Bhighloadblock%2C17.0.2%2CN%3Bmail%2C17.0.5%2CN%3Bapi.feedbackex%2C1.5.0%2CN%3Bperfmon%2C17.0.0%2CN%3Bsocialservices%2C17.1.4%2CN%3Bldap%2C17.0.0%2CN%3Bconversion%2C17.0.2%2CN%3Bsubscribe%2C17.0.0%2CN%3Bbitrix.sitepersonal%2C15.5.0%2CN%3Bcompression%2C16.0.0%2CN%3Bscale%2C17.0.0%2CN%3Bbitrix.sitecommunity%2C15.5.0%2CN%3Breport%2C16.5.1%2CN%3Blearning%2C17.5.0%2CN%3Baltasib.feedback%2C2.7.0%2CN%3Biblock%2C17.0.9%2CN%3Bbizprocdesigner%2C17.0.2%2CN%3Bblog%2C17.5.2%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bsupport%2C16.0.0%2CN%3Blists%2C17.0.6%2CN%3Bforum%2C17.5.1%2CN%3Bform%2C17.0.1%2CN%3Bbitrix.siteinfoportal%2C15.5.0%2CN%3Bmobileapp%2C17.0.1%2CN%3Bbitrixcloud%2C17.0.0%2CN%3Bcatalog%2C17.0.9%2CN%3Bbizproc%2C17.5.1%2CN%3Bcurrency%2C17.0.3%2CN%3Bfileman%2C17.5.0%2CN%3Beshopapp%2C16.5.0%2CN%3Bsocialnetwork%2C17.5.5%2CN%3Bim%2C17.1.4%2CN%3Btranslate%2C15.0.0%2CN%3Bsale%2C17.0.24%2CN%3Bcluster%2C17.0.0%2CN%3Bpull%2C17.1.0%2CN%3Bwebservice%2C17.0.0%2CN%3Bclouds%2C17.0.0%2CN%3Bsender%2C17.1.2%2CN%3Babtest%2C17.0.0%2CN%3Bsecurity%2C17.0.1%2CN%3Bbitrix.eshop%2C17.0.0%2CN%3Bworkflow%2C17.0.0%2CN%3Bphotogallery%2C17.0.2%2CN%3Bvote%2C17.5.0%2CN%3Bwiki%2C16.0.3%2CN%3Bb24connector%2C17.0.1%2CN%3Badvertising%2C17.0.0%2CN&reqm=api.feedbackex&lim=Y&SUPD_SRS=0&SUPD_CMP=N
+2017-09-13 14:02:21 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-09-13 14:02:28 -  - TIME LoadModulesUpdates(request) 6.433 sec
+2017-09-13 14:02:28 -  - exec CUpdateClientPartner::ParseServerData
+2017-09-13 14:02:28 - STEP - Finish - NOUPDATES
+2017-09-13 14:02:28 - STEP - Finish - NOUPDATES
+2017-09-13 14:03:35 -  - exec CUpdateClientPartner::GetUpdatesList
+2017-09-13 14:03:35 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-09-13 14:03:35 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=_&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.0.22-0ubuntu0.16.04.1&NGINX=Y&dbv=5.7.19&instm=main%2C17.0.9%2CY%3Bstatistic%2C17.0.0%2CN%3Bseo%2C17.0.6%2CN%3Bcalendar%2C17.5.1%2CN%3Bstoreassist%2C16.0.1%2CN%3Bsearch%2C17.0.1%2CN%3Bidea%2C17.5.0%2CN%3Bhighloadblock%2C17.0.2%2CN%3Bmail%2C17.0.5%2CN%3Bapi.feedbackex%2C1.5.0%2CN%3Bperfmon%2C17.0.0%2CN%3Bsocialservices%2C17.1.4%2CN%3Bldap%2C17.0.0%2CN%3Bconversion%2C17.0.2%2CN%3Bsubscribe%2C17.0.0%2CN%3Bbitrix.sitepersonal%2C15.5.0%2CN%3Bcompression%2C16.0.0%2CN%3Bscale%2C17.0.0%2CN%3Bbitrix.sitecommunity%2C15.5.0%2CN%3Breport%2C16.5.1%2CN%3Blearning%2C17.5.0%2CN%3Baltasib.feedback%2C2.7.0%2CN%3Biblock%2C17.0.9%2CN%3Bbizprocdesigner%2C17.0.2%2CN%3Bblog%2C17.5.2%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bsupport%2C16.0.0%2CN%3Blists%2C17.0.6%2CN%3Bforum%2C17.5.1%2CN%3Bform%2C17.0.1%2CN%3Bbitrix.siteinfoportal%2C15.5.0%2CN%3Bmobileapp%2C17.0.1%2CN%3Bbitrixcloud%2C17.0.0%2CN%3Bcatalog%2C17.0.9%2CN%3Bbizproc%2C17.5.1%2CN%3Bcurrency%2C17.0.3%2CN%3Bfileman%2C17.5.0%2CN%3Beshopapp%2C16.5.0%2CN%3Bsocialnetwork%2C17.5.5%2CN%3Bim%2C17.1.4%2CN%3Btranslate%2C15.0.0%2CN%3Bsale%2C17.0.24%2CN%3Bcluster%2C17.0.0%2CN%3Bpull%2C17.1.0%2CN%3Bwebservice%2C17.0.0%2CN%3Bclouds%2C17.0.0%2CN%3Bsender%2C17.1.2%2CN%3Babtest%2C17.0.0%2CN%3Bsecurity%2C17.0.1%2CN%3Bbitrix.eshop%2C17.0.0%2CN%3Bworkflow%2C17.0.0%2CN%3Bphotogallery%2C17.0.2%2CN%3Bvote%2C17.5.0%2CN%3Bwiki%2C16.0.3%2CN%3Bb24connector%2C17.0.1%2CN%3Badvertising%2C17.0.0%2CN&reqm=api.feedbackex%2Cbitrix.sitepersonal%2Cbitrix.sitecommunity%2Caltasib.feedback%2Cbitrix.sitecorporate%2Cbitrix.siteinfoportal%2Cbitrix.eshop&fullmoduleinfo=Y&SUPD_SRS=0&SUPD_CMP=N
+2017-09-13 14:03:35 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-09-13 14:03:39 -  - TIME GetUpdatesList(request) 4.562 sec
+2017-09-13 14:03:39 -  - exec CUpdateClientPartner::ParseServerData
+2017-09-13 14:03:39 -  - exec CUpdateClientPartner::LoadModuleNoDemand
+2017-09-13 14:03:39 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-09-13 14:03:39 -  - utf=Y&lang=ru&stable=N&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=_&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.0.22-0ubuntu0.16.04.1&NGINX=Y&dbv=5.7.19&instm=main%2C17.0.9%2CY%3Bstatistic%2C17.0.0%2CN%3Bseo%2C17.0.6%2CN%3Bcalendar%2C17.5.1%2CN%3Bstoreassist%2C16.0.1%2CN%3Bsearch%2C17.0.1%2CN%3Bidea%2C17.5.0%2CN%3Bhighloadblock%2C17.0.2%2CN%3Bmail%2C17.0.5%2CN%3Bapi.feedbackex%2C1.5.0%2CN%3Bperfmon%2C17.0.0%2CN%3Bsocialservices%2C17.1.4%2CN%3Bldap%2C17.0.0%2CN%3Bconversion%2C17.0.2%2CN%3Bsubscribe%2C17.0.0%2CN%3Bbitrix.sitepersonal%2C15.5.0%2CN%3Bcompression%2C16.0.0%2CN%3Bscale%2C17.0.0%2CN%3Bbitrix.sitecommunity%2C15.5.0%2CN%3Breport%2C16.5.1%2CN%3Blearning%2C17.5.0%2CN%3Baltasib.feedback%2C2.7.0%2CN%3Biblock%2C17.0.9%2CN%3Bbizprocdesigner%2C17.0.2%2CN%3Bblog%2C17.5.2%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bsupport%2C16.0.0%2CN%3Blists%2C17.0.6%2CN%3Bforum%2C17.5.1%2CN%3Bform%2C17.0.1%2CN%3Bbitrix.siteinfoportal%2C15.5.0%2CN%3Bmobileapp%2C17.0.1%2CN%3Bbitrixcloud%2C17.0.0%2CN%3Bcatalog%2C17.0.9%2CN%3Bbizproc%2C17.5.1%2CN%3Bcurrency%2C17.0.3%2CN%3Bfileman%2C17.5.0%2CN%3Beshopapp%2C16.5.0%2CN%3Bsocialnetwork%2C17.5.5%2CN%3Bim%2C17.1.4%2CN%3Btranslate%2C15.0.0%2CN%3Bsale%2C17.0.24%2CN%3Bcluster%2C17.0.0%2CN%3Bpull%2C17.1.0%2CN%3Bwebservice%2C17.0.0%2CN%3Bclouds%2C17.0.0%2CN%3Bsender%2C17.1.2%2CN%3Babtest%2C17.0.0%2CN%3Bsecurity%2C17.0.1%2CN%3Bbitrix.eshop%2C17.0.0%2CN%3Bworkflow%2C17.0.0%2CN%3Bphotogallery%2C17.0.2%2CN%3Bvote%2C17.5.0%2CN%3Bwiki%2C16.0.3%2CN%3Bb24connector%2C17.0.1%2CN%3Badvertising%2C17.0.0%2CN&reqm=api.core&lim=Y&SUPD_SRS=0&SUPD_CMP=N
+2017-09-13 14:03:39 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-09-13 14:03:44 -  - TIME LoadModuleNoDemand(request) 4.065 sec
+2017-09-13 14:03:44 -  - exec CUpdateClientPartner::UnGzipArchive
+2017-09-13 14:03:44 -  - TIME UnGzipArchive 0.004 sec
+2017-09-13 14:03:44 -  - exec CUpdateClientPartner::GetStepUpdateInfo
+2017-09-13 14:03:44 -  - exec CUpdateClientPartner::ParseServerData
+2017-09-13 14:03:44 -  - TIME UpdateStepModules 0.006 sec
+2017-09-13 14:03:44 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-09-13 14:03:44 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-09-13 14:03:44 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=_&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.0.22-0ubuntu0.16.04.1&NGINX=Y&dbv=5.7.19&instm=main%2C17.0.9%2CY%3Bstatistic%2C17.0.0%2CN%3Bseo%2C17.0.6%2CN%3Bcalendar%2C17.5.1%2CN%3Bstoreassist%2C16.0.1%2CN%3Bsearch%2C17.0.1%2CN%3Bidea%2C17.5.0%2CN%3Bhighloadblock%2C17.0.2%2CN%3Bmail%2C17.0.5%2CN%3Bapi.feedbackex%2C1.5.0%2CN%3Bperfmon%2C17.0.0%2CN%3Bsocialservices%2C17.1.4%2CN%3Bldap%2C17.0.0%2CN%3Bconversion%2C17.0.2%2CN%3Bsubscribe%2C17.0.0%2CN%3Bbitrix.sitepersonal%2C15.5.0%2CN%3Bcompression%2C16.0.0%2CN%3Bscale%2C17.0.0%2CN%3Bbitrix.sitecommunity%2C15.5.0%2CN%3Breport%2C16.5.1%2CN%3Blearning%2C17.5.0%2CN%3Baltasib.feedback%2C2.7.0%2CN%3Biblock%2C17.0.9%2CN%3Bbizprocdesigner%2C17.0.2%2CN%3Bblog%2C17.5.2%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bsupport%2C16.0.0%2CN%3Blists%2C17.0.6%2CN%3Bforum%2C17.5.1%2CN%3Bform%2C17.0.1%2CN%3Bbitrix.siteinfoportal%2C15.5.0%2CN%3Bmobileapp%2C17.0.1%2CN%3Bbitrixcloud%2C17.0.0%2CN%3Bcatalog%2C17.0.9%2CN%3Bbizproc%2C17.5.1%2CN%3Bcurrency%2C17.0.3%2CN%3Bfileman%2C17.5.0%2CN%3Beshopapp%2C16.5.0%2CN%3Bsocialnetwork%2C17.5.5%2CN%3Bapi.core%2C1.0.2%2CN%3Bim%2C17.1.4%2CN%3Btranslate%2C15.0.0%2CN%3Bsale%2C17.0.24%2CN%3Bcluster%2C17.0.0%2CN%3Bpull%2C17.1.0%2CN%3Bwebservice%2C17.0.0%2CN%3Bclouds%2C17.0.0%2CN%3Bsender%2C17.1.2%2CN%3Babtest%2C17.0.0%2CN%3Bsecurity%2C17.0.1%2CN%3Bbitrix.eshop%2C17.0.0%2CN%3Bworkflow%2C17.0.0%2CN%3Bphotogallery%2C17.0.2%2CN%3Bvote%2C17.5.0%2CN%3Bwiki%2C16.0.3%2CN%3Bb24connector%2C17.0.1%2CN%3Badvertising%2C17.0.0%2CN&reqm=api.core&lim=Y&SUPD_SRS=0&SUPD_CMP=N
+2017-09-13 14:03:44 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-09-13 14:03:48 -  - TIME LoadModulesUpdates(request) 4.536 sec
+2017-09-13 14:03:48 -  - exec CUpdateClientPartner::ParseServerData
+2017-09-13 14:03:48 - S - STEP
+2017-09-13 14:03:48 - LM4W01 - loadModule4Wizard-Step
+2017-09-13 14:03:48 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-09-13 14:03:48 -  - exec CUpdateClientPartner::ParseServerData
+2017-09-13 14:03:48 -  - loadFile
+2017-09-13 14:03:49 - U - RETURN
+2017-09-13 14:03:49 -  - exec CUpdateClientPartner::UnGzipArchive
+2017-09-13 14:03:49 -  - TIME UnGzipArchive 0.003 sec
+2017-09-13 14:03:49 - CSURUS1 - Run updater '/bitrix/updates/update_m1505300629/api.core/updater1.0.3.php'
+2017-09-13 14:03:49 -  - TIME UpdateStepModules 0.011 sec
+2017-09-13 14:03:50 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-09-13 14:03:50 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-09-13 14:03:50 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=_&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.0.22-0ubuntu0.16.04.1&NGINX=Y&dbv=5.7.19&instm=main%2C17.0.9%2CY%3Bstatistic%2C17.0.0%2CN%3Bseo%2C17.0.6%2CN%3Bcalendar%2C17.5.1%2CN%3Bstoreassist%2C16.0.1%2CN%3Bsearch%2C17.0.1%2CN%3Bidea%2C17.5.0%2CN%3Bhighloadblock%2C17.0.2%2CN%3Bmail%2C17.0.5%2CN%3Bapi.feedbackex%2C1.5.0%2CN%3Bperfmon%2C17.0.0%2CN%3Bsocialservices%2C17.1.4%2CN%3Bldap%2C17.0.0%2CN%3Bconversion%2C17.0.2%2CN%3Bsubscribe%2C17.0.0%2CN%3Bbitrix.sitepersonal%2C15.5.0%2CN%3Bcompression%2C16.0.0%2CN%3Bscale%2C17.0.0%2CN%3Bbitrix.sitecommunity%2C15.5.0%2CN%3Breport%2C16.5.1%2CN%3Blearning%2C17.5.0%2CN%3Baltasib.feedback%2C2.7.0%2CN%3Biblock%2C17.0.9%2CN%3Bbizprocdesigner%2C17.0.2%2CN%3Bblog%2C17.5.2%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bsupport%2C16.0.0%2CN%3Blists%2C17.0.6%2CN%3Bforum%2C17.5.1%2CN%3Bform%2C17.0.1%2CN%3Bbitrix.siteinfoportal%2C15.5.0%2CN%3Bmobileapp%2C17.0.1%2CN%3Bbitrixcloud%2C17.0.0%2CN%3Bcatalog%2C17.0.9%2CN%3Bbizproc%2C17.5.1%2CN%3Bcurrency%2C17.0.3%2CN%3Bfileman%2C17.5.0%2CN%3Beshopapp%2C16.5.0%2CN%3Bsocialnetwork%2C17.5.5%2CN%3Bapi.core%2C1.0.3%2CN%3Bim%2C17.1.4%2CN%3Btranslate%2C15.0.0%2CN%3Bsale%2C17.0.24%2CN%3Bcluster%2C17.0.0%2CN%3Bpull%2C17.1.0%2CN%3Bwebservice%2C17.0.0%2CN%3Bclouds%2C17.0.0%2CN%3Bsender%2C17.1.2%2CN%3Babtest%2C17.0.0%2CN%3Bsecurity%2C17.0.1%2CN%3Bbitrix.eshop%2C17.0.0%2CN%3Bworkflow%2C17.0.0%2CN%3Bphotogallery%2C17.0.2%2CN%3Bvote%2C17.5.0%2CN%3Bwiki%2C16.0.3%2CN%3Bb24connector%2C17.0.1%2CN%3Badvertising%2C17.0.0%2CN&reqm=api.core&lim=Y&SUPD_SRS=0&SUPD_CMP=N
+2017-09-13 14:03:50 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-09-13 14:03:54 -  - TIME LoadModulesUpdates(request) 4.076 sec
+2017-09-13 14:03:54 -  - exec CUpdateClientPartner::ParseServerData
+2017-09-13 14:03:54 - S - STEP
+2017-09-13 14:03:54 - LM4W01 - loadModule4Wizard-Step
+2017-09-13 14:03:54 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-09-13 14:03:54 -  - exec CUpdateClientPartner::ParseServerData
+2017-09-13 14:03:54 -  - loadFile
+2017-09-13 14:03:55 - U - RETURN
+2017-09-13 14:03:55 -  - exec CUpdateClientPartner::UnGzipArchive
+2017-09-13 14:03:55 -  - TIME UnGzipArchive 0.002 sec
+2017-09-13 14:03:55 - CSURUS1 - Run updater '/bitrix/updates/update_m1505300635/api.core/updater1.1.0.php'
+2017-09-13 14:03:55 -  - TIME UpdateStepModules 0.005 sec
+2017-09-13 14:03:55 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-09-13 14:03:55 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-09-13 14:03:55 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=_&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.0.22-0ubuntu0.16.04.1&NGINX=Y&dbv=5.7.19&instm=main%2C17.0.9%2CY%3Bstatistic%2C17.0.0%2CN%3Bseo%2C17.0.6%2CN%3Bcalendar%2C17.5.1%2CN%3Bstoreassist%2C16.0.1%2CN%3Bsearch%2C17.0.1%2CN%3Bidea%2C17.5.0%2CN%3Bhighloadblock%2C17.0.2%2CN%3Bmail%2C17.0.5%2CN%3Bapi.feedbackex%2C1.5.0%2CN%3Bperfmon%2C17.0.0%2CN%3Bsocialservices%2C17.1.4%2CN%3Bldap%2C17.0.0%2CN%3Bconversion%2C17.0.2%2CN%3Bsubscribe%2C17.0.0%2CN%3Bbitrix.sitepersonal%2C15.5.0%2CN%3Bcompression%2C16.0.0%2CN%3Bscale%2C17.0.0%2CN%3Bbitrix.sitecommunity%2C15.5.0%2CN%3Breport%2C16.5.1%2CN%3Blearning%2C17.5.0%2CN%3Baltasib.feedback%2C2.7.0%2CN%3Biblock%2C17.0.9%2CN%3Bbizprocdesigner%2C17.0.2%2CN%3Bblog%2C17.5.2%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bsupport%2C16.0.0%2CN%3Blists%2C17.0.6%2CN%3Bforum%2C17.5.1%2CN%3Bform%2C17.0.1%2CN%3Bbitrix.siteinfoportal%2C15.5.0%2CN%3Bmobileapp%2C17.0.1%2CN%3Bbitrixcloud%2C17.0.0%2CN%3Bcatalog%2C17.0.9%2CN%3Bbizproc%2C17.5.1%2CN%3Bcurrency%2C17.0.3%2CN%3Bfileman%2C17.5.0%2CN%3Beshopapp%2C16.5.0%2CN%3Bsocialnetwork%2C17.5.5%2CN%3Bapi.core%2C1.1.0%2CN%3Bim%2C17.1.4%2CN%3Btranslate%2C15.0.0%2CN%3Bsale%2C17.0.24%2CN%3Bcluster%2C17.0.0%2CN%3Bpull%2C17.1.0%2CN%3Bwebservice%2C17.0.0%2CN%3Bclouds%2C17.0.0%2CN%3Bsender%2C17.1.2%2CN%3Babtest%2C17.0.0%2CN%3Bsecurity%2C17.0.1%2CN%3Bbitrix.eshop%2C17.0.0%2CN%3Bworkflow%2C17.0.0%2CN%3Bphotogallery%2C17.0.2%2CN%3Bvote%2C17.5.0%2CN%3Bwiki%2C16.0.3%2CN%3Bb24connector%2C17.0.1%2CN%3Badvertising%2C17.0.0%2CN&reqm=api.core&lim=Y&SUPD_SRS=0&SUPD_CMP=N
+2017-09-13 14:03:55 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-09-13 14:03:59 -  - TIME LoadModulesUpdates(request) 4.277 sec
+2017-09-13 14:03:59 -  - exec CUpdateClientPartner::ParseServerData
+2017-09-13 14:03:59 - S - STEP
+2017-09-13 14:03:59 - LM4W01 - loadModule4Wizard-Step
+2017-09-13 14:03:59 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-09-13 14:03:59 -  - exec CUpdateClientPartner::ParseServerData
+2017-09-13 14:03:59 -  - loadFile
+2017-09-13 14:04:01 - U - RETURN
+2017-09-13 14:04:01 -  - exec CUpdateClientPartner::UnGzipArchive
+2017-09-13 14:04:01 -  - TIME UnGzipArchive 0.019 sec
+2017-09-13 14:04:01 - CSURUS1 - Run updater '/bitrix/updates/update_m1505300641/api.core/updater1.2.0.php'
+2017-09-13 14:04:01 -  - TIME UpdateStepModules 0.021 sec
+2017-09-13 14:04:01 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-09-13 14:04:01 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-09-13 14:04:01 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=_&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.0.22-0ubuntu0.16.04.1&NGINX=Y&dbv=5.7.19&instm=main%2C17.0.9%2CY%3Bstatistic%2C17.0.0%2CN%3Bseo%2C17.0.6%2CN%3Bcalendar%2C17.5.1%2CN%3Bstoreassist%2C16.0.1%2CN%3Bsearch%2C17.0.1%2CN%3Bidea%2C17.5.0%2CN%3Bhighloadblock%2C17.0.2%2CN%3Bmail%2C17.0.5%2CN%3Bapi.feedbackex%2C1.5.0%2CN%3Bperfmon%2C17.0.0%2CN%3Bsocialservices%2C17.1.4%2CN%3Bldap%2C17.0.0%2CN%3Bconversion%2C17.0.2%2CN%3Bsubscribe%2C17.0.0%2CN%3Bbitrix.sitepersonal%2C15.5.0%2CN%3Bcompression%2C16.0.0%2CN%3Bscale%2C17.0.0%2CN%3Bbitrix.sitecommunity%2C15.5.0%2CN%3Breport%2C16.5.1%2CN%3Blearning%2C17.5.0%2CN%3Baltasib.feedback%2C2.7.0%2CN%3Biblock%2C17.0.9%2CN%3Bbizprocdesigner%2C17.0.2%2CN%3Bblog%2C17.5.2%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bsupport%2C16.0.0%2CN%3Blists%2C17.0.6%2CN%3Bforum%2C17.5.1%2CN%3Bform%2C17.0.1%2CN%3Bbitrix.siteinfoportal%2C15.5.0%2CN%3Bmobileapp%2C17.0.1%2CN%3Bbitrixcloud%2C17.0.0%2CN%3Bcatalog%2C17.0.9%2CN%3Bbizproc%2C17.5.1%2CN%3Bcurrency%2C17.0.3%2CN%3Bfileman%2C17.5.0%2CN%3Beshopapp%2C16.5.0%2CN%3Bsocialnetwork%2C17.5.5%2CN%3Bapi.core%2C1.2.0%2CN%3Bim%2C17.1.4%2CN%3Btranslate%2C15.0.0%2CN%3Bsale%2C17.0.24%2CN%3Bcluster%2C17.0.0%2CN%3Bpull%2C17.1.0%2CN%3Bwebservice%2C17.0.0%2CN%3Bclouds%2C17.0.0%2CN%3Bsender%2C17.1.2%2CN%3Babtest%2C17.0.0%2CN%3Bsecurity%2C17.0.1%2CN%3Bbitrix.eshop%2C17.0.0%2CN%3Bworkflow%2C17.0.0%2CN%3Bphotogallery%2C17.0.2%2CN%3Bvote%2C17.5.0%2CN%3Bwiki%2C16.0.3%2CN%3Bb24connector%2C17.0.1%2CN%3Badvertising%2C17.0.0%2CN&reqm=api.core&lim=Y&SUPD_SRS=0&SUPD_CMP=N
+2017-09-13 14:04:01 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-09-13 14:04:05 -  - TIME LoadModulesUpdates(request) 4.094 sec
+2017-09-13 14:04:05 -  - exec CUpdateClientPartner::ParseServerData
+2017-09-13 14:04:05 - S - STEP
+2017-09-13 14:04:05 - LM4W01 - loadModule4Wizard-Step
+2017-09-13 14:04:05 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-09-13 14:04:05 -  - exec CUpdateClientPartner::ParseServerData
+2017-09-13 14:04:05 -  - loadFile
+2017-09-13 14:04:06 - U - RETURN
+2017-09-13 14:04:06 -  - exec CUpdateClientPartner::UnGzipArchive
+2017-09-13 14:04:06 -  - TIME UnGzipArchive 0.001 sec
+2017-09-13 14:04:06 - CSURUS1 - Run updater '/bitrix/updates/update_m1505300646/api.core/updater1.2.1.php'
+2017-09-13 14:04:06 -  - TIME UpdateStepModules 0.003 sec
+2017-09-13 14:04:06 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-09-13 14:04:06 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-09-13 14:04:06 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=_&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.0.22-0ubuntu0.16.04.1&NGINX=Y&dbv=5.7.19&instm=main%2C17.0.9%2CY%3Bstatistic%2C17.0.0%2CN%3Bseo%2C17.0.6%2CN%3Bcalendar%2C17.5.1%2CN%3Bstoreassist%2C16.0.1%2CN%3Bsearch%2C17.0.1%2CN%3Bidea%2C17.5.0%2CN%3Bhighloadblock%2C17.0.2%2CN%3Bmail%2C17.0.5%2CN%3Bapi.feedbackex%2C1.5.0%2CN%3Bperfmon%2C17.0.0%2CN%3Bsocialservices%2C17.1.4%2CN%3Bldap%2C17.0.0%2CN%3Bconversion%2C17.0.2%2CN%3Bsubscribe%2C17.0.0%2CN%3Bbitrix.sitepersonal%2C15.5.0%2CN%3Bcompression%2C16.0.0%2CN%3Bscale%2C17.0.0%2CN%3Bbitrix.sitecommunity%2C15.5.0%2CN%3Breport%2C16.5.1%2CN%3Blearning%2C17.5.0%2CN%3Baltasib.feedback%2C2.7.0%2CN%3Biblock%2C17.0.9%2CN%3Bbizprocdesigner%2C17.0.2%2CN%3Bblog%2C17.5.2%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bsupport%2C16.0.0%2CN%3Blists%2C17.0.6%2CN%3Bforum%2C17.5.1%2CN%3Bform%2C17.0.1%2CN%3Bbitrix.siteinfoportal%2C15.5.0%2CN%3Bmobileapp%2C17.0.1%2CN%3Bbitrixcloud%2C17.0.0%2CN%3Bcatalog%2C17.0.9%2CN%3Bbizproc%2C17.5.1%2CN%3Bcurrency%2C17.0.3%2CN%3Bfileman%2C17.5.0%2CN%3Beshopapp%2C16.5.0%2CN%3Bsocialnetwork%2C17.5.5%2CN%3Bapi.core%2C1.2.1%2CN%3Bim%2C17.1.4%2CN%3Btranslate%2C15.0.0%2CN%3Bsale%2C17.0.24%2CN%3Bcluster%2C17.0.0%2CN%3Bpull%2C17.1.0%2CN%3Bwebservice%2C17.0.0%2CN%3Bclouds%2C17.0.0%2CN%3Bsender%2C17.1.2%2CN%3Babtest%2C17.0.0%2CN%3Bsecurity%2C17.0.1%2CN%3Bbitrix.eshop%2C17.0.0%2CN%3Bworkflow%2C17.0.0%2CN%3Bphotogallery%2C17.0.2%2CN%3Bvote%2C17.5.0%2CN%3Bwiki%2C16.0.3%2CN%3Bb24connector%2C17.0.1%2CN%3Badvertising%2C17.0.0%2CN&reqm=api.core&lim=Y&SUPD_SRS=0&SUPD_CMP=N
+2017-09-13 14:04:06 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-09-13 14:04:11 -  - TIME LoadModulesUpdates(request) 4.201 sec
+2017-09-13 14:04:11 -  - exec CUpdateClientPartner::ParseServerData
+2017-09-13 14:04:11 - S - STEP
+2017-09-13 14:04:11 - LM4W01 - loadModule4Wizard-Step
+2017-09-13 14:04:11 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-09-13 14:04:11 -  - exec CUpdateClientPartner::ParseServerData
+2017-09-13 14:04:11 -  - loadFile
+2017-09-13 14:04:12 - U - RETURN
+2017-09-13 14:04:12 -  - exec CUpdateClientPartner::UnGzipArchive
+2017-09-13 14:04:12 -  - TIME UnGzipArchive 0.001 sec
+2017-09-13 14:04:12 - CSURUS1 - Run updater '/bitrix/updates/update_m1505300652/api.core/updater1.2.2.php'
+2017-09-13 14:04:12 -  - TIME UpdateStepModules 0.003 sec
+2017-09-13 14:04:12 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-09-13 14:04:12 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-09-13 14:04:12 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=_&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.0.22-0ubuntu0.16.04.1&NGINX=Y&dbv=5.7.19&instm=main%2C17.0.9%2CY%3Bstatistic%2C17.0.0%2CN%3Bseo%2C17.0.6%2CN%3Bcalendar%2C17.5.1%2CN%3Bstoreassist%2C16.0.1%2CN%3Bsearch%2C17.0.1%2CN%3Bidea%2C17.5.0%2CN%3Bhighloadblock%2C17.0.2%2CN%3Bmail%2C17.0.5%2CN%3Bapi.feedbackex%2C1.5.0%2CN%3Bperfmon%2C17.0.0%2CN%3Bsocialservices%2C17.1.4%2CN%3Bldap%2C17.0.0%2CN%3Bconversion%2C17.0.2%2CN%3Bsubscribe%2C17.0.0%2CN%3Bbitrix.sitepersonal%2C15.5.0%2CN%3Bcompression%2C16.0.0%2CN%3Bscale%2C17.0.0%2CN%3Bbitrix.sitecommunity%2C15.5.0%2CN%3Breport%2C16.5.1%2CN%3Blearning%2C17.5.0%2CN%3Baltasib.feedback%2C2.7.0%2CN%3Biblock%2C17.0.9%2CN%3Bbizprocdesigner%2C17.0.2%2CN%3Bblog%2C17.5.2%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bsupport%2C16.0.0%2CN%3Blists%2C17.0.6%2CN%3Bforum%2C17.5.1%2CN%3Bform%2C17.0.1%2CN%3Bbitrix.siteinfoportal%2C15.5.0%2CN%3Bmobileapp%2C17.0.1%2CN%3Bbitrixcloud%2C17.0.0%2CN%3Bcatalog%2C17.0.9%2CN%3Bbizproc%2C17.5.1%2CN%3Bcurrency%2C17.0.3%2CN%3Bfileman%2C17.5.0%2CN%3Beshopapp%2C16.5.0%2CN%3Bsocialnetwork%2C17.5.5%2CN%3Bapi.core%2C1.2.2%2CN%3Bim%2C17.1.4%2CN%3Btranslate%2C15.0.0%2CN%3Bsale%2C17.0.24%2CN%3Bcluster%2C17.0.0%2CN%3Bpull%2C17.1.0%2CN%3Bwebservice%2C17.0.0%2CN%3Bclouds%2C17.0.0%2CN%3Bsender%2C17.1.2%2CN%3Babtest%2C17.0.0%2CN%3Bsecurity%2C17.0.1%2CN%3Bbitrix.eshop%2C17.0.0%2CN%3Bworkflow%2C17.0.0%2CN%3Bphotogallery%2C17.0.2%2CN%3Bvote%2C17.5.0%2CN%3Bwiki%2C16.0.3%2CN%3Bb24connector%2C17.0.1%2CN%3Badvertising%2C17.0.0%2CN&reqm=api.core&lim=Y&SUPD_SRS=0&SUPD_CMP=N
+2017-09-13 14:04:12 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-09-13 14:04:16 -  - TIME LoadModulesUpdates(request) 3.88 sec
+2017-09-13 14:04:16 -  - exec CUpdateClientPartner::ParseServerData
+2017-09-13 14:04:16 - S - STEP
+2017-09-13 14:04:16 - LM4W01 - loadModule4Wizard-Step
+2017-09-13 14:04:16 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-09-13 14:04:16 -  - exec CUpdateClientPartner::ParseServerData
+2017-09-13 14:04:16 -  - loadFile
+2017-09-13 14:04:17 - U - RETURN
+2017-09-13 14:04:17 -  - exec CUpdateClientPartner::UnGzipArchive
+2017-09-13 14:04:17 -  - TIME UnGzipArchive 0.002 sec
+2017-09-13 14:04:17 - CSURUS1 - Run updater '/bitrix/updates/update_m1505300657/api.core/updater1.2.3.php'
+2017-09-13 14:04:17 -  - TIME UpdateStepModules 0.004 sec
+2017-09-13 14:04:17 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-09-13 14:04:17 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-09-13 14:04:17 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=_&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.0.22-0ubuntu0.16.04.1&NGINX=Y&dbv=5.7.19&instm=main%2C17.0.9%2CY%3Bstatistic%2C17.0.0%2CN%3Bseo%2C17.0.6%2CN%3Bcalendar%2C17.5.1%2CN%3Bstoreassist%2C16.0.1%2CN%3Bsearch%2C17.0.1%2CN%3Bidea%2C17.5.0%2CN%3Bhighloadblock%2C17.0.2%2CN%3Bmail%2C17.0.5%2CN%3Bapi.feedbackex%2C1.5.0%2CN%3Bperfmon%2C17.0.0%2CN%3Bsocialservices%2C17.1.4%2CN%3Bldap%2C17.0.0%2CN%3Bconversion%2C17.0.2%2CN%3Bsubscribe%2C17.0.0%2CN%3Bbitrix.sitepersonal%2C15.5.0%2CN%3Bcompression%2C16.0.0%2CN%3Bscale%2C17.0.0%2CN%3Bbitrix.sitecommunity%2C15.5.0%2CN%3Breport%2C16.5.1%2CN%3Blearning%2C17.5.0%2CN%3Baltasib.feedback%2C2.7.0%2CN%3Biblock%2C17.0.9%2CN%3Bbizprocdesigner%2C17.0.2%2CN%3Bblog%2C17.5.2%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bsupport%2C16.0.0%2CN%3Blists%2C17.0.6%2CN%3Bforum%2C17.5.1%2CN%3Bform%2C17.0.1%2CN%3Bbitrix.siteinfoportal%2C15.5.0%2CN%3Bmobileapp%2C17.0.1%2CN%3Bbitrixcloud%2C17.0.0%2CN%3Bcatalog%2C17.0.9%2CN%3Bbizproc%2C17.5.1%2CN%3Bcurrency%2C17.0.3%2CN%3Bfileman%2C17.5.0%2CN%3Beshopapp%2C16.5.0%2CN%3Bsocialnetwork%2C17.5.5%2CN%3Bapi.core%2C1.2.3%2CN%3Bim%2C17.1.4%2CN%3Btranslate%2C15.0.0%2CN%3Bsale%2C17.0.24%2CN%3Bcluster%2C17.0.0%2CN%3Bpull%2C17.1.0%2CN%3Bwebservice%2C17.0.0%2CN%3Bclouds%2C17.0.0%2CN%3Bsender%2C17.1.2%2CN%3Babtest%2C17.0.0%2CN%3Bsecurity%2C17.0.1%2CN%3Bbitrix.eshop%2C17.0.0%2CN%3Bworkflow%2C17.0.0%2CN%3Bphotogallery%2C17.0.2%2CN%3Bvote%2C17.5.0%2CN%3Bwiki%2C16.0.3%2CN%3Bb24connector%2C17.0.1%2CN%3Badvertising%2C17.0.0%2CN&reqm=api.core&lim=Y&SUPD_SRS=0&SUPD_CMP=N
+2017-09-13 14:04:17 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-09-13 14:04:22 -  - TIME LoadModulesUpdates(request) 4.821 sec
+2017-09-13 14:04:22 -  - exec CUpdateClientPartner::ParseServerData
+2017-09-13 14:04:22 - S - STEP
+2017-09-13 14:04:22 - LM4W01 - loadModule4Wizard-Step
+2017-09-13 14:04:22 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-09-13 14:04:22 -  - exec CUpdateClientPartner::ParseServerData
+2017-09-13 14:04:22 -  - loadFile
+2017-09-13 14:04:23 - U - RETURN
+2017-09-13 14:04:23 -  - exec CUpdateClientPartner::UnGzipArchive
+2017-09-13 14:04:23 -  - TIME UnGzipArchive 0.001 sec
+2017-09-13 14:04:23 - CSURUS1 - Run updater '/bitrix/updates/update_m1505300663/api.core/updater1.2.4.php'
+2017-09-13 14:04:23 -  - TIME UpdateStepModules 0.002 sec
+2017-09-13 14:04:23 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-09-13 14:04:23 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-09-13 14:04:23 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=_&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.0.22-0ubuntu0.16.04.1&NGINX=Y&dbv=5.7.19&instm=main%2C17.0.9%2CY%3Bstatistic%2C17.0.0%2CN%3Bseo%2C17.0.6%2CN%3Bcalendar%2C17.5.1%2CN%3Bstoreassist%2C16.0.1%2CN%3Bsearch%2C17.0.1%2CN%3Bidea%2C17.5.0%2CN%3Bhighloadblock%2C17.0.2%2CN%3Bmail%2C17.0.5%2CN%3Bapi.feedbackex%2C1.5.0%2CN%3Bperfmon%2C17.0.0%2CN%3Bsocialservices%2C17.1.4%2CN%3Bldap%2C17.0.0%2CN%3Bconversion%2C17.0.2%2CN%3Bsubscribe%2C17.0.0%2CN%3Bbitrix.sitepersonal%2C15.5.0%2CN%3Bcompression%2C16.0.0%2CN%3Bscale%2C17.0.0%2CN%3Bbitrix.sitecommunity%2C15.5.0%2CN%3Breport%2C16.5.1%2CN%3Blearning%2C17.5.0%2CN%3Baltasib.feedback%2C2.7.0%2CN%3Biblock%2C17.0.9%2CN%3Bbizprocdesigner%2C17.0.2%2CN%3Bblog%2C17.5.2%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bsupport%2C16.0.0%2CN%3Blists%2C17.0.6%2CN%3Bforum%2C17.5.1%2CN%3Bform%2C17.0.1%2CN%3Bbitrix.siteinfoportal%2C15.5.0%2CN%3Bmobileapp%2C17.0.1%2CN%3Bbitrixcloud%2C17.0.0%2CN%3Bcatalog%2C17.0.9%2CN%3Bbizproc%2C17.5.1%2CN%3Bcurrency%2C17.0.3%2CN%3Bfileman%2C17.5.0%2CN%3Beshopapp%2C16.5.0%2CN%3Bsocialnetwork%2C17.5.5%2CN%3Bapi.core%2C1.2.4%2CN%3Bim%2C17.1.4%2CN%3Btranslate%2C15.0.0%2CN%3Bsale%2C17.0.24%2CN%3Bcluster%2C17.0.0%2CN%3Bpull%2C17.1.0%2CN%3Bwebservice%2C17.0.0%2CN%3Bclouds%2C17.0.0%2CN%3Bsender%2C17.1.2%2CN%3Babtest%2C17.0.0%2CN%3Bsecurity%2C17.0.1%2CN%3Bbitrix.eshop%2C17.0.0%2CN%3Bworkflow%2C17.0.0%2CN%3Bphotogallery%2C17.0.2%2CN%3Bvote%2C17.5.0%2CN%3Bwiki%2C16.0.3%2CN%3Bb24connector%2C17.0.1%2CN%3Badvertising%2C17.0.0%2CN&reqm=api.core&lim=Y&SUPD_SRS=0&SUPD_CMP=N
+2017-09-13 14:04:23 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-09-13 14:04:28 -  - TIME LoadModulesUpdates(request) 4.734 sec
+2017-09-13 14:04:28 -  - exec CUpdateClientPartner::ParseServerData
+2017-09-13 14:04:28 - S - STEP
+2017-09-13 14:04:28 - LM4W01 - loadModule4Wizard-Step
+2017-09-13 14:04:28 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-09-13 14:04:28 -  - exec CUpdateClientPartner::ParseServerData
+2017-09-13 14:04:28 -  - loadFile
+2017-09-13 14:04:29 - U - RETURN
+2017-09-13 14:04:29 -  - exec CUpdateClientPartner::UnGzipArchive
+2017-09-13 14:04:29 -  - TIME UnGzipArchive 0.001 sec
+2017-09-13 14:04:29 - CSURUS1 - Run updater '/bitrix/updates/update_m1505300669/api.core/updater1.2.5.php'
+2017-09-13 14:04:29 -  - TIME UpdateStepModules 0.002 sec
+2017-09-13 14:04:29 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-09-13 14:04:29 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-09-13 14:04:29 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=_&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.0.22-0ubuntu0.16.04.1&NGINX=Y&dbv=5.7.19&instm=main%2C17.0.9%2CY%3Bstatistic%2C17.0.0%2CN%3Bseo%2C17.0.6%2CN%3Bcalendar%2C17.5.1%2CN%3Bstoreassist%2C16.0.1%2CN%3Bsearch%2C17.0.1%2CN%3Bidea%2C17.5.0%2CN%3Bhighloadblock%2C17.0.2%2CN%3Bmail%2C17.0.5%2CN%3Bapi.feedbackex%2C1.5.0%2CN%3Bperfmon%2C17.0.0%2CN%3Bsocialservices%2C17.1.4%2CN%3Bldap%2C17.0.0%2CN%3Bconversion%2C17.0.2%2CN%3Bsubscribe%2C17.0.0%2CN%3Bbitrix.sitepersonal%2C15.5.0%2CN%3Bcompression%2C16.0.0%2CN%3Bscale%2C17.0.0%2CN%3Bbitrix.sitecommunity%2C15.5.0%2CN%3Breport%2C16.5.1%2CN%3Blearning%2C17.5.0%2CN%3Baltasib.feedback%2C2.7.0%2CN%3Biblock%2C17.0.9%2CN%3Bbizprocdesigner%2C17.0.2%2CN%3Bblog%2C17.5.2%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bsupport%2C16.0.0%2CN%3Blists%2C17.0.6%2CN%3Bforum%2C17.5.1%2CN%3Bform%2C17.0.1%2CN%3Bbitrix.siteinfoportal%2C15.5.0%2CN%3Bmobileapp%2C17.0.1%2CN%3Bbitrixcloud%2C17.0.0%2CN%3Bcatalog%2C17.0.9%2CN%3Bbizproc%2C17.5.1%2CN%3Bcurrency%2C17.0.3%2CN%3Bfileman%2C17.5.0%2CN%3Beshopapp%2C16.5.0%2CN%3Bsocialnetwork%2C17.5.5%2CN%3Bapi.core%2C1.2.5%2CN%3Bim%2C17.1.4%2CN%3Btranslate%2C15.0.0%2CN%3Bsale%2C17.0.24%2CN%3Bcluster%2C17.0.0%2CN%3Bpull%2C17.1.0%2CN%3Bwebservice%2C17.0.0%2CN%3Bclouds%2C17.0.0%2CN%3Bsender%2C17.1.2%2CN%3Babtest%2C17.0.0%2CN%3Bsecurity%2C17.0.1%2CN%3Bbitrix.eshop%2C17.0.0%2CN%3Bworkflow%2C17.0.0%2CN%3Bphotogallery%2C17.0.2%2CN%3Bvote%2C17.5.0%2CN%3Bwiki%2C16.0.3%2CN%3Bb24connector%2C17.0.1%2CN%3Badvertising%2C17.0.0%2CN&reqm=api.core&lim=Y&SUPD_SRS=0&SUPD_CMP=N
+2017-09-13 14:04:29 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-09-13 14:04:34 -  - TIME LoadModulesUpdates(request) 4.672 sec
+2017-09-13 14:04:34 -  - exec CUpdateClientPartner::ParseServerData
+2017-09-13 14:04:34 - S - STEP
+2017-09-13 14:04:34 - LM4W01 - loadModule4Wizard-Step
+2017-09-13 14:04:34 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-09-13 14:04:34 -  - exec CUpdateClientPartner::ParseServerData
+2017-09-13 14:04:34 -  - loadFile
+2017-09-13 14:04:35 - U - RETURN
+2017-09-13 14:04:35 -  - exec CUpdateClientPartner::UnGzipArchive
+2017-09-13 14:04:35 -  - TIME UnGzipArchive 0.001 sec
+2017-09-13 14:04:35 - CSURUS1 - Run updater '/bitrix/updates/update_m1505300675/api.core/updater1.2.6.php'
+2017-09-13 14:04:35 -  - TIME UpdateStepModules 0.003 sec
+2017-09-13 14:04:35 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-09-13 14:04:35 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-09-13 14:04:35 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=_&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.0.22-0ubuntu0.16.04.1&NGINX=Y&dbv=5.7.19&instm=main%2C17.0.9%2CY%3Bstatistic%2C17.0.0%2CN%3Bseo%2C17.0.6%2CN%3Bcalendar%2C17.5.1%2CN%3Bstoreassist%2C16.0.1%2CN%3Bsearch%2C17.0.1%2CN%3Bidea%2C17.5.0%2CN%3Bhighloadblock%2C17.0.2%2CN%3Bmail%2C17.0.5%2CN%3Bapi.feedbackex%2C1.5.0%2CN%3Bperfmon%2C17.0.0%2CN%3Bsocialservices%2C17.1.4%2CN%3Bldap%2C17.0.0%2CN%3Bconversion%2C17.0.2%2CN%3Bsubscribe%2C17.0.0%2CN%3Bbitrix.sitepersonal%2C15.5.0%2CN%3Bcompression%2C16.0.0%2CN%3Bscale%2C17.0.0%2CN%3Bbitrix.sitecommunity%2C15.5.0%2CN%3Breport%2C16.5.1%2CN%3Blearning%2C17.5.0%2CN%3Baltasib.feedback%2C2.7.0%2CN%3Biblock%2C17.0.9%2CN%3Bbizprocdesigner%2C17.0.2%2CN%3Bblog%2C17.5.2%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bsupport%2C16.0.0%2CN%3Blists%2C17.0.6%2CN%3Bforum%2C17.5.1%2CN%3Bform%2C17.0.1%2CN%3Bbitrix.siteinfoportal%2C15.5.0%2CN%3Bmobileapp%2C17.0.1%2CN%3Bbitrixcloud%2C17.0.0%2CN%3Bcatalog%2C17.0.9%2CN%3Bbizproc%2C17.5.1%2CN%3Bcurrency%2C17.0.3%2CN%3Bfileman%2C17.5.0%2CN%3Beshopapp%2C16.5.0%2CN%3Bsocialnetwork%2C17.5.5%2CN%3Bapi.core%2C1.2.6%2CN%3Bim%2C17.1.4%2CN%3Btranslate%2C15.0.0%2CN%3Bsale%2C17.0.24%2CN%3Bcluster%2C17.0.0%2CN%3Bpull%2C17.1.0%2CN%3Bwebservice%2C17.0.0%2CN%3Bclouds%2C17.0.0%2CN%3Bsender%2C17.1.2%2CN%3Babtest%2C17.0.0%2CN%3Bsecurity%2C17.0.1%2CN%3Bbitrix.eshop%2C17.0.0%2CN%3Bworkflow%2C17.0.0%2CN%3Bphotogallery%2C17.0.2%2CN%3Bvote%2C17.5.0%2CN%3Bwiki%2C16.0.3%2CN%3Bb24connector%2C17.0.1%2CN%3Badvertising%2C17.0.0%2CN&reqm=api.core&lim=Y&SUPD_SRS=0&SUPD_CMP=N
+2017-09-13 14:04:35 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-09-13 14:04:38 -  - TIME LoadModulesUpdates(request) 3.049 sec
+2017-09-13 14:04:38 -  - exec CUpdateClientPartner::ParseServerData
+2017-09-13 14:04:38 - S - STEP
+2017-09-13 14:04:38 - LM4W01 - loadModule4Wizard-Step
+2017-09-13 14:04:38 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-09-13 14:04:38 -  - exec CUpdateClientPartner::ParseServerData
+2017-09-13 14:04:38 -  - loadFile
+2017-09-13 14:04:39 - U - RETURN
+2017-09-13 14:04:39 -  - exec CUpdateClientPartner::UnGzipArchive
+2017-09-13 14:04:39 -  - TIME UnGzipArchive 0.001 sec
+2017-09-13 14:04:39 - CSURUS1 - Run updater '/bitrix/updates/update_m1505300679/api.core/updater1.2.7.php'
+2017-09-13 14:04:39 -  - TIME UpdateStepModules 0.002 sec
+2017-09-13 14:04:39 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-09-13 14:04:39 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-09-13 14:04:39 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=_&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.0.22-0ubuntu0.16.04.1&NGINX=Y&dbv=5.7.19&instm=main%2C17.0.9%2CY%3Bstatistic%2C17.0.0%2CN%3Bseo%2C17.0.6%2CN%3Bcalendar%2C17.5.1%2CN%3Bstoreassist%2C16.0.1%2CN%3Bsearch%2C17.0.1%2CN%3Bidea%2C17.5.0%2CN%3Bhighloadblock%2C17.0.2%2CN%3Bmail%2C17.0.5%2CN%3Bapi.feedbackex%2C1.5.0%2CN%3Bperfmon%2C17.0.0%2CN%3Bsocialservices%2C17.1.4%2CN%3Bldap%2C17.0.0%2CN%3Bconversion%2C17.0.2%2CN%3Bsubscribe%2C17.0.0%2CN%3Bbitrix.sitepersonal%2C15.5.0%2CN%3Bcompression%2C16.0.0%2CN%3Bscale%2C17.0.0%2CN%3Bbitrix.sitecommunity%2C15.5.0%2CN%3Breport%2C16.5.1%2CN%3Blearning%2C17.5.0%2CN%3Baltasib.feedback%2C2.7.0%2CN%3Biblock%2C17.0.9%2CN%3Bbizprocdesigner%2C17.0.2%2CN%3Bblog%2C17.5.2%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bsupport%2C16.0.0%2CN%3Blists%2C17.0.6%2CN%3Bforum%2C17.5.1%2CN%3Bform%2C17.0.1%2CN%3Bbitrix.siteinfoportal%2C15.5.0%2CN%3Bmobileapp%2C17.0.1%2CN%3Bbitrixcloud%2C17.0.0%2CN%3Bcatalog%2C17.0.9%2CN%3Bbizproc%2C17.5.1%2CN%3Bcurrency%2C17.0.3%2CN%3Bfileman%2C17.5.0%2CN%3Beshopapp%2C16.5.0%2CN%3Bsocialnetwork%2C17.5.5%2CN%3Bapi.core%2C1.2.7%2CN%3Bim%2C17.1.4%2CN%3Btranslate%2C15.0.0%2CN%3Bsale%2C17.0.24%2CN%3Bcluster%2C17.0.0%2CN%3Bpull%2C17.1.0%2CN%3Bwebservice%2C17.0.0%2CN%3Bclouds%2C17.0.0%2CN%3Bsender%2C17.1.2%2CN%3Babtest%2C17.0.0%2CN%3Bsecurity%2C17.0.1%2CN%3Bbitrix.eshop%2C17.0.0%2CN%3Bworkflow%2C17.0.0%2CN%3Bphotogallery%2C17.0.2%2CN%3Bvote%2C17.5.0%2CN%3Bwiki%2C16.0.3%2CN%3Bb24connector%2C17.0.1%2CN%3Badvertising%2C17.0.0%2CN&reqm=api.core&lim=Y&SUPD_SRS=0&SUPD_CMP=N
+2017-09-13 14:04:39 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-09-13 14:04:44 -  - TIME LoadModulesUpdates(request) 4.493 sec
+2017-09-13 14:04:44 -  - exec CUpdateClientPartner::ParseServerData
+2017-09-13 14:04:44 - S - STEP
+2017-09-13 14:04:44 - LM4W01 - loadModule4Wizard-Step
+2017-09-13 14:04:44 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-09-13 14:04:44 -  - exec CUpdateClientPartner::ParseServerData
+2017-09-13 14:04:44 -  - loadFile
+2017-09-13 14:04:45 - U - RETURN
+2017-09-13 14:04:45 -  - exec CUpdateClientPartner::UnGzipArchive
+2017-09-13 14:04:45 -  - TIME UnGzipArchive 0.001 sec
+2017-09-13 14:04:45 - CSURUS1 - Run updater '/bitrix/updates/update_m1505300685/api.core/updater1.2.9.php'
+2017-09-13 14:04:45 -  - TIME UpdateStepModules 0.001 sec
+2017-09-13 14:04:45 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-09-13 14:04:45 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-09-13 14:04:45 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=_&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.0.22-0ubuntu0.16.04.1&NGINX=Y&dbv=5.7.19&instm=main%2C17.0.9%2CY%3Bstatistic%2C17.0.0%2CN%3Bseo%2C17.0.6%2CN%3Bcalendar%2C17.5.1%2CN%3Bstoreassist%2C16.0.1%2CN%3Bsearch%2C17.0.1%2CN%3Bidea%2C17.5.0%2CN%3Bhighloadblock%2C17.0.2%2CN%3Bmail%2C17.0.5%2CN%3Bapi.feedbackex%2C1.5.0%2CN%3Bperfmon%2C17.0.0%2CN%3Bsocialservices%2C17.1.4%2CN%3Bldap%2C17.0.0%2CN%3Bconversion%2C17.0.2%2CN%3Bsubscribe%2C17.0.0%2CN%3Bbitrix.sitepersonal%2C15.5.0%2CN%3Bcompression%2C16.0.0%2CN%3Bscale%2C17.0.0%2CN%3Bbitrix.sitecommunity%2C15.5.0%2CN%3Breport%2C16.5.1%2CN%3Blearning%2C17.5.0%2CN%3Baltasib.feedback%2C2.7.0%2CN%3Biblock%2C17.0.9%2CN%3Bbizprocdesigner%2C17.0.2%2CN%3Bblog%2C17.5.2%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bsupport%2C16.0.0%2CN%3Blists%2C17.0.6%2CN%3Bforum%2C17.5.1%2CN%3Bform%2C17.0.1%2CN%3Bbitrix.siteinfoportal%2C15.5.0%2CN%3Bmobileapp%2C17.0.1%2CN%3Bbitrixcloud%2C17.0.0%2CN%3Bcatalog%2C17.0.9%2CN%3Bbizproc%2C17.5.1%2CN%3Bcurrency%2C17.0.3%2CN%3Bfileman%2C17.5.0%2CN%3Beshopapp%2C16.5.0%2CN%3Bsocialnetwork%2C17.5.5%2CN%3Bapi.core%2C1.2.9%2CN%3Bim%2C17.1.4%2CN%3Btranslate%2C15.0.0%2CN%3Bsale%2C17.0.24%2CN%3Bcluster%2C17.0.0%2CN%3Bpull%2C17.1.0%2CN%3Bwebservice%2C17.0.0%2CN%3Bclouds%2C17.0.0%2CN%3Bsender%2C17.1.2%2CN%3Babtest%2C17.0.0%2CN%3Bsecurity%2C17.0.1%2CN%3Bbitrix.eshop%2C17.0.0%2CN%3Bworkflow%2C17.0.0%2CN%3Bphotogallery%2C17.0.2%2CN%3Bvote%2C17.5.0%2CN%3Bwiki%2C16.0.3%2CN%3Bb24connector%2C17.0.1%2CN%3Badvertising%2C17.0.0%2CN&reqm=api.core&lim=Y&SUPD_SRS=0&SUPD_CMP=N
+2017-09-13 14:04:45 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-09-13 14:04:49 -  - TIME LoadModulesUpdates(request) 4.634 sec
+2017-09-13 14:04:49 -  - exec CUpdateClientPartner::ParseServerData
+2017-09-13 14:04:49 - S - STEP
+2017-09-13 14:04:49 - LM4W01 - loadModule4Wizard-Step
+2017-09-13 14:04:49 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-09-13 14:04:49 -  - exec CUpdateClientPartner::ParseServerData
+2017-09-13 14:04:49 -  - loadFile
+2017-09-13 14:04:52 - U - RETURN
+2017-09-13 14:04:52 -  - exec CUpdateClientPartner::UnGzipArchive
+2017-09-13 14:04:52 -  - TIME UnGzipArchive 0.019 sec
+2017-09-13 14:04:52 - CSURUS1 - Run updater '/bitrix/updates/update_m1505300692/api.core/updater1.3.0.php'
+2017-09-13 14:04:52 -  - TIME UpdateStepModules 0.024 sec
+2017-09-13 14:04:52 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-09-13 14:04:52 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-09-13 14:04:52 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=_&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.0.22-0ubuntu0.16.04.1&NGINX=Y&dbv=5.7.19&instm=main%2C17.0.9%2CY%3Bstatistic%2C17.0.0%2CN%3Bseo%2C17.0.6%2CN%3Bcalendar%2C17.5.1%2CN%3Bstoreassist%2C16.0.1%2CN%3Bsearch%2C17.0.1%2CN%3Bidea%2C17.5.0%2CN%3Bhighloadblock%2C17.0.2%2CN%3Bmail%2C17.0.5%2CN%3Bapi.feedbackex%2C1.5.0%2CN%3Bperfmon%2C17.0.0%2CN%3Bsocialservices%2C17.1.4%2CN%3Bldap%2C17.0.0%2CN%3Bconversion%2C17.0.2%2CN%3Bsubscribe%2C17.0.0%2CN%3Bbitrix.sitepersonal%2C15.5.0%2CN%3Bcompression%2C16.0.0%2CN%3Bscale%2C17.0.0%2CN%3Bbitrix.sitecommunity%2C15.5.0%2CN%3Breport%2C16.5.1%2CN%3Blearning%2C17.5.0%2CN%3Baltasib.feedback%2C2.7.0%2CN%3Biblock%2C17.0.9%2CN%3Bbizprocdesigner%2C17.0.2%2CN%3Bblog%2C17.5.2%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bsupport%2C16.0.0%2CN%3Blists%2C17.0.6%2CN%3Bforum%2C17.5.1%2CN%3Bform%2C17.0.1%2CN%3Bbitrix.siteinfoportal%2C15.5.0%2CN%3Bmobileapp%2C17.0.1%2CN%3Bbitrixcloud%2C17.0.0%2CN%3Bcatalog%2C17.0.9%2CN%3Bbizproc%2C17.5.1%2CN%3Bcurrency%2C17.0.3%2CN%3Bfileman%2C17.5.0%2CN%3Beshopapp%2C16.5.0%2CN%3Bsocialnetwork%2C17.5.5%2CN%3Bapi.core%2C1.3.0%2CN%3Bim%2C17.1.4%2CN%3Btranslate%2C15.0.0%2CN%3Bsale%2C17.0.24%2CN%3Bcluster%2C17.0.0%2CN%3Bpull%2C17.1.0%2CN%3Bwebservice%2C17.0.0%2CN%3Bclouds%2C17.0.0%2CN%3Bsender%2C17.1.2%2CN%3Babtest%2C17.0.0%2CN%3Bsecurity%2C17.0.1%2CN%3Bbitrix.eshop%2C17.0.0%2CN%3Bworkflow%2C17.0.0%2CN%3Bphotogallery%2C17.0.2%2CN%3Bvote%2C17.5.0%2CN%3Bwiki%2C16.0.3%2CN%3Bb24connector%2C17.0.1%2CN%3Badvertising%2C17.0.0%2CN&reqm=api.core&lim=Y&SUPD_SRS=0&SUPD_CMP=N
+2017-09-13 14:04:52 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-09-13 14:04:56 -  - TIME LoadModulesUpdates(request) 4.148 sec
+2017-09-13 14:04:56 -  - exec CUpdateClientPartner::ParseServerData
+2017-09-13 14:04:56 - S - STEP
+2017-09-13 14:04:56 - LM4W01 - loadModule4Wizard-Step
+2017-09-13 14:04:56 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-09-13 14:04:56 -  - exec CUpdateClientPartner::ParseServerData
+2017-09-13 14:04:56 -  - loadFile
+2017-09-13 14:04:57 - U - RETURN
+2017-09-13 14:04:57 -  - exec CUpdateClientPartner::UnGzipArchive
+2017-09-13 14:04:57 -  - TIME UnGzipArchive 0.001 sec
+2017-09-13 14:04:57 - CSURUS1 - Run updater '/bitrix/updates/update_m1505300697/api.core/updater1.3.1.php'
+2017-09-13 14:04:57 -  - TIME UpdateStepModules 0.001 sec
+2017-09-13 14:04:57 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-09-13 14:04:57 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-09-13 14:04:57 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=_&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.0.22-0ubuntu0.16.04.1&NGINX=Y&dbv=5.7.19&instm=main%2C17.0.9%2CY%3Bstatistic%2C17.0.0%2CN%3Bseo%2C17.0.6%2CN%3Bcalendar%2C17.5.1%2CN%3Bstoreassist%2C16.0.1%2CN%3Bsearch%2C17.0.1%2CN%3Bidea%2C17.5.0%2CN%3Bhighloadblock%2C17.0.2%2CN%3Bmail%2C17.0.5%2CN%3Bapi.feedbackex%2C1.5.0%2CN%3Bperfmon%2C17.0.0%2CN%3Bsocialservices%2C17.1.4%2CN%3Bldap%2C17.0.0%2CN%3Bconversion%2C17.0.2%2CN%3Bsubscribe%2C17.0.0%2CN%3Bbitrix.sitepersonal%2C15.5.0%2CN%3Bcompression%2C16.0.0%2CN%3Bscale%2C17.0.0%2CN%3Bbitrix.sitecommunity%2C15.5.0%2CN%3Breport%2C16.5.1%2CN%3Blearning%2C17.5.0%2CN%3Baltasib.feedback%2C2.7.0%2CN%3Biblock%2C17.0.9%2CN%3Bbizprocdesigner%2C17.0.2%2CN%3Bblog%2C17.5.2%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bsupport%2C16.0.0%2CN%3Blists%2C17.0.6%2CN%3Bforum%2C17.5.1%2CN%3Bform%2C17.0.1%2CN%3Bbitrix.siteinfoportal%2C15.5.0%2CN%3Bmobileapp%2C17.0.1%2CN%3Bbitrixcloud%2C17.0.0%2CN%3Bcatalog%2C17.0.9%2CN%3Bbizproc%2C17.5.1%2CN%3Bcurrency%2C17.0.3%2CN%3Bfileman%2C17.5.0%2CN%3Beshopapp%2C16.5.0%2CN%3Bsocialnetwork%2C17.5.5%2CN%3Bapi.core%2C1.3.1%2CN%3Bim%2C17.1.4%2CN%3Btranslate%2C15.0.0%2CN%3Bsale%2C17.0.24%2CN%3Bcluster%2C17.0.0%2CN%3Bpull%2C17.1.0%2CN%3Bwebservice%2C17.0.0%2CN%3Bclouds%2C17.0.0%2CN%3Bsender%2C17.1.2%2CN%3Babtest%2C17.0.0%2CN%3Bsecurity%2C17.0.1%2CN%3Bbitrix.eshop%2C17.0.0%2CN%3Bworkflow%2C17.0.0%2CN%3Bphotogallery%2C17.0.2%2CN%3Bvote%2C17.5.0%2CN%3Bwiki%2C16.0.3%2CN%3Bb24connector%2C17.0.1%2CN%3Badvertising%2C17.0.0%2CN&reqm=api.core&lim=Y&SUPD_SRS=0&SUPD_CMP=N
+2017-09-13 14:04:57 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-09-13 14:05:01 -  - TIME LoadModulesUpdates(request) 3.394 sec
+2017-09-13 14:05:01 -  - exec CUpdateClientPartner::ParseServerData
+2017-09-13 14:05:01 - S - STEP
+2017-09-13 14:05:01 - LM4W01 - loadModule4Wizard-Step
+2017-09-13 14:05:01 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-09-13 14:05:01 -  - exec CUpdateClientPartner::ParseServerData
+2017-09-13 14:05:01 -  - loadFile
+2017-09-13 14:05:02 - U - RETURN
+2017-09-13 14:05:02 -  - exec CUpdateClientPartner::UnGzipArchive
+2017-09-13 14:05:02 -  - TIME UnGzipArchive 0.014 sec
+2017-09-13 14:05:02 - CSURUS1 - Run updater '/bitrix/updates/update_m1505300702/api.core/updater1.4.0.php'
+2017-09-13 14:05:02 -  - TIME UpdateStepModules 0.019 sec
+2017-09-13 14:05:03 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-09-13 14:05:03 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-09-13 14:05:03 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=_&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.0.22-0ubuntu0.16.04.1&NGINX=Y&dbv=5.7.19&instm=main%2C17.0.9%2CY%3Bstatistic%2C17.0.0%2CN%3Bseo%2C17.0.6%2CN%3Bcalendar%2C17.5.1%2CN%3Bstoreassist%2C16.0.1%2CN%3Bsearch%2C17.0.1%2CN%3Bidea%2C17.5.0%2CN%3Bhighloadblock%2C17.0.2%2CN%3Bmail%2C17.0.5%2CN%3Bapi.feedbackex%2C1.5.0%2CN%3Bperfmon%2C17.0.0%2CN%3Bsocialservices%2C17.1.4%2CN%3Bldap%2C17.0.0%2CN%3Bconversion%2C17.0.2%2CN%3Bsubscribe%2C17.0.0%2CN%3Bbitrix.sitepersonal%2C15.5.0%2CN%3Bcompression%2C16.0.0%2CN%3Bscale%2C17.0.0%2CN%3Bbitrix.sitecommunity%2C15.5.0%2CN%3Breport%2C16.5.1%2CN%3Blearning%2C17.5.0%2CN%3Baltasib.feedback%2C2.7.0%2CN%3Biblock%2C17.0.9%2CN%3Bbizprocdesigner%2C17.0.2%2CN%3Bblog%2C17.5.2%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bsupport%2C16.0.0%2CN%3Blists%2C17.0.6%2CN%3Bforum%2C17.5.1%2CN%3Bform%2C17.0.1%2CN%3Bbitrix.siteinfoportal%2C15.5.0%2CN%3Bmobileapp%2C17.0.1%2CN%3Bbitrixcloud%2C17.0.0%2CN%3Bcatalog%2C17.0.9%2CN%3Bbizproc%2C17.5.1%2CN%3Bcurrency%2C17.0.3%2CN%3Bfileman%2C17.5.0%2CN%3Beshopapp%2C16.5.0%2CN%3Bsocialnetwork%2C17.5.5%2CN%3Bapi.core%2C1.4.0%2CN%3Bim%2C17.1.4%2CN%3Btranslate%2C15.0.0%2CN%3Bsale%2C17.0.24%2CN%3Bcluster%2C17.0.0%2CN%3Bpull%2C17.1.0%2CN%3Bwebservice%2C17.0.0%2CN%3Bclouds%2C17.0.0%2CN%3Bsender%2C17.1.2%2CN%3Babtest%2C17.0.0%2CN%3Bsecurity%2C17.0.1%2CN%3Bbitrix.eshop%2C17.0.0%2CN%3Bworkflow%2C17.0.0%2CN%3Bphotogallery%2C17.0.2%2CN%3Bvote%2C17.5.0%2CN%3Bwiki%2C16.0.3%2CN%3Bb24connector%2C17.0.1%2CN%3Badvertising%2C17.0.0%2CN&reqm=api.core&lim=Y&SUPD_SRS=0&SUPD_CMP=N
+2017-09-13 14:05:03 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-09-13 14:05:07 -  - TIME LoadModulesUpdates(request) 4.036 sec
+2017-09-13 14:05:07 -  - exec CUpdateClientPartner::ParseServerData
+2017-09-13 14:05:07 - S - STEP
+2017-09-13 14:05:07 - LM4W01 - loadModule4Wizard-Step
+2017-09-13 14:05:07 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-09-13 14:05:07 -  - exec CUpdateClientPartner::ParseServerData
+2017-09-13 14:05:07 -  - loadFile
+2017-09-13 14:05:08 - U - RETURN
+2017-09-13 14:05:08 -  - exec CUpdateClientPartner::UnGzipArchive
+2017-09-13 14:05:08 -  - TIME UnGzipArchive 0.001 sec
+2017-09-13 14:05:08 - CSURUS1 - Run updater '/bitrix/updates/update_m1505300708/api.core/updater1.4.1.php'
+2017-09-13 14:05:08 -  - TIME UpdateStepModules 0.002 sec
+2017-09-13 14:05:08 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-09-13 14:05:08 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-09-13 14:05:08 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=_&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.0.22-0ubuntu0.16.04.1&NGINX=Y&dbv=5.7.19&instm=main%2C17.0.9%2CY%3Bstatistic%2C17.0.0%2CN%3Bseo%2C17.0.6%2CN%3Bcalendar%2C17.5.1%2CN%3Bstoreassist%2C16.0.1%2CN%3Bsearch%2C17.0.1%2CN%3Bidea%2C17.5.0%2CN%3Bhighloadblock%2C17.0.2%2CN%3Bmail%2C17.0.5%2CN%3Bapi.feedbackex%2C1.5.0%2CN%3Bperfmon%2C17.0.0%2CN%3Bsocialservices%2C17.1.4%2CN%3Bldap%2C17.0.0%2CN%3Bconversion%2C17.0.2%2CN%3Bsubscribe%2C17.0.0%2CN%3Bbitrix.sitepersonal%2C15.5.0%2CN%3Bcompression%2C16.0.0%2CN%3Bscale%2C17.0.0%2CN%3Bbitrix.sitecommunity%2C15.5.0%2CN%3Breport%2C16.5.1%2CN%3Blearning%2C17.5.0%2CN%3Baltasib.feedback%2C2.7.0%2CN%3Biblock%2C17.0.9%2CN%3Bbizprocdesigner%2C17.0.2%2CN%3Bblog%2C17.5.2%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bsupport%2C16.0.0%2CN%3Blists%2C17.0.6%2CN%3Bforum%2C17.5.1%2CN%3Bform%2C17.0.1%2CN%3Bbitrix.siteinfoportal%2C15.5.0%2CN%3Bmobileapp%2C17.0.1%2CN%3Bbitrixcloud%2C17.0.0%2CN%3Bcatalog%2C17.0.9%2CN%3Bbizproc%2C17.5.1%2CN%3Bcurrency%2C17.0.3%2CN%3Bfileman%2C17.5.0%2CN%3Beshopapp%2C16.5.0%2CN%3Bsocialnetwork%2C17.5.5%2CN%3Bapi.core%2C1.4.1%2CN%3Bim%2C17.1.4%2CN%3Btranslate%2C15.0.0%2CN%3Bsale%2C17.0.24%2CN%3Bcluster%2C17.0.0%2CN%3Bpull%2C17.1.0%2CN%3Bwebservice%2C17.0.0%2CN%3Bclouds%2C17.0.0%2CN%3Bsender%2C17.1.2%2CN%3Babtest%2C17.0.0%2CN%3Bsecurity%2C17.0.1%2CN%3Bbitrix.eshop%2C17.0.0%2CN%3Bworkflow%2C17.0.0%2CN%3Bphotogallery%2C17.0.2%2CN%3Bvote%2C17.5.0%2CN%3Bwiki%2C16.0.3%2CN%3Bb24connector%2C17.0.1%2CN%3Badvertising%2C17.0.0%2CN&reqm=api.core&lim=Y&SUPD_SRS=0&SUPD_CMP=N
+2017-09-13 14:05:08 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-09-13 14:05:11 -  - TIME LoadModulesUpdates(request) 3.344 sec
+2017-09-13 14:05:11 -  - exec CUpdateClientPartner::ParseServerData
+2017-09-13 14:05:11 - S - STEP
+2017-09-13 14:05:11 - LM4W01 - loadModule4Wizard-Step
+2017-09-13 14:05:11 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-09-13 14:05:11 -  - exec CUpdateClientPartner::ParseServerData
+2017-09-13 14:05:11 -  - loadFile
+2017-09-13 14:05:12 - U - RETURN
+2017-09-13 14:05:12 -  - exec CUpdateClientPartner::UnGzipArchive
+2017-09-13 14:05:12 -  - TIME UnGzipArchive 0.001 sec
+2017-09-13 14:05:12 - CSURUS1 - Run updater '/bitrix/updates/update_m1505300712/api.core/updater1.4.2.php'
+2017-09-13 14:05:12 -  - TIME UpdateStepModules 0.002 sec
+2017-09-13 14:05:12 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-09-13 14:05:12 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-09-13 14:05:12 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=_&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.0.22-0ubuntu0.16.04.1&NGINX=Y&dbv=5.7.19&instm=main%2C17.0.9%2CY%3Bstatistic%2C17.0.0%2CN%3Bseo%2C17.0.6%2CN%3Bcalendar%2C17.5.1%2CN%3Bstoreassist%2C16.0.1%2CN%3Bsearch%2C17.0.1%2CN%3Bidea%2C17.5.0%2CN%3Bhighloadblock%2C17.0.2%2CN%3Bmail%2C17.0.5%2CN%3Bapi.feedbackex%2C1.5.0%2CN%3Bperfmon%2C17.0.0%2CN%3Bsocialservices%2C17.1.4%2CN%3Bldap%2C17.0.0%2CN%3Bconversion%2C17.0.2%2CN%3Bsubscribe%2C17.0.0%2CN%3Bbitrix.sitepersonal%2C15.5.0%2CN%3Bcompression%2C16.0.0%2CN%3Bscale%2C17.0.0%2CN%3Bbitrix.sitecommunity%2C15.5.0%2CN%3Breport%2C16.5.1%2CN%3Blearning%2C17.5.0%2CN%3Baltasib.feedback%2C2.7.0%2CN%3Biblock%2C17.0.9%2CN%3Bbizprocdesigner%2C17.0.2%2CN%3Bblog%2C17.5.2%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bsupport%2C16.0.0%2CN%3Blists%2C17.0.6%2CN%3Bforum%2C17.5.1%2CN%3Bform%2C17.0.1%2CN%3Bbitrix.siteinfoportal%2C15.5.0%2CN%3Bmobileapp%2C17.0.1%2CN%3Bbitrixcloud%2C17.0.0%2CN%3Bcatalog%2C17.0.9%2CN%3Bbizproc%2C17.5.1%2CN%3Bcurrency%2C17.0.3%2CN%3Bfileman%2C17.5.0%2CN%3Beshopapp%2C16.5.0%2CN%3Bsocialnetwork%2C17.5.5%2CN%3Bapi.core%2C1.4.2%2CN%3Bim%2C17.1.4%2CN%3Btranslate%2C15.0.0%2CN%3Bsale%2C17.0.24%2CN%3Bcluster%2C17.0.0%2CN%3Bpull%2C17.1.0%2CN%3Bwebservice%2C17.0.0%2CN%3Bclouds%2C17.0.0%2CN%3Bsender%2C17.1.2%2CN%3Babtest%2C17.0.0%2CN%3Bsecurity%2C17.0.1%2CN%3Bbitrix.eshop%2C17.0.0%2CN%3Bworkflow%2C17.0.0%2CN%3Bphotogallery%2C17.0.2%2CN%3Bvote%2C17.5.0%2CN%3Bwiki%2C16.0.3%2CN%3Bb24connector%2C17.0.1%2CN%3Badvertising%2C17.0.0%2CN&reqm=api.core&lim=Y&SUPD_SRS=0&SUPD_CMP=N
+2017-09-13 14:05:12 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-09-13 14:05:16 -  - TIME LoadModulesUpdates(request) 4.119 sec
+2017-09-13 14:05:16 -  - exec CUpdateClientPartner::ParseServerData
+2017-09-13 14:05:16 - S - STEP
+2017-09-13 14:05:16 - LM4W01 - loadModule4Wizard-Step
+2017-09-13 14:05:16 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-09-13 14:05:16 -  - exec CUpdateClientPartner::ParseServerData
+2017-09-13 14:05:16 -  - loadFile
+2017-09-13 14:05:18 - U - RETURN
+2017-09-13 14:05:18 -  - exec CUpdateClientPartner::UnGzipArchive
+2017-09-13 14:05:18 -  - TIME UnGzipArchive 0.007 sec
+2017-09-13 14:05:18 - CSURUS1 - Run updater '/bitrix/updates/update_m1505300718/api.core/updater1.4.4.php'
+2017-09-13 14:05:18 -  - TIME UpdateStepModules 0.008 sec
+2017-09-13 14:05:18 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-09-13 14:05:18 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-09-13 14:05:18 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=_&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.0.22-0ubuntu0.16.04.1&NGINX=Y&dbv=5.7.19&instm=main%2C17.0.9%2CY%3Bstatistic%2C17.0.0%2CN%3Bseo%2C17.0.6%2CN%3Bcalendar%2C17.5.1%2CN%3Bstoreassist%2C16.0.1%2CN%3Bsearch%2C17.0.1%2CN%3Bidea%2C17.5.0%2CN%3Bhighloadblock%2C17.0.2%2CN%3Bmail%2C17.0.5%2CN%3Bapi.feedbackex%2C1.5.0%2CN%3Bperfmon%2C17.0.0%2CN%3Bsocialservices%2C17.1.4%2CN%3Bldap%2C17.0.0%2CN%3Bconversion%2C17.0.2%2CN%3Bsubscribe%2C17.0.0%2CN%3Bbitrix.sitepersonal%2C15.5.0%2CN%3Bcompression%2C16.0.0%2CN%3Bscale%2C17.0.0%2CN%3Bbitrix.sitecommunity%2C15.5.0%2CN%3Breport%2C16.5.1%2CN%3Blearning%2C17.5.0%2CN%3Baltasib.feedback%2C2.7.0%2CN%3Biblock%2C17.0.9%2CN%3Bbizprocdesigner%2C17.0.2%2CN%3Bblog%2C17.5.2%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bsupport%2C16.0.0%2CN%3Blists%2C17.0.6%2CN%3Bforum%2C17.5.1%2CN%3Bform%2C17.0.1%2CN%3Bbitrix.siteinfoportal%2C15.5.0%2CN%3Bmobileapp%2C17.0.1%2CN%3Bbitrixcloud%2C17.0.0%2CN%3Bcatalog%2C17.0.9%2CN%3Bbizproc%2C17.5.1%2CN%3Bcurrency%2C17.0.3%2CN%3Bfileman%2C17.5.0%2CN%3Beshopapp%2C16.5.0%2CN%3Bsocialnetwork%2C17.5.5%2CN%3Bapi.core%2C1.4.4%2CN%3Bim%2C17.1.4%2CN%3Btranslate%2C15.0.0%2CN%3Bsale%2C17.0.24%2CN%3Bcluster%2C17.0.0%2CN%3Bpull%2C17.1.0%2CN%3Bwebservice%2C17.0.0%2CN%3Bclouds%2C17.0.0%2CN%3Bsender%2C17.1.2%2CN%3Babtest%2C17.0.0%2CN%3Bsecurity%2C17.0.1%2CN%3Bbitrix.eshop%2C17.0.0%2CN%3Bworkflow%2C17.0.0%2CN%3Bphotogallery%2C17.0.2%2CN%3Bvote%2C17.5.0%2CN%3Bwiki%2C16.0.3%2CN%3Bb24connector%2C17.0.1%2CN%3Badvertising%2C17.0.0%2CN&reqm=api.core&lim=Y&SUPD_SRS=0&SUPD_CMP=N
+2017-09-13 14:05:18 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-09-13 14:05:23 -  - TIME LoadModulesUpdates(request) 4.649 sec
+2017-09-13 14:05:23 -  - exec CUpdateClientPartner::ParseServerData
+2017-09-13 14:05:23 - STEP - Finish - NOUPDATES
+2017-09-13 14:05:23 - LM4W03 - Finish - NOUPDATES
+2017-09-13 15:07:04 -  - exec CUpdateClientPartner::GetUpdatesList
+2017-09-13 15:07:04 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-09-13 15:07:04 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=_&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.0.22-0ubuntu0.16.04.1&NGINX=Y&dbv=5.7.19&instm=main%2C17.0.9%2CY%3Bstatistic%2C17.0.0%2CN%3Bseo%2C17.0.6%2CN%3Bcalendar%2C17.5.1%2CN%3Bstoreassist%2C16.0.1%2CN%3Bsearch%2C17.0.1%2CN%3Bidea%2C17.5.0%2CN%3Bhighloadblock%2C17.0.2%2CN%3Bmail%2C17.0.5%2CN%3Bapi.feedbackex%2C1.5.0%2CN%3Bperfmon%2C17.0.0%2CN%3Bsocialservices%2C17.1.4%2CN%3Bldap%2C17.0.0%2CN%3Bconversion%2C17.0.2%2CN%3Bsubscribe%2C17.0.0%2CN%3Bbitrix.sitepersonal%2C15.5.0%2CN%3Bcompression%2C16.0.0%2CN%3Bscale%2C17.0.0%2CN%3Bbitrix.sitecommunity%2C15.5.0%2CN%3Breport%2C16.5.1%2CN%3Blearning%2C17.5.0%2CN%3Baltasib.feedback%2C2.7.0%2CN%3Biblock%2C17.0.9%2CN%3Bbizprocdesigner%2C17.0.2%2CN%3Bblog%2C17.5.2%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bsupport%2C16.0.0%2CN%3Blists%2C17.0.6%2CN%3Bforum%2C17.5.1%2CN%3Bform%2C17.0.1%2CN%3Bbitrix.siteinfoportal%2C15.5.0%2CN%3Bmobileapp%2C17.0.1%2CN%3Bbitrixcloud%2C17.0.0%2CN%3Bcatalog%2C17.0.9%2CN%3Bbizproc%2C17.5.1%2CN%3Bcurrency%2C17.0.3%2CN%3Bfileman%2C17.5.0%2CN%3Beshopapp%2C16.5.0%2CN%3Bsocialnetwork%2C17.5.5%2CN%3Bapi.core%2C1.4.4%2CN%3Bim%2C17.1.4%2CN%3Btranslate%2C15.0.0%2CN%3Bsale%2C17.0.24%2CN%3Bcluster%2C17.0.0%2CN%3Bpull%2C17.1.0%2CN%3Bwebservice%2C17.0.0%2CN%3Bclouds%2C17.0.0%2CN%3Bsender%2C17.1.2%2CN%3Babtest%2C17.0.0%2CN%3Bsecurity%2C17.0.1%2CN%3Bbitrix.eshop%2C17.0.0%2CN%3Bworkflow%2C17.0.0%2CN%3Bphotogallery%2C17.0.2%2CN%3Bvote%2C17.5.0%2CN%3Bwiki%2C16.0.3%2CN%3Bb24connector%2C17.0.1%2CN%3Badvertising%2C17.0.0%2CN&reqm=api.feedbackex%2Cbitrix.sitepersonal%2Cbitrix.sitecommunity%2Caltasib.feedback%2Cbitrix.sitecorporate%2Cbitrix.siteinfoportal%2Capi.core%2Cbitrix.eshop&fullmoduleinfo=Y&SUPD_SRS=0&SUPD_CMP=N
+2017-09-13 15:07:04 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-09-13 15:07:06 -  - TIME GetUpdatesList(request) 1.851 sec
+2017-09-13 15:07:06 -  - exec CUpdateClientPartner::ParseServerData

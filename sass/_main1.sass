@@ -1,0 +1,283 @@
+@font-face
+  font-family: 'Oswald Regular'
+  src: url(fonts/Oswald-Regular.ttf)
+
+
+@font-face
+  font-family: 'Oswald RegularItalic'
+  src: url(fonts/Oswald-RegularItalic.ttf)
+
+
+@font-face
+  font-family: 'Oswald LightItalic'
+  src: url(fonts/Oswald-LightItalic.ttf)
+
+
+@font-face
+  font-family: 'Oswald Light'
+  src: url(fonts/Oswald-Light.ttf)
+
+
+@font-face
+  font-family: 'Oswald ExtraLight'
+  src: url(fonts/Oswald-ExtraLight.ttf)
+
+
+@font-face
+  font-family: 'Oswald ExtraLightItalic'
+  src: url(fonts/Oswald-Extra-LightItalic.ttf)
+
+
+@font-face
+  font-family: 'Oswald Bold'
+  src: url(fonts/Oswald-Bold.ttf)
+
+
+@font-face
+  font-family: 'Oswald BoldItalic'
+  src: url(fonts/Oswald-BoldItalic.ttf)
+
+
+@font-face
+  font-family: 'Oswald DemiBold'
+  src: url(fonts/Oswald-DemiBold.ttf)
+
+
+@font-face
+  font-family: 'Oswald DemiBoldItalic'
+  src: url(fonts/Oswald-Demi-BoldItalic.ttf)
+
+
+@font-face
+  font-family: 'Oswald Medium'
+  src: url(fonts/Oswald-Medium.ttf)
+
+*
+  -webkit-box-sizing: border-box
+  box-sizing: border-box
+body
+  font-family: 'Verdana',sans-serif
+  font-size: 16px
+  margin: 0
+  color: #333
+  background: #f3f2f2
+  max-width: 100%
+  overflow-x: hidden
+  a
+    text-decoration: none
+    color: #fff
+    &:visited, &:active
+      text-decoration: none
+      color: #fff
+    &:hover
+      text-decoration: underline
+header
+  font-family: 'Oswald RegularItalic',sans-serif
+  font-size: 18px
+  position: relative
+  padding: 30px 0 34px
+  color: #000
+  border-bottom: 1px solid #bd1522
+  background: url(images/VRK_noise.png)
+  &::before
+    position: absolute
+    content: ""
+    width: 100%
+    height: 100%
+    top: 0
+    background: rgba(255, 255, 255, 0.5)
+  .header-wrapper
+    max-width: 1000px
+    margin: 0 auto
+    .logo2
+      position: relative
+      z-index: 2
+      display: inline-block
+      vertical-align: top
+      max-width: 400px
+      width: 100%
+      margin: 6px auto 0
+      text-align: center
+      @media screen and (max-width: 1023px)
+        display: block
+        margin: 0 auto
+        img
+          max-width: 100%
+    .warranty2
+      position: relative
+      z-index: 2
+      display: inline-block
+      text-align: center
+      vertical-align: top
+      @media screen and (max-width: 1023px)
+        display: block
+        margin: 30px auto 0
+      .warranty li:last-child
+        color: #bd1522
+    .phone2
+      position: relative
+      z-index: 2
+      display: inline-block
+      vertical-align: top
+      margin: -15px 0 0 23px
+      @media screen and (max-width: 1023px)
+        display: block
+        margin: 30px 0 0 -20px
+        text-align: center
+        @media screen and (max-width: 426px)
+          margin: 30px 0 0 0
+      a
+        font-family: 'Oswald DemiBold',sans-serif
+        font-size: 42px
+        text-decoration: none
+        color: #333
+    .warranty
+      margin: 0 auto
+      display: inline-block
+      text-align: left
+      padding: 0
+      list-style: none
+      li:before
+        display: inline-block
+        width: 7px
+        height: 7px
+        margin-right: 8px
+        content: ''
+        -webkit-transform: rotate(45deg)
+        -ms-transform: rotate(45deg)
+        transform: rotate(45deg)
+        vertical-align: middle
+        background: #bd1522
+.primary-menu
+  position: relative
+  border-bottom: 1px solid #fff
+  background: #c4313d
+  font-family: 'Oswald RegularItalic',sans-serif
+  font-size: 22px
+  line-height: 24px
+  padding: 1px 0 5px 0
+  text-decoration: none
+  color: #fff
+  .menu-button
+    display: none
+  @media screen and (max-width: 1023px)
+    .parent
+      max-width: 750px
+      margin: 0 auto
+      & > li
+        margin: 10px 20px
+  @media screen and (max-width: 750px)
+    .menu-button
+      display: block
+    .parent
+      display: none
+      margin-top: -33px
+      max-width: 90%
+      & > li
+        min-width: 25%
+  ul
+    list-style-type: none
+    margin: 0
+    padding: 0
+    li
+      a
+        text-decoration: none
+        color: #fff
+  .parent
+    text-align: center
+    li
+      display: inline-block
+      width: 160px
+      vertical-align: middle
+    @media screen and (min-width: 1024px)
+      &>li:hover > a::after
+        position: absolute
+        z-index: 4
+        pointer-events: none
+        bottom: 0
+        display: block
+        width: 160px
+        height: 5px
+        content: ''
+        background: #fff
+  .child
+    padding-top: 17px
+    padding-bottom: 7px
+    max-width: 395px
+    text-align: left
+    position: absolute
+    z-index: 3
+    background: #c4313d
+    @media screen and (max-width: 550px)
+      left: 0
+      max-width: 100%
+      width: 100%
+      text-align: center
+      li
+        margin: 0
+    &:hover
+      display: block
+    li
+      display: block
+      width: auto
+      padding: 10px 15px
+    li:hover a
+      border-bottom: 5px solid #fff
+  .hidden
+    display: none
+  .visible
+    display: block
+  .menu-button-toggle
+    position: relative
+    z-index: 5
+    outline: none
+    background: none
+    border: 2px solid #fff
+    border-radius: 10px
+    margin-left: 10px
+    margin-top: 3px
+    span
+      color: #fff
+      display: block
+      width: 25px
+      height: 2px
+      background-color: #fff
+      margin: 6px 0
+.page-404
+  background: url(/bitrix/templates/vrk/images/stripes.png)
+  min-height: 600px
+  margin-bottom: -98px
+  h1
+    font-size: 36px
+    max-width: 200px
+    margin: auto
+    text-shadow: 0 0 5px #fff
+  .div-404
+    position: relative
+    background-image: url(/bitrix/templates/vrk/images/sprite2.png)
+    background-size: 900px 200px
+    background-repeat: no-repeat
+    width: 180px
+    height: 200px
+    margin: 90px auto
+    &::before
+      position: absolute
+      z-index: 1
+      width: 308px
+      height: 161px
+      content: ''
+      background-image: url(/bitrix/templates/vrk/images/sprite.png)
+      background-position: -2735px -2818px
+      transform: rotate(100deg) scale(0.85)
+      top: -191px
+      left: -160px
+    &::after
+      box-shadow: 0 0 200px 50px rgb(141, 245, 255), 0 0 0 19px rgb(85, 162, 171)
+      content: ""
+      position: absolute
+      top: 15px
+      left: 5px
+      width: 170px
+      height: 170px
+      display: block
+      border-radius: 100px

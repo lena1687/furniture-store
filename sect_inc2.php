@@ -1,0 +1,1 @@
+<a class="phone" href="tel:+74991234567">+7 499 123 45 67&nbsp;</a>

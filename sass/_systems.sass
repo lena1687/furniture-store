@@ -1,0 +1,78 @@
+.system-list
+  .col-3:nth-child(2n+1)
+    margin-left: 25%
+  .red-line
+    height: 50px
+    width: 1px
+    margin: 0 auto
+    border-left: 2px dashed #bd1522
+    span
+      display: inline-block
+      background: #bd1522
+      width: 16px
+      height: 16px
+      transform: rotate(45deg)
+      margin-left: -9px
+      margin-bottom: -40px
+  h2
+    font-family: 'Oswald DemiBold',sans-serif
+    font-size: 48px
+    line-height: 52px
+    margin: 0 auto
+    max-width: 90%
+    padding-top: 15px
+    text-align: center
+    text-transform: uppercase
+    color: #bd1522
+    position: relative
+    &:before
+      position: relative
+      top: 0
+      left: -20px
+      display: inline-block
+      width: 40px
+      height: 40px
+      content: ''
+      background-image: url("images/sprite.png")
+      background-position: -6366px -228px
+  .system-wrapper
+    a
+      display: block
+      height: 190px
+      width: 280px
+      background-color: #fff
+      box-shadow: 1px 3px 5px rgba(20,20,19,.15)
+      outline-offset: -5px
+      outline: 2px solid #3cc47c
+  .system-text
+    font-family: 'Oswald RegularItalic',sans-serif
+    font-size: 20px
+    line-height: 22px
+    display: block
+    max-width: 600px
+    text-align: center
+    margin: 25px auto
+    color: #666
+  .system-item
+    font-family: 'Oswald RegularItalic',sans-serif
+    font-size: 20px
+    line-height: 22px
+    display: inline-block
+    margin: 0 20px
+    text-align: center
+    color: #666
+    p
+      margin: 20px 0 10px 0
+    &:hover img
+      transform: scale(1.02)
+  .system-item img
+    display: block
+    max-width: 285px
+    max-height: 194px
+    width: auto
+    height: auto
+    margin: auto
+    padding-top: 30px
+    transition: 0.4s
+  .system-block-wrapp
+    text-align: center

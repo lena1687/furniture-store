@@ -1,0 +1,6 @@
+<?
+$sSectionName = "Зеркало";
+$arDirProperties = Array(
+
+);
+?>

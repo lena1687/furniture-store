@@ -1,0 +1,6 @@
+<?
+$sSectionName = "Ротанг";
+$arDirProperties = Array(
+
+);
+?>

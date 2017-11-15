@@ -1,0 +1,153 @@
+.red-form-wrapper input::-webkit-input-placeholder {
+    color: #333 !important;
+    opacity: 1 !important;
+}
+
+.red-form-wrapper input::-moz-placeholder {
+    color: #333 !important;
+    opacity: 1 !important;
+}
+
+.red-form-wrapper input[type='submit'] {
+    font-family: 'Oswald DemiBold',sans-serif;
+    font-size: 44px;
+    padding: 22px 54px;
+    text-transform: uppercase;
+    border: 2px solid #fff;
+    background: #c4313d;
+    border-radius: 50px;
+    cursor: pointer;
+    vertical-align: middle;
+    line-height: 20px;
+    position: absolute;
+    top: 10px;
+    right: -300px;
+    width: 260px;
+}
+.red-form-wrapper, .red-form-afbf_mess_ok {
+    margin: 8px 0;
+    min-height: 193px;
+    text-align: center;
+    padding: 25px 0 30px 0;
+    background: url(../../../../images/VRK_red.png);
+    -webkit-box-shadow: -0.3px 5px 4.7px 0.3px rgba(0, 0, 0, 0.32);
+    box-shadow: -0.3px 5px 4.7px 0.3px rgba(0, 0, 0, 0.32); }
+.red-form-afbf_mess_ok {
+    position: relative;
+}
+.red-form-wrapper form {
+    font-family: 'Oswald DemiBold',sans-serif;
+    font-size: 16px;
+    display: inline-block;
+    position: relative; }
+.red-form-wrapper form input {
+    font-family: 'Oswald DemiBold',sans-serif;
+    font-size: 18px;
+    line-height: 32px;
+    width: 324px;
+    margin-top: 20px;
+    padding: 0;
+    text-align: center;
+    letter-spacing: -.5px;
+    text-transform: uppercase;
+    color: #fff;
+    border-color: #fff;
+    background: rgba(255, 255, 255, 0.3);
+    border: none;
+    outline: none;
+    border-bottom: 2px solid; }
+.red-form-wrapper form input:hover {
+    background: rgba(100, 167, 174, 0.3); }
+
+.red-form-wrapper form input[type='submit']:hover {
+    background: rgba(255,255,255,.15); }
+
+.red-form-wrapper input:hover::-webkit-input-placeholder {
+    color: #fff !important;
+}
+
+.red-form-wrapper input:hover::-moz-placeholder {
+    color: #fff !important;
+}
+
+.red-form-wrapper .is_focused input{
+    background: rgba(100, 167, 174, 0.3);
+}
+
+.red-form-wrapper form:after {
+    position: absolute;
+    top: -13px;
+    right: -115px;
+    display: block;
+    width: 141px;
+    height: 41px;
+    content: '';
+    background-image: url(../../../../images/sprite.png);
+    background-position: -4946px -1367px;
+}
+
+.credit-buy {
+    position: absolute;
+    left: -305px;
+    width: 300px;
+    height:140px;
+    font-family: 'Oswald DemiBold',sans-serif;
+    font-size: 44px;
+    line-height: 46px;
+    display: inline-block;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.red-form-mess {
+    font-family: 'Oswald DemiBold',sans-serif;
+    font-size: 30px;
+    line-height: 46px;
+    width: 400px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.credit-buy:after {
+    position: absolute;
+    right: -40px;
+    bottom: -14px;
+    display: block;
+    width: 152px;
+    height: 22px;
+    content: '';
+    background-image: url(../../../../images/sprite.png);
+    background-position: -4652px -1448px;
+}
+
+@media screen and (max-width: 1023px) {
+    .red-form-wrapper .credit-buy {
+        position: relative;
+        left: calc(50% - 150px);
+    }
+    .red-form-wrapper input[type='submit'] {
+        position: relative;
+        top: 10px;
+        margin-top: 5px;
+        right: calc(50% - 150px);
+    }
+    .red-form-wrapper .credit-buy:after {
+        right: 221px;
+        bottom: -14px;
+        transform: rotate(90deg);
+    }
+    .red-form-wrapper form:after {
+        top: 210px;
+        right: -58px;
+        transform: rotate(90deg);
+    }
+    .red-form-wrapper form input {
+        width: 280px;
+    }
+}

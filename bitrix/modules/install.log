@@ -1,0 +1,132 @@
+2017-09-05 06:52:52 - DATABASE_ERROR - <hr><pre>Query:
+create table if not exists b_adv_banner_2_day
+(
+	DATE_STAT date not null default '0000-00-00',
+	BANNER_ID int(18) not null default '0',
+	SHOW_COUNT int(18) not null default '0',
+	CLICK_COUNT int(18) not null default '0',
+	VISITOR_COUNT int(18) not null default '0',
+	primary key (BANNER_ID, DATE_STAT)
+)
+
+Error:
+<font color=red>[1067] Invalid default value for 'DATE_STAT'!</font></pre>
+2017-09-05 06:55:41 - DATABASE_ERROR - Для работы модуля необходим PHP с установленным LDAP модулем. Обратитесь к вашему системному администратору.
+2017-09-05 06:59:13 - DATABASE_ERROR - <hr><pre>Query:
+create table if not exists b_stat_event_list (
+   ID int(18) not null auto_increment,
+   EVENT_ID int(18) not null default '0',
+   EVENT3 varchar(255),
+   MONEY decimal(18,4) not null default '0.0000',
+   DATE_ENTER datetime not null default '0000-00-00 00:00:00',
+   REFERER_URL text,
+   URL text,
+   REDIRECT_URL text,
+   SESSION_ID int(18),
+   GUEST_ID int(18),
+   ADV_ID int(18),
+   ADV_BACK char(1) not null default 'N',
+   HIT_ID int(18),
+   COUNTRY_ID char(2),
+   KEEP_DAYS int(18),
+   CHARGEBACK char(1) not null default 'N',
+   SITE_ID char(2),
+   REFERER_SITE_ID char(2),
+   primary key (ID),
+   index IX_GUEST_ID (GUEST_ID))
+
+Error:
+<font color=red>[1067] Invalid default value for 'DATE_ENTER'!</font></pre><br><hr><pre>Query:
+CREATE INDEX IX_B_STAT_EVENT_LIST_2 ON b_stat_event_list (EVENT_ID, DATE_ENTER)
+
+Error:
+<font color=red>[1146] Table 'bitrix.b_stat_event_list' doesn't exist!</font></pre><br><hr><pre>Query:
+CREATE INDEX IX_B_STAT_EVENT_LIST_3 ON b_stat_event_list (KEEP_DAYS, DATE_ENTER)
+
+Error:
+<font color=red>[1146] Table 'bitrix.b_stat_event_list' doesn't exist!</font></pre><br><hr><pre>Query:
+create table if not exists b_stat_referer (
+   ID int(18) not null auto_increment,
+   DATE_FIRST datetime,
+   DATE_LAST datetime not null default '0000-00-00 00:00:00',
+   SITE_NAME varchar(255) not null,
+   SESSIONS int(18) not null default '0',
+   HITS int(18) not null default '0',
+   primary key (ID),
+   index IX_SITE_NAME (SITE_NAME))
+
+Error:
+<font color=red>[1067] Invalid default value for 'DATE_LAST'!</font></pre><br><hr><pre>Query:
+CREATE INDEX IX_B_STAT_REFERER_2 ON b_stat_referer(DATE_LAST, ID)
+
+Error:
+<font color=red>[1146] Table 'bitrix.b_stat_referer' doesn't exist!</font></pre><br><hr><pre>Query:
+create table if not exists b_stat_page (
+   ID int(11) not null auto_increment,
+   DATE_STAT date not null default '0000-00-00',
+   DIR char(1) not null default 'N',
+   URL text not null,
+   URL_404 char(1) not null default 'N',
+   URL_HASH int(32),
+   SITE_ID char(2),
+   COUNTER int(11) not null default '0',
+   ENTER_COUNTER int(18) not null default '0',
+   EXIT_COUNTER int(18) not null default '0',
+   primary key (ID),
+   index IX_DATE_STAT (DATE_STAT),
+   index IX_URL_HASH (URL_HASH))
+
+Error:
+<font color=red>[1067] Invalid default value for 'DATE_STAT'!</font></pre>
+2017-09-05 06:59:27 - DATABASE_ERROR - <hr><pre>Query:
+create table if not exists b_ticket_supercoupons (
+  ID int(10) unsigned NOT NULL auto_increment,
+  COUNT_TICKETS int(11) NOT NULL default '0',
+  COUPON varchar(255) NOT NULL default '',
+  TIMESTAMP_X datetime NOT NULL default '0000-00-00 00:00:00',
+  DATE_CREATE datetime NOT NULL default '0000-00-00 00:00:00',
+  CREATED_USER_ID int(11) default NULL,
+  UPDATED_USER_ID int(11) default NULL,
+  ACTIVE char(1) NOT NULL default 'Y',
+  ACTIVE_FROM date default NULL,
+  ACTIVE_TO date default NULL,
+  SLA_ID int(11) default NULL,
+  COUNT_USED int(11) NOT NULL default '0',
+  PRIMARY KEY  (ID),
+  UNIQUE KEY IX_COUPON (COUPON)
+)
+
+Error:
+<font color=red>[1067] Invalid default value for 'TIMESTAMP_X'!</font></pre> <hr><pre>Query:
+create table if not exists b_ticket_supercoupons_log (
+  TIMESTAMP_X datetime NOT NULL default '0000-00-00 00:00:00',
+  COUPON_ID int(11) NOT NULL default '0',
+  USER_ID int(11) default NULL,
+  SUCCESS char(1) NOT NULL default 'N',
+  AFTER_COUNT int(11) NOT NULL default '0',
+  SESSION_ID int(11) default NULL,
+  GUEST_ID int(11) default NULL,
+  AFFECTED_ROWS int(11) default NULL,
+  COUPON varchar(255) default NULL,
+  KEY IX_COUPON_ID (COUPON_ID)
+)
+
+Error:
+<font color=red>[1067] Invalid default value for 'TIMESTAMP_X'!</font></pre>
+2017-09-05 06:59:41 - DATABASE_ERROR - <hr><pre>Query:
+create table if not exists b_workflow_move (
+   ID int(18) not null auto_increment,
+   TIMESTAMP_X datetime not null default '0000-00-00 00:00:00',
+   DOCUMENT_ID int(18),
+   IBLOCK_ELEMENT_ID int(18),
+   OLD_STATUS_ID int(18) not null default '0',
+   STATUS_ID int(18) not null default '0',
+   LOG_ID int(18),
+   USER_ID int(18),
+   primary key (ID),
+   index IX_DOCUMENT_ID (DOCUMENT_ID),
+   index IX_B_WORKFLOW_MOVE_2 (IBLOCK_ELEMENT_ID)
+)
+
+Error:
+<font color=red>[1067] Invalid default value for 'TIMESTAMP_X'!</font></pre>

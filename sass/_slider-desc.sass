@@ -1,0 +1,129 @@
+.slider-desc-wrapper
+  position: relative
+  margin-bottom: -70px
+  min-height: 390px
+  background: url(images/VRK_noise.png)
+  @media screen and (max-width: 1023px)
+    margin-bottom: -40px
+  .owl-item
+    position: relative
+    @media screen and (max-width: 768px)
+      min-height: 275px !important
+  .feedback-two
+    display: block
+  .slider-desc
+    font-family: 'Verdana',sans-serif
+    position: relative
+    max-width: 1000px !important
+    margin: auto
+    .slider-desc-item
+      min-height: 390px
+      @media screen and (max-width: 600px)
+        width: 100%
+    img
+      display: block !important
+      max-width: 100% !important
+      min-width: 600px !important
+      max-height: 488px !important
+      width: auto !important
+      height: auto !important
+      float: right
+      @media screen and (max-width: 600px)
+        position: absolute
+        left: calc(50% - 300px)
+    h2
+      position: absolute
+      top: 60px
+      text-transform: uppercase
+      text-shadow: 0 0 3px #ddd, 0 0 15px #fff, 5px 0 15px #fff, 0 5px 15px #fff
+      max-width: 550px
+      font-size: 26px
+      line-height: 30px
+    h5
+      position: absolute
+      top: 130px
+      text-shadow: 0 0 3px #ddd, 0 0 15px #fff, 5px 0 15px #fff, 0 5px 15px #fff
+      max-width: 400px
+      font-size: 20px
+      line-height: 24px
+    h6
+      position: absolute
+      top: 220px
+      text-shadow: 0 0 3px #ddd, 0 0 15px #fff, 5px 0 15px #fff, 0 5px 15px #fff
+      max-width: 400px
+      font-size: 18px
+      line-height: 22px
+  .slider-desc-form
+    position: absolute
+    z-index: 2
+    background: none
+    box-shadow: none
+    .api_button
+      position: absolute
+      left: calc(50% - 500px)
+      top: 340px
+      width: 182px
+      border-color: #3cc47c
+      margin: 0
+      float: none
+      &:hover
+        background: rgba(60,196,124,.85)
+  .nav-arrow
+    font-size: 0
+    height: 41px
+    pointer-events: auto
+    position: absolute
+    top: 42%
+    width: 22px
+    color: transparent
+    border: none
+    outline: none
+    background: transparent
+    cursor: pointer
+    @media screen and (max-width: 767px)
+      display: none
+  .nav-prev
+    left: -40px
+    &::before
+      display: block
+      width: 22px
+      height: 41px
+      content: ''
+      background-image: url(images/sprite.png)
+      background-position: -6501px -73px
+  .nav-next
+    right: -28px
+    &::before
+      display: block
+      width: 22px
+      height: 41px
+      content: ""
+      background-image: url(images/sprite.png)
+      background-position: -6479px -114px
+  @media screen and (max-width: 1200px)
+    .slider-desc
+      max-width: 90% !important
+    .slider-desc-form
+      .api_button
+        left: 5%
+  @media screen and (max-width: 767px)
+    .slider-desc
+      max-width: 100% !important
+      h2, h5, h6
+        max-width: 100%
+        width: 100%
+        text-align: center
+      h6
+        top: 180px
+      h5
+        top: 145px
+      h2
+        top: 20px
+        font-size: 22px
+    .slider-desc-form
+      .api_button
+        left: calc(50% - 91px)
+        top: 270px
+.uk-button
+  background-color: #3cc47c !important
+  border-radius: 50px !important
